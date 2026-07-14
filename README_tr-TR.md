@@ -98,7 +98,7 @@ Bu depodaki kaynak bağlantılarını ve örnekleri inceleyin.
 |--------|-------|
 | Toplam prompt | **27** |
 | Öne çıkan | **9** |
-| Son güncelleme | **14 Temmuz 2026 Salı 02:14:52 UTC** |
+| Son güncelleme | **14 Temmuz 2026 Salı 02:19:53 UTC** |
 
 </div>
 
@@ -1525,6 +1525,6 @@ Nasıl katkı verilir
 **[Prompt gönder](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Star geçmişi](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Son güncelleme: 2026-07-14T02:14:52.748Z</sub>
+<sub>Son güncelleme: 2026-07-14T02:19:53.627Z</sub>
 
 </div>

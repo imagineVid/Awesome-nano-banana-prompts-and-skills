@@ -98,7 +98,7 @@ Vervang de argumenten om de prompt als compacte creatieve skill te hergebruiken.
 |--------|-------|
 | Totaal prompts | **27** |
 | Uitgelicht | **9** |
-| Laatst bijgewerkt | **dinsdag 14 juli 2026 om 02:14:52 UTC** |
+| Laatst bijgewerkt | **dinsdag 14 juli 2026 om 02:19:53 UTC** |
 
 </div>
 
@@ -1525,6 +1525,6 @@ Uitgegeven onder [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Prompt indienen](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Geef deze repo een Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Deze README is automatisch gegenereerd. Laatst bijgewerkt: 2026-07-14T02:14:52.758Z</sub>
+<sub>Deze README is automatisch gegenereerd. Laatst bijgewerkt: 2026-07-14T02:19:53.640Z</sub>
 
 </div>
