@@ -1,5 +1,5 @@
 /**
- * [INPUT]: 依赖 data/categories.json、data/prompts.json 与 data/official-cases.json
+ * [INPUT]: 依赖 data/ 的分类、英文提示词真源、提示词本地化元数据与官方案例
  * [OUTPUT]: 对外提供 Prompt 数据契约、分类读取、案例读取与稳定排序能力
  * [POS]: scripts/utils 的本地数据访问层，隔离生成器与 JSON 文件细节
  * [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
@@ -118,6 +118,13 @@ interface StoredPrompt extends Omit<Prompt, "title" | "description" | "content">
   content: LocalizedText;
 }
 
+interface PromptLocalization {
+  title: string;
+  description: string;
+}
+
+type PromptLocalizations = Record<string, Record<string, PromptLocalization>>;
+
 function readJson<T>(relativePath: string): T {
   const fullPath = path.join(ROOT_DIR, relativePath);
   return JSON.parse(fs.readFileSync(fullPath, "utf-8")) as T;
@@ -137,11 +144,16 @@ function localizeCategory(category: StoredCategory, locale: string): FilterCateg
   };
 }
 
-function localizePrompt(prompt: StoredPrompt, locale: string): Prompt {
+function localizePrompt(
+  prompt: StoredPrompt,
+  locale: string,
+  localizations: PromptLocalizations
+): Prompt {
+  const localizedMeta = localizations[locale]?.[String(prompt.id)];
   const localized: Prompt = {
     ...prompt,
-    title: localize(prompt.title, locale),
-    description: localize(prompt.description, locale),
+    title: localizedMeta?.title || localize(prompt.title, locale),
+    description: localizedMeta?.description || localize(prompt.description, locale),
     content: localize(prompt.content, prompt.language),
   };
 
@@ -194,8 +206,12 @@ export async function fetchAllPrompts(
   _allCategories: FilterCategory[] = []
 ): Promise<{ docs: Prompt[]; total: number }> {
   const storedPrompts = readJson<StoredPrompt[]>("data/prompts.json");
+  const localizations: PromptLocalizations = {
+    ...readJson<PromptLocalizations>("data/prompt-localizations-core.json"),
+    ...readJson<PromptLocalizations>("data/prompt-localizations-extended.json"),
+  };
   const prompts = storedPrompts
-    .map((prompt) => localizePrompt(prompt, locale))
+    .map((prompt) => localizePrompt(prompt, locale, localizations))
     .filter((prompt) => prompt.model === "nano-banana")
     .filter((prompt) => prompt.sourceMedia?.length > 0);
 

@@ -1,8 +1,12 @@
-name: Update README
+# [INPUT]: Reads versioned prompt data, translations, media references, and README generators.
+# [OUTPUT]: Regenerates and commits the 14 localized Nano Banana collection views.
+# [POS]: Scheduled publication check that keeps generated documentation aligned with source data.
+# [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
+name: Refresh Nano Banana Collection
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Every 4 hours
+    - cron: '0 */4 * * *'  # Rebuild every four hours.
   workflow_dispatch:
   push:
     branches: [main]
@@ -34,10 +38,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Generate README
+      - name: Validate data and generate localized README files
         run: pnpm run generate
 
-      - name: Commit changes
+      - name: Commit regenerated collection views
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'

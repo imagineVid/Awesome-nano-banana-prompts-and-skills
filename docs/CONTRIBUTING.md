@@ -1,47 +1,42 @@
-# Contributing to Awesome Nano Banana Prompts and Skills
+# Contributing a Nano Banana Workflow
 
-Thank you for helping improve the Nano Banana prompt collection.
+This repository preserves public workflows for the original Nano Banana model, Gemini 2.5 Flash Image. A submission is useful only when another reader can trace the source, understand the input, and reproduce the creative method.
 
-## How to Contribute
+## Submit an Evidence Bundle
 
-We accept prompt submissions through GitHub Issues so every entry keeps the same structure.
+Open the **Submit a Prompt** issue template and provide:
 
-1. Open **Submit New Prompt** from the issue template.
-2. Fill in the prompt, description, generated image URLs, author, source link, and language.
-3. Wait for maintainer review.
-4. If approved, a maintainer adds the `approved` label.
-5. The sync workflow converts the issue into local repository data and regenerates README files.
+- the complete prompt as published by its creator;
+- the canonical public post, not a repost or prompt-aggregator page;
+- at least one result image attached to that source;
+- the creator's display name and profile link;
+- the publication date and prompt language;
+- whether the workflow requires one or more reference images;
+- the primary workflow category and a short reason for choosing it;
+- explicit evidence that the result used the original Nano Banana model.
 
-## Required Information
+If the prompt is in a reply, thread, quoted post, or image ALT text, link the root post and identify where the prompt text appears. Do not reconstruct a missing prompt by looking at the result.
 
-- **Title**: clear and descriptive.
-- **Prompt**: the complete prompt text.
-- **Description**: what the prompt creates and when to use it.
-- **Images**: one or more public image URLs.
-- **Author**: original creator name and profile link when available.
-- **Source**: original post or page URL when available.
-- **Language**: the prompt's original language.
+## Scope
 
-## Quality Standards
+Accepted entries target `gemini-2.5-flash-image`, the original Nano Banana release. Nano Banana 2, Nano Banana Lite, Nano Banana 2 Lite, and Nano Banana Pro belong to different model scopes and are not accepted here.
 
-Accepted prompts should be:
+The prompt body remains in its published language. Maintainers may add localized titles and descriptions, but they do not silently rewrite an author's source prompt.
 
-- Original or properly attributed.
-- Clear enough to reuse.
-- Paired with visible output media.
-- Linked to the original creator rather than a repost.
-- Explicit about Nano Banana provenance when the source claims a model result.
-- Distinct from existing prompts and visual examples.
-- Safe for work.
-- Useful as a repeatable creative workflow.
-- Assigned to one primary workflow using [CATEGORY_TAXONOMY.md](CATEGORY_TAXONOMY.md).
+## Editorial Review
 
-We reject product announcements without a reusable prompt, unrelated or mismatched media, engagement bait, duplicates, and material that cannot be verified. See [TWITTER_QUALITY_POLICY.md](TWITTER_QUALITY_POLICY.md) for the repository's source-review and scoring rules.
+A maintainer checks five things before publication:
 
-## License
+1. **Provenance**: the creator, canonical post, prompt location, and result media agree.
+2. **Model evidence**: the source clearly names Nano Banana or Gemini 2.5 Flash Image without naming a newer family model.
+3. **Reuse value**: the instruction contains enough decisions to teach a workflow, not merely a style adjective or promotional slogan.
+4. **Visual proof**: the source media demonstrates the claimed result and is not already present under another entry.
+5. **Collection fit**: the title, description, and primary category describe the actual task rather than chasing search keywords.
 
-By contributing, you agree that your submitted text can be included under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) with attribution.
+Engagement is supporting evidence, never a substitute for these checks.
 
-## Removal Requests
+## Attribution, Corrections, and Removal
 
-If you own content that should not appear here, open an issue with the source URL and requested action. We will remove or update it promptly.
+Every accepted entry links to its public source and creator. Rights remain with their respective owners. To correct attribution, update a source, or request removal, open an issue with the affected entry and the requested change.
+
+By contributing repository text or metadata, you agree that those contributions may be published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). This does not transfer ownership of third-party prompts or media.

@@ -1,51 +1,55 @@
+# [INPUT]: Defines the review states and maintenance topics used by this repository's issues.
+# [OUTPUT]: Provides the canonical label names, colors, and Nano Banana-specific descriptions.
+# [POS]: GitHub governance vocabulary consumed by the label synchronization workflow.
+# [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
 - name: approved
   color: '#65e00d'
-  description: 'This prompt has been approved for the repository data.'
+  description: 'Verified Nano Banana prompt ready for the public data set.'
 
 - name: prompt-submission
   color: '#3f74ea'
-  description: 'This is a prompt submission.'
+  description: 'Community submission containing a reusable Nano Banana prompt.'
 
 - name: needs-review
   color: '#fbca04'
-  description: 'This submission needs maintainer review.'
+  description: 'Needs source, model-scope, media, translation, or duplicate review.'
 
 - name: copyright
   color: '#b60205'
-  description: 'Content ownership, attribution, or removal request.'
+  description: 'Attribution correction, ownership question, or source-removal request.'
 
 - name: bug
   color: '#d73a4a'
-  description: "Something isn't working"
+  description: 'Broken data, media, localization, link, or README generation.'
 
 - name: documentation
   color: '#0075ca'
-  description: 'Improvements or additions to documentation'
+  description: 'Correction or expansion of Nano Banana collection documentation.'
 
 - name: duplicate
   color: '#cfd3d7'
-  description: 'This issue or pull request already exists'
+  description: 'Already represented by an existing issue, source post, or prompt record.'
 
 - name: enhancement
   color: '#a2eeef'
-  description: 'New feature or request'
+  description: 'Proposed improvement to collection quality or contributor workflow.'
 
 - name: good first issue
   color: '#7057ff'
-  description: 'Good for newcomers'
+  description: 'Small, well-scoped collection task suitable for a first contribution.'
 
 - name: help wanted
   color: '#008672'
-  description: 'Extra attention is needed'
+  description: 'Maintainer input or community evidence would unblock this item.'
 
 - name: invalid
   color: '#e99695'
-  description: "This doesn't seem right"
+  description: 'Outside model scope, unverifiable, or unsuitable for publication.'
 
 - name: question
   color: '#d876e3'
-  description: 'Further information is requested'
+  description: 'More source evidence or collection context is requested.'
 
 - name: wontfix
   color: '#ffffff'
-  description: 'This will not be worked on'
+  description: 'Closed because it does not fit this collection and will not be implemented.'

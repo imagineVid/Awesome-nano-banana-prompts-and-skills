@@ -1,4 +1,8 @@
-name: Sync Labels
+# [INPUT]: Reads .github/labels.yml whenever the repository label vocabulary changes.
+# [OUTPUT]: Creates or updates GitHub labels used by Nano Banana prompt review.
+# [POS]: Governance synchronization workflow for the collection's editorial states.
+# [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
+name: Sync Nano Banana Review Labels
 
 on:
   workflow_dispatch:
@@ -24,10 +28,9 @@ jobs:
           script: |
             const fs = require('fs');
 
-            // Read labels.yml file
+            // Parse the deliberately small labels file without another runtime dependency.
             const labelsFile = fs.readFileSync('.github/labels.yml', 'utf8');
 
-            // Simple YAML parsing for array format
             const lines = labelsFile.split('\n');
             const labels = [];
             let currentLabel = null;
@@ -62,7 +65,6 @@ jobs:
             }
             if (currentLabel) labels.push(currentLabel);
 
-            // Get existing labels
             const existingLabels = await github.rest.issues.listLabelsForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -70,7 +72,6 @@ jobs:
 
             const existingLabelNames = new Set(existingLabels.data.map(label => label.name));
 
-            // Sync labels
             for (const label of labels) {
               const labelName = label.name;
               const labelColor = label.color.replace('#', '');
@@ -103,4 +104,4 @@ jobs:
               }
             }
 
-            console.log('Labels sync completed!');
+            console.log('Nano Banana review labels are synchronized.');

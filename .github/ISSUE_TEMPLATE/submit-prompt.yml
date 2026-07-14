@@ -1,3 +1,7 @@
+# [INPUT]: Receives a source-backed Nano Banana prompt, author attribution, media, and rights confirmation.
+# [OUTPUT]: Produces a prompt-submission issue ready for model-scope, quality, and duplicate review.
+# [POS]: Community contribution intake feeding the approved-prompt publication workflow.
+# [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
 name: Submit a Prompt
 description: Share a reusable Nano Banana prompt with its original source and visual result
 title: "[Prompt] <Short Title>"

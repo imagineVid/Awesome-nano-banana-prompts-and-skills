@@ -1,11 +1,12 @@
-name: Sync Approved to Data
+# [INPUT]: Receives an approved prompt-submission issue and the repository's local data pipeline.
+# [OUTPUT]: Adds the verified Nano Banana record, regenerates all locales, and reports completion.
+# [POS]: Publication bridge between GitHub editorial review and the generated collection.
+# [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
+name: Publish Approved Nano Banana Prompt
 
 on:
   issues:
     types: [labeled]
-    # Note: 'labeled' event triggers on both open and closed issues
-    # This allows the workflow to run when 'approved' label is added
-    # even if the issue was closed after being reopened
 
 permissions:
   issues: write
@@ -13,10 +14,7 @@ permissions:
 
 jobs:
   sync:
-    # Only trigger when 'approved' label is added AND issue has 'prompt-submission' label
-    # Works for both open and closed issues
-    # Note: We check both conditions - the added label must be 'approved'
-    # AND the issue must already have 'prompt-submission' label
+    # Publication requires both the explicit approval event and the submission marker.
     if: |
       github.event.label.name == 'approved' &&
       contains(join(github.event.issue.labels.*.name, ' '), 'prompt-submission')
@@ -35,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Parse issue and update local data
+      - name: Normalize approved Nano Banana submission
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -43,10 +41,10 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
         run: pnpm run sync
 
-      - name: Generate README
+      - name: Regenerate all localized collection views
         run: pnpm run generate
 
-      - name: Commit local data and README
+      - name: Commit verified prompt data and collection views
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
@@ -62,5 +60,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'Your prompt has been approved and synced into the repository data. It will appear in the generated README after the workflow finishes. Thank you for your contribution.'
+              body: 'Your Nano Banana prompt passed source and quality review. It has been added to the local data set and all localized README views were regenerated. Thank you for contributing.'
             })

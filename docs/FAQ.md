@@ -30,7 +30,7 @@ Use the **Submit a Prompt** GitHub issue template and include the prompt text, g
 
 ## Why are there many README files?
 
-The English copy is the factual source of truth. Localized READMEs are generated only for languages supported by the matching ImagineVid Nano Banana page, and model facts are reviewed separately rather than translated by blind string replacement.
+The published prompt remains in its source language so readers can verify it against the creator's post. Every non-English README has its own reviewed title and description for each entry, localized interface copy, workflow explanations, and matching ImagineVid route. The prompt block is explicitly labeled as the original English text rather than presented as a translation.
 
 ## How do removal requests work?
 

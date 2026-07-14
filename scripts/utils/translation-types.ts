@@ -51,11 +51,11 @@ export interface Translation {
   preciseControl: string;
   complexScenes: string;
   learnMore: string;
-  raycastIntegration: string;
-  raycastDescription: string;
+  variableWorkflowTitle: string;
+  variableWorkflowDescription: string;
   example: string;
-  raycastExample: string;
-  raycastUsage: string;
+  variableWorkflowExample: string;
+  variableWorkflowUsage: string;
   galleryFeature1: string;
   galleryFeature2: string;
   galleryFeature3: string;

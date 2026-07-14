@@ -2,7 +2,7 @@
 > L2 | 父级: ../AGENTS.md
 
 成员清单
-cms-client.ts: 本地 JSON 数据访问层与 Prompt/Category/OfficialCase 契约。
+prompt-repository.ts: 本地 JSON 数据仓库，合并英文提示词真源、13 语标题说明覆盖层并提供 Prompt/Category/OfficialCase 契约。
 i18n.ts: 14 语 README 文案查询门面，统一处理语言选择与英文兜底。
 image-uploader.ts: 保持公开来源 URL 的无外部图库媒体归一化边界。
 locales/: 按核心与扩展语言组拆分的人工审核 README 文案包。

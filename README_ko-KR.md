@@ -13,7 +13,7 @@
 
 > ImagineVid가 엄선한 Nano Banana 프롬프트, 재사용 가능한 프롬프트 스킬, 비주얼 예시 모음
 
-> **저작권 안내**: 이 콘텐츠는 교육 및 창작 참고용으로 출처와 함께 정리했습니다. 삭제가 필요하면 issue를 열어 주세요.
+> **출처 및 삭제 안내:** 모든 프롬프트는 공개 원문과 제작자에게 연결됩니다. 권리는 각 권리자에게 있으며, 수정이나 삭제가 필요하면 issue를 열어 주세요.
 
 ---
 
@@ -77,16 +77,16 @@
 
 **조사 출처:** [Gemini image generation guide](https://ai.google.dev/gemini-api/docs/image-generation) · [Gemini 2.5 Flash Image model page](https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image) · [Nano Banana on ImagineVid](https://imaginevid.io/ko/nano-banana)
 
-### 프롬프트 스킬 인자
+### 프롬프트 변수 재사용
 
-일부 프롬프트는 Raycast Snippets 스타일의 `{argument ...}` 동적 인자를 지원합니다. Raycast Friendly 배지를 확인하세요.
+일부 원문에는 `[BRAND]`, `[OBJECT]`, `[NAME]` 같은 대괄호 변수가 있습니다. 값만 바꾸고 검증된 구도, 조명과 재질 구조는 유지하세요.
 
 **예시:**
 ```
-“{argument name="product" default="유리 질감 AI 카메라"}”를 위한 시네마틱 포스터, 분위기는 {argument name="mood" default="미드나이트 스튜디오 조명"}
+`[BRAND]`를 내 브랜드로, 또는 `[OBJECT]`를 원하는 대상으로 바꾸고 나머지 시각 지시는 그대로 둡니다.
 ```
 
-인자를 바꾸면 작은 크리에이티브 스킬처럼 재사용할 수 있습니다.
+변수를 활용하면 출처가 확인된 프롬프트를 처음부터 다시 쓰지 않고 안정적으로 재사용할 수 있습니다.
 
 ---
 
@@ -98,7 +98,7 @@
 |--------|-------|
 | 총 프롬프트 | **27** |
 | 추천 | **9** |
-| 마지막 업데이트 | **2026년 7월 14일 화요일 오전 6시 4분 6초 UTC** |
+| 마지막 업데이트 | **2026년 7월 14일 화요일 AM 9시 20분 24초 UTC** |
 
 </div>
 
@@ -112,16 +112,17 @@
 
 <a id="prompt-1"></a>
 
-### No. 1: Swiss Geometric Embossed Logo
+### No. 1: 스위스 기하학 엠보싱 로고
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### 설명
 
-Turn a brand mark into a centered monochrome relief with a liquid-glass rim and restrained Swiss-design spacing.
+브랜드 마크를 중앙의 단색 부조로 만들고 액체 유리 테두리와 절제된 스위스식 여백으로 마무리합니다.
 
-#### 프롬프트
+#### 원문 프롬프트(영어)
 
 ```
 (change [BRAND] and [COLOR])
@@ -133,7 +134,7 @@ Turn a brand mark into a centered monochrome relief with a liquid-glass rim and 
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G7GW1EjWgAAgtWV.jpg" width="100%" alt="Swiss Geometric Embossed Logo - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G7GW1EjWgAAgtWV.jpg" width="100%" alt="스위스 기하학 엠보싱 로고 - Image 1"></td>
 </tr>
 </table>
 
@@ -150,16 +151,17 @@ Turn a brand mark into a centered monochrome relief with a liquid-glass rim and 
 
 <a id="prompt-2"></a>
 
-### No. 2: Tactile Wax Seal Brand Mark
+### No. 2: 촉감이 살아 있는 왁스 실 로고
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### 설명
 
-Render a supplied logo as a glossy, irregular wax seal with raised relief and soft product lighting.
+제공된 로고를 볼록한 각인, 자연스러운 변형, 부드러운 제품 조명을 갖춘 광택 왁스 실로 표현합니다.
 
-#### 프롬프트
+#### 원문 프롬프트(영어)
 
 ```
 [MATERIAL COLOR] glossy wax seal icon depicting [BRAND] logo, lying flat on a plain white background. The seal is made of thick, deformed plastic or wax with an irregular, squashed shape and a prominent 'drip' or smear extending to the right side. The center features a clear, raised relief impression of the subject. The lighting is soft and even, creating smooth specular highlights on the curved, glossy edges. The shadow cast is soft and minimal.
@@ -169,7 +171,7 @@ Render a supplied logo as a glossy, irregular wax seal with raised relief and so
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G70LO0WXQAIlvMY.jpg" width="100%" alt="Tactile Wax Seal Brand Mark - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G70LO0WXQAIlvMY.jpg" width="100%" alt="촉감이 살아 있는 왁스 실 로고 - Image 1"></td>
 </tr>
 </table>
 
@@ -186,16 +188,17 @@ Render a supplied logo as a glossy, irregular wax seal with raised relief and so
 
 <a id="prompt-3"></a>
 
-### No. 3: Fashion Collage for a Social Campaign
+### No. 3: 소셜 캠페인용 패션 콜라주
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### 설명
 
-A detailed art-direction system for combining fashion photography, collage fragments, typography, and controlled visual disorder.
+패션 사진, 콜라주 조각, 타이포그래피와 통제된 시각적 혼란을 하나의 아트 디렉션으로 결합합니다.
 
-#### 프롬프트
+#### 원문 프롬프트(영어)
 
 ```
 [BRAND NAME]. Act as a Social Media Art Director and Digital Collage Artist specializing in bold, youth-oriented brand content for Instagram and digital campaigns.
@@ -265,7 +268,7 @@ TECHNICAL SPECS:
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HAupnj7XgAIL_ja.jpg" width="100%" alt="Fashion Collage for a Social Campaign - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HAupnj7XgAIL_ja.jpg" width="100%" alt="소셜 캠페인용 패션 콜라주 - Image 1"></td>
 </tr>
 </table>
 
@@ -282,16 +285,17 @@ TECHNICAL SPECS:
 
 <a id="prompt-4"></a>
 
-### No. 4: Integrated Social Ad Template
+### No. 4: 통합형 소셜 광고 템플릿
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### 설명
 
-Build a reusable social advertisement whose brand, headline, visual system, and CTA can be changed through compact variables.
+브랜드, 헤드라인, 비주얼 시스템과 CTA를 간단한 변수로 교체할 수 있는 재사용 광고를 만듭니다.
 
-#### 프롬프트
+#### 원문 프롬프트(영어)
 
 ```
 [BRAND NAME] | [HEADLINE] | [SUB-TEXT] | [CTA]. Act as a Senior Art Director.
@@ -330,7 +334,7 @@ High-end commercial aesthetic. Crisp, saturated, professional fusion of flat vec
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HB7r12tWMAA1nTv.jpg" width="100%" alt="Integrated Social Ad Template - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HB7r12tWMAA1nTv.jpg" width="100%" alt="통합형 소셜 광고 템플릿 - Image 1"></td>
 </tr>
 </table>
 
@@ -347,16 +351,16 @@ High-end commercial aesthetic. Crisp, saturated, professional fusion of flat vec
 
 <a id="prompt-17"></a>
 
-### No. 5: Four-Panel Engineering Cutaway Board
+### No. 5: 4분할 엔지니어링 컷어웨이 보드
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
 
 #### 설명
 
-Compare four consumer devices in a precise grid using exploded assemblies, transparent cutaways, measurements, and engineering callouts.
+분해 조립도, 투명 단면, 치수와 공학 주석으로 네 가지 소비자 기기를 정밀 비교합니다.
 
-#### 프롬프트
+#### 원문 프롬프트(영어)
 
 ```
 Ultra-detailed technical engineering infographic, clean white background, divided into a precise 2×2 grid by sharp black separator lines. Blueprint-style industrial design visualization featuring photorealistic 3D renders, transparent cutaways, exploded views, dimensional annotations, technical callout boxes, measurement guides, and color-coded engineering arrows (red, blue, green, orange). Professional product design presentation, Apple-style industrial design documentation, high-end technical illustration.
@@ -376,7 +380,7 @@ Highly detailed CAD visualization, industrial design presentation board, precisi
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HKEHL3YbsAAFhpN.jpg" width="100%" alt="Four-Panel Engineering Cutaway Board - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HKEHL3YbsAAFhpN.jpg" width="100%" alt="4분할 엔지니어링 컷어웨이 보드 - Image 1"></td>
 </tr>
 </table>
 
@@ -393,16 +397,16 @@ Highly detailed CAD visualization, industrial design presentation board, precisi
 
 <a id="prompt-18"></a>
 
-### No. 6: Eight-Panel Anime Friendship Storyboard
+### No. 6: 8컷 애니메이션 우정 스토리보드
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
 
 #### 설명
 
-An emotionally paced storyboard brief with shot direction for a silent child finding friendship after losing a paper windmill.
+종이 바람개비를 잃은 말없는 아이가 우정을 얻는 이야기를 감정 흐름과 촬영 지시로 구성합니다.
 
-#### 프롬프트
+#### 원문 프롬프트(영어)
 
 ```
 STORY
@@ -529,8 +533,8 @@ The artwork should feel like a lost masterpiece from a classic theatrical anime 
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLLo2ekWEAASktJ.jpg" width="100%" alt="Eight-Panel Anime Friendship Storyboard - Image 1"></td>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/amplify_video_thumb/2067971201561989120/img/HGb-fSrVr8UrbrJi.jpg" width="100%" alt="Eight-Panel Anime Friendship Storyboard - Image 2"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLLo2ekWEAASktJ.jpg" width="100%" alt="8컷 애니메이션 우정 스토리보드 - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/amplify_video_thumb/2067971201561989120/img/HGb-fSrVr8UrbrJi.jpg" width="100%" alt="8컷 애니메이션 우정 스토리보드 - Image 2"></td>
 </tr>
 </table>
 
@@ -547,16 +551,16 @@ The artwork should feel like a lost masterpiece from a classic theatrical anime 
 
 <a id="prompt-21"></a>
 
-### No. 7: Surreal Giantess in Venice
+### No. 7: 베네치아의 초현실적 거인 여행 사진
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
 
 #### 설명
 
-Stage a playful forced-perspective travel photograph in which a giant figure sits among the landmarks of St. Mark's Square.
+강제 원근법으로 거대한 인물이 산마르코 광장 명소 사이에 앉은 유쾌한 여행 사진을 연출합니다.
 
-#### 프롬프트
+#### 원문 프롬프트(영어)
 
 ```
 Create a surreal giantess travel photography scene featuring a beautiful young woman wearing a white embroidered summer dress, white crew socks, and white sneakers. She is sitting gracefully among the iconic architecture of St. Mark's Square, Venice, Italy, appearing hundreds of feet tall, with one leg crossed over the other and her hands resting behind her for support. She smiles peacefully with her eyes closed, enjoying the warm sunshine and gentle breeze. Below her, crowds of tourists gather, taking photos and looking up in amazement, emphasizing her enormous scale. Capture the famous bell tower and basilica in the background under a bright blue sky with soft clouds. Use realistic forced perspective, natural daylight, cinematic travel photography, ultra-detailed skin and fabric textures, photorealistic architecture, vibrant colors, editorial travel magazine style, 8K, HDR, vertical 9: 16 composition, no text, no logos, no watermarks, no UI elements.
@@ -566,7 +570,7 @@ Create a surreal giantess travel photography scene featuring a beautiful young w
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMD5qkpXIAAEnOO.jpg" width="100%" alt="Surreal Giantess in Venice - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMD5qkpXIAAEnOO.jpg" width="100%" alt="베네치아의 초현실적 거인 여행 사진 - Image 1"></td>
 </tr>
 </table>
 
@@ -583,7 +587,7 @@ Create a surreal giantess travel photography scene featuring a beautiful young w
 
 <a id="prompt-23"></a>
 
-### No. 8: Reference Photo to Collectible Figurine
+### No. 8: 참고 사진을 수집용 피규어로
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
@@ -591,9 +595,9 @@ Create a surreal giantess travel photography scene featuring a beautiful young w
 
 #### 설명
 
-Turn an uploaded character photo into a realistic desk-scale collectible with its modeling screen, acrylic base, and illustrated packaging.
+인물 사진을 모델링 화면, 투명 받침대와 일러스트 패키지를 갖춘 사실적인 탁상 피규어로 바꿉니다.
 
-#### 프롬프트
+#### 원문 프롬프트(영어)
 
 ```
 Create a 1/7 scale commercialized figurine of the characters in the picture, in a realistic style, in a real environment. The figurine is placed on a computer desk. The figurine has a round transparent acrylic base, with no text on the base. The content on the computer screen is a 3D modeling process of this figurine. Next to the computer screen is a toy packaging box, designed in a style reminiscent of high-quality collectible figures, printed with original artwork. The packaging features two-dimensional flat illustrations.
@@ -603,10 +607,10 @@ Create a 1/7 scale commercialized figurine of the characters in the picture, in 
 
 <table>
 <tr>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4V72WwAA7PRR.jpg" width="100%" alt="Reference Photo to Collectible Figurine - Image 1"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4d2ka0AAtnQV.jpg" width="100%" alt="Reference Photo to Collectible Figurine - Image 2"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4h2qXUAA3FA5.jpg" width="100%" alt="Reference Photo to Collectible Figurine - Image 3"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4oMyWwAAmyWW.jpg" width="100%" alt="Reference Photo to Collectible Figurine - Image 4"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4V72WwAA7PRR.jpg" width="100%" alt="참고 사진을 수집용 피규어로 - Image 1"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4d2ka0AAtnQV.jpg" width="100%" alt="참고 사진을 수집용 피규어로 - Image 2"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4h2qXUAA3FA5.jpg" width="100%" alt="참고 사진을 수집용 피규어로 - Image 3"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4oMyWwAAmyWW.jpg" width="100%" alt="참고 사진을 수집용 피규어로 - Image 4"></td>
 </tr>
 </table>
 
@@ -623,17 +627,18 @@ Create a 1/7 scale commercialized figurine of the characters in the picture, in 
 
 <a id="prompt-25"></a>
 
-### No. 9: Top-Down Editorial Product Photograph
+### No. 9: 탑뷰 에디토리얼 제품 사진
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 #### 설명
 
-Build a reusable overhead product scene with natural sunlight, controlled negative space, and optional supporting elements.
+자연광, 통제된 여백과 선택 가능한 소품으로 재사용 가능한 탑뷰 제품 장면을 만듭니다.
 
-#### 프롬프트
+#### 원문 프롬프트(영어)
 
 ```
 A high-end editorial photo of a [IMAGE UPLOADED] placed flat on a [YOUR SURFACE], captured from a direct top-down view. The surface is gently disturbed to suggest recent motion or interaction. The front of the product is fully visible and properly oriented upright. The area around the product is intentionally left open to optionally place [YOUR ELEMENTS] that visually enhance the scene. Natural sunlight from the upper left casts warm, realistic shadows. 3D realism, luxury product photography, shallow depth of field, 1:1 format.
@@ -643,7 +648,7 @@ A high-end editorial photo of a [IMAGE UPLOADED] placed flat on a [YOUR SURFACE]
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G1x51QZWEAAvZ9-.jpg" width="100%" alt="Top-Down Editorial Product Photograph - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G1x51QZWEAAvZ9-.jpg" width="100%" alt="탑뷰 에디토리얼 제품 사진 - Image 1"></td>
 </tr>
 </table>
 
@@ -672,20 +677,20 @@ A high-end editorial photo of a [IMAGE UPLOADED] placed flat on a [YOUR SURFACE]
 
 **Community · 추천 프롬프트**
 
-- [Reference Photo to Collectible Figurine](#prompt-23)
+- [참고 사진을 수집용 피규어로](#prompt-23)
 
 <a id="prompt-5"></a>
 
-#### No. 1: Restore and Colorize an Old Photograph
+#### No. 1: 오래된 사진 복원과 채색
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### 설명
 
-Repair scratches, tears, and fading while preserving the people, lighting, and atmosphere of the source photograph.
+인물과 빛, 시대적 분위기는 유지하면서 긁힘, 찢김과 퇴색을 복원합니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 Fix any scratches or tears, remove fading, and then color it with realistic skin tones, clothing colors, and background colors. Preserve the original lighting and atmosphere, and don't alter people's features.
@@ -697,8 +702,8 @@ Fix any scratches or tears, remove fading, and then color it with realistic skin
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HHpJfykbAAAqqzm.jpg" width="100%" alt="Restore and Colorize an Old Photograph - Image 1"></td>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HHpJfyMaUAEx6ei.jpg" width="100%" alt="Restore and Colorize an Old Photograph - Image 2"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HHpJfykbAAAqqzm.jpg" width="100%" alt="오래된 사진 복원과 채색 - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HHpJfyMaUAEx6ei.jpg" width="100%" alt="오래된 사진 복원과 채색 - Image 2"></td>
 </tr>
 </table>
 
@@ -715,16 +720,16 @@ Fix any scratches or tears, remove fading, and then color it with realistic skin
 
 <a id="prompt-7"></a>
 
-#### No. 2: France Tribute Relief Poster
+#### No. 2: 프랑스 헌정 부조 포스터
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### 설명
 
-Compose a sculpted national tribute poster from a profile portrait, Paris landmarks, flag colors, and embossed display type.
+측면 초상, 파리 명소, 국기 색상과 양각 제목을 조합한 조각적 국가 헌정 포스터입니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 Create a 1:1 ultra-detailed luxury France tribute artwork featuring a completely different elegant woman (not the reference model), shown in dramatic side profile with porcelain skin, long wavy brunette hair flowing softly behind her, bold blue upper lip and red lower lip lipstick inspired by the French flag, long eyelashes, and a calm, confident expression.
@@ -740,7 +745,7 @@ The entire artwork should feel like a premium 3D sculpted poster with embossed t
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HM842XhbgAAIfMr.jpg" width="100%" alt="France Tribute Relief Poster - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HM842XhbgAAIfMr.jpg" width="100%" alt="프랑스 헌정 부조 포스터 - Image 1"></td>
 </tr>
 </table>
 
@@ -757,16 +762,16 @@ The entire artwork should feel like a premium 3D sculpted poster with embossed t
 
 <a id="prompt-8"></a>
 
-#### No. 3: Neo-Noir Sci-Fi Portrait with Negative Space
+#### No. 3: 여백 중심 네오 누아르 SF 초상
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### 설명
 
-Use a face reference to stage a restrained low-angle portrait beneath an expansive overcast sky.
+얼굴 참고 이미지를 이용해 넓은 흐린 하늘 아래 절제된 로우 앵글 초상을 연출합니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 Create a low-angle neo-noir sci-fi still, chest-up portrait of a person with a slight upward gaze. Place the subject in the lower-right third, leaving vast negative space with about 80 percent empty sky above. The subject wears a matte shearling-collar heavy coat over a dark knit sweater in a desaturated olive and charcoal palette. The background is a blank, overcast sky with subtle haze. Use soft ambient daylight with negative fill on camera-left. Use image for face reference.
@@ -776,7 +781,7 @@ Create a low-angle neo-noir sci-fi still, chest-up portrait of a person with a s
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNCG4yGbgAA4Txd.jpg" width="100%" alt="Neo-Noir Sci-Fi Portrait with Negative Space - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNCG4yGbgAA4Txd.jpg" width="100%" alt="여백 중심 네오 누아르 SF 초상 - Image 1"></td>
 </tr>
 </table>
 
@@ -793,16 +798,16 @@ Create a low-angle neo-noir sci-fi still, chest-up portrait of a person with a s
 
 <a id="prompt-9"></a>
 
-#### No. 4: Rugged Outdoor Lifestyle Portrait
+#### No. 4: 거친 야외 라이프스타일 초상
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### 설명
 
-Place a referenced face into a naturally lit outdoor editorial scene with technical clothing and a softly blurred vintage 4x4.
+참고 인물을 자연광 야외 화보에 배치하고 기능성 의상과 흐릿한 빈티지 사륜구동차를 더합니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 Clean cinematic outdoor lifestyle portrait of a young rugged male figure standing in three-quarter angle, head bowed slightly downward and turned to the side, gaze cast down with a calm, quietly contemplative expression. He has voluminous dark curly hair with natural texture and volume, tousled and full. A full well-groomed dark beard and mustache cover his jaw and cheeks. He wears a dark navy-black technical hooded jacket/anorak — structured and outdoorsy with a relaxed hood resting behind the neck, clean minimal design with a small zippered chest pocket detail, both hands tucked casually into the front pockets. Dark olive-green trousers visible at the bottom of the frame, with a hint of a light-colored base layer peeking at the waist. He stands on a sandy, gravelly outdoor ground surface. Directly behind him, a rugged vintage off-road vehicle — a classic boxy 4x4 SUV in dark forest green with a white roof and roof rack — is parked and softly blurred, suggesting an adventure or overlanding lifestyle setting. The background beyond the vehicle shows soft blurred dark green trees and foliage, suggesting a forest or wilderness campsite location. The lighting is bright, natural, and directional — strong outdoor daylight from the upper right catching his hair, forehead, and the jacket shoulder in warm natural highlights, with soft natural shadow across the rest of the face and body. Color palette: dark navy jacket, olive green trousers, warm natural skin tones, muted forest green vehicle and background, warm sandy ground tones. Photography style: outdoor adventure lifestyle editorial, clean natural light, 85mm lens, shallow depth of field with vehicle and background softly blurred, photorealistic, 8K.
@@ -813,7 +818,7 @@ Use the provided face reference image for all facial details — bone structure,
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNChcwZacAAmyXi.jpg" width="100%" alt="Rugged Outdoor Lifestyle Portrait - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNChcwZacAAmyXi.jpg" width="100%" alt="거친 야외 라이프스타일 초상 - Image 1"></td>
 </tr>
 </table>
 
@@ -830,16 +835,16 @@ Use the provided face reference image for all facial details — bone structure,
 
 <a id="prompt-22"></a>
 
-#### No. 5: Doodle-Layer Mirror Selfie
+#### No. 5: 낙서를 겹친 거울 셀피
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### 설명
 
-Place a referenced character in a bright bedroom mirror selfie, then layer handwritten notes, playful icons, and a glowing outline over the photograph.
+밝은 침실의 참고 인물 셀피 위에 손글씨, 장난스러운 아이콘과 빛나는 윤곽선을 더합니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 Using the attached character reference, create an ultra-realistic full-body mirror selfie in a bright, minimalist bedroom with large white wardrobe doors, light wooden flooring, and a neatly made bed. The woman wears a casual oversized red cardigan over a graphic white T-shirt, loose light-wash baggy jeans, red socks, and a trendy crossbody bag. She holds her smartphone in front of her face while posing confidently with one hand in her pocket.
@@ -853,7 +858,7 @@ Create a cheerful Gen Z aesthetic with bright natural lighting, soft shadows, cl
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMeKH7ibMAAmCHU.jpg" width="100%" alt="Doodle-Layer Mirror Selfie - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMeKH7ibMAAmCHU.jpg" width="100%" alt="낙서를 겹친 거울 셀피 - Image 1"></td>
 </tr>
 </table>
 
@@ -870,15 +875,16 @@ Create a cheerful Gen Z aesthetic with bright natural lighting, soft shadows, cl
 
 <a id="prompt-24"></a>
 
-#### No. 6: Object Dissolving into LEGO Bricks
+#### No. 6: LEGO 브릭으로 흩어지는 사물
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 ##### 설명
 
-Freeze an everyday object halfway through a tactile transformation into floating LEGO bricks while preserving its original colors and textures.
+일상 사물이 떠다니는 LEGO 브릭으로 변하는 순간을 원래 색과 질감을 보존해 정지시킵니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 Minimalist food photograph, [1080x1080] – a single [OBJECT] rests on a light, matte surface and is captured mid-transformation into a lego bricks 3D form: one half remains intact while the other organically fragments into large, floating lego bricks that drift outward, each brick revealing the object’s texture, ingredients, and colors. Studio lighting with soft, realistic shadows, shallow depth of field, tasteful perspective and composition, hyperrealistic detail, stylish geometric abstraction, high resolution, cinematic close-up
@@ -888,7 +894,7 @@ Minimalist food photograph, [1080x1080] – a single [OBJECT] rests on a light, 
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G1OQSQTW0AcNWdd.jpg" width="100%" alt="Object Dissolving into LEGO Bricks - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G1OQSQTW0AcNWdd.jpg" width="100%" alt="LEGO 브릭으로 흩어지는 사물 - Image 1"></td>
 </tr>
 </table>
 
@@ -911,23 +917,23 @@ Minimalist food photograph, [1080x1080] – a single [OBJECT] rests on a light, 
 
 **Community · 추천 프롬프트**
 
-- [Swiss Geometric Embossed Logo](#prompt-1)
-- [Tactile Wax Seal Brand Mark](#prompt-2)
-- [Fashion Collage for a Social Campaign](#prompt-3)
-- [Integrated Social Ad Template](#prompt-4)
-- [Top-Down Editorial Product Photograph](#prompt-25)
+- [스위스 기하학 엠보싱 로고](#prompt-1)
+- [촉감이 살아 있는 왁스 실 로고](#prompt-2)
+- [소셜 캠페인용 패션 콜라주](#prompt-3)
+- [통합형 소셜 광고 템플릿](#prompt-4)
+- [탑뷰 에디토리얼 제품 사진](#prompt-25)
 
 <a id="prompt-10"></a>
 
-#### No. 7: High-Fashion Tennis Campaign
+#### No. 7: 하이패션 테니스 캠페인
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 설명
 
-Create a minimalist sports editorial with an oversized racket, reflective studio floor, and giant background typography.
+대형 라켓, 반사되는 스튜디오 바닥과 거대한 배경 글자로 미니멀한 스포츠 화보를 만듭니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 A clean high-fashion sports editorial featuring a confident female tennis athlete in an all-white luxury tennis outfit posing with an oversized tennis racket that towers above her like a modern art sculpture. She rests one foot casually on the racket while striking a powerful fashion pose against a seamless white studio backdrop. Behind her, giant bold black typography reading "FOCUS" spans the entire background, creating a striking graphic composition. Glossy reflective floor with scattered tennis balls, minimalist luxury aesthetic, cinematic softbox lighting, ultra-sharp details, premium athletic campaign, Vogue-style editorial photography, balanced composition, high contrast, photorealistic, 8K, 1:1 aspect ratio.
@@ -937,7 +943,7 @@ A clean high-fashion sports editorial featuring a confident female tennis athlet
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNG5K0gaEAAPTuo.jpg" width="100%" alt="High-Fashion Tennis Campaign - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNG5K0gaEAAPTuo.jpg" width="100%" alt="하이패션 테니스 캠페인 - Image 1"></td>
 </tr>
 </table>
 
@@ -954,15 +960,15 @@ A clean high-fashion sports editorial featuring a confident female tennis athlet
 
 <a id="prompt-26"></a>
 
-#### No. 8: Dark Chrome Logo in a White Void
+#### No. 8: 흰 공간 속 다크 크롬 로고
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 설명
 
-Render an exact brand mark as a heavy polished-metal object with micro-scratches, edge bloom, shallow focus, and visible film grain.
+정확한 로고를 무거운 광택 금속으로 표현하고 미세 흠집, 가장자리 빛, 얕은 심도와 필름 그레인을 더합니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 BRAND NAME], the official trademark logo rendered strictly as a solid 3D object, maintaining the exact original vector shape and proportions without any artistic reinterpretation or distortion. The logo is crafted from dark, highly polished chrome metal with subtle surface micro-scratches and imperfections that break the mirror finish. The object is perfectly centered in a vast, infinite pure white void with no visible background elements or studio equipment. The lighting creates a soft, cinematic bloom (halo effect) along the metallic edges. 50mm lens aesthetic with a shallow depth of field gently blurring the furthest points of the object. A pronounced, visible film grain overlay is applied to the entire image.
@@ -972,7 +978,7 @@ BRAND NAME], the official trademark logo rendered strictly as a solid 3D object,
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G8OagDzXAAEjhzO.jpg" width="100%" alt="Dark Chrome Logo in a White Void - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G8OagDzXAAEjhzO.jpg" width="100%" alt="흰 공간 속 다크 크롬 로고 - Image 1"></td>
 </tr>
 </table>
 
@@ -995,20 +1001,20 @@ BRAND NAME], the official trademark logo rendered strictly as a solid 3D object,
 
 **Community · 추천 프롬프트**
 
-- [Four-Panel Engineering Cutaway Board](#prompt-17)
-- [Eight-Panel Anime Friendship Storyboard](#prompt-18)
+- [4분할 엔지니어링 컷어웨이 보드](#prompt-17)
+- [8컷 애니메이션 우정 스토리보드](#prompt-18)
 
 <a id="prompt-11"></a>
 
-#### No. 9: Open-Book Sci-Fi Story Diorama
+#### No. 9: 펼친 책 형태의 SF 디오라마
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 설명
 
-Transform four science-fiction subjects into a structured 2x2 encyclopedia spread with toy-like dioramas and model-sheet details.
+네 가지 SF 주제를 2×2 백과사전 지면에 배치하고 장난감 디오라마와 설정표를 결합합니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 2x2 grid, 16:9, do this for 4 famous scifi movies: {INPUT: $ SUBJECT
@@ -1075,7 +1081,7 @@ A premium open-book character encyclopedia diorama for $ SUBJECT, combining toy 
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HM022LJXwAABIO2.jpg" width="100%" alt="Open-Book Sci-Fi Story Diorama - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HM022LJXwAABIO2.jpg" width="100%" alt="펼친 책 형태의 SF 디오라마 - Image 1"></td>
 </tr>
 </table>
 
@@ -1092,15 +1098,15 @@ A premium open-book character encyclopedia diorama for $ SUBJECT, combining toy 
 
 <a id="prompt-12"></a>
 
-#### No. 10: Character Turnaround Sheet for a Rugged Hero
+#### No. 10: 거친 영웅 캐릭터 턴어라운드
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 설명
 
-A compact cinematic character sheet showing one rugged figure from the front, side, and back.
+한 인물을 정면, 측면, 후면으로 보여 주는 간결하고 영화적인 캐릭터 시트입니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 Character reference sheet- rugged Indian man, intense expression, wavy hair, thick beard, maroon striped shirt, black jeans — front view, profile view, back view, cinematic realism.
@@ -1110,7 +1116,7 @@ Character reference sheet- rugged Indian man, intense expression, wavy hair, thi
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HCpAukXbwAAfxDK.jpg" width="100%" alt="Character Turnaround Sheet for a Rugged Hero - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HCpAukXbwAAfxDK.jpg" width="100%" alt="거친 영웅 캐릭터 턴어라운드 - Image 1"></td>
 </tr>
 </table>
 
@@ -1127,15 +1133,15 @@ Character reference sheet- rugged Indian man, intense expression, wavy hair, thi
 
 <a id="prompt-14"></a>
 
-#### No. 11: Luxury Cruise Ship Technical Infographic
+#### No. 11: 호화 크루즈선 기술 인포그래픽
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 설명
 
-Present a fictional cruise ship through deck cutaways, specifications, interior highlights, and performance gauges.
+갑판 단면, 제원, 실내 주요 공간과 성능 계기로 가상의 호화 크루즈선을 소개합니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 An ultra-detailed, vertical infographic poster for a fictional luxury cruise ship named "Titan of the Seas." The central focus is a massive, multi-deck ship rendered in a sophisticated deep red and gold color scheme. The layout features various data visualization elements, including technical specification tables, deck plan cutaways, interior highlight photos, and performance gauges. The aesthetic is clean and editorial, utilizing a soft cream background with professional typography to create a high-luxury informational moodboard.
@@ -1145,7 +1151,7 @@ An ultra-detailed, vertical infographic poster for a fictional luxury cruise shi
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HH2fQ-KWIAMnfi9.jpg" width="100%" alt="Luxury Cruise Ship Technical Infographic - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HH2fQ-KWIAMnfi9.jpg" width="100%" alt="호화 크루즈선 기술 인포그래픽 - Image 1"></td>
 </tr>
 </table>
 
@@ -1162,15 +1168,15 @@ An ultra-detailed, vertical infographic poster for a fictional luxury cruise shi
 
 <a id="prompt-15"></a>
 
-#### No. 12: Illustrated Travel Maps with Cultural Callouts
+#### No. 12: 문화 설명이 담긴 여행 지도
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 설명
 
-Build richly labeled country maps from miniature landmarks, local food, wildlife, statistics, and bilingual captions.
+미니어처 명소, 지역 음식, 야생동물, 통계와 이중 언어 표기로 풍부한 국가 지도를 만듭니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 Two vertical, highly detailed, illustrated travel infographic maps showcasing Japan and Russia. Each poster features a stylized, colorful 3D-rendered country map surrounded by deep blue seas, populated with miniature cultural landmarks, regional food items, and local wildlife connected to specific city labels. The top of each poster displays a bold, artistic title banner with the country's name, localized slogans, and cultural border motifs like cherry blossoms or traditional patterns. The bottom sections include key demographic statistics alongside a row of circular vignette photos highlighting local architecture, cuisine, and scenery, all tied together by a descriptive quote translated into both the native language and English.
@@ -1180,8 +1186,8 @@ Two vertical, highly detailed, illustrated travel infographic maps showcasing Ja
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HIrFCDWXsAAl99J.jpg" width="100%" alt="Illustrated Travel Maps with Cultural Callouts - Image 1"></td>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HIrFCAjW0AIZGnN.jpg" width="100%" alt="Illustrated Travel Maps with Cultural Callouts - Image 2"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HIrFCDWXsAAl99J.jpg" width="100%" alt="문화 설명이 담긴 여행 지도 - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HIrFCAjW0AIZGnN.jpg" width="100%" alt="문화 설명이 담긴 여행 지도 - Image 2"></td>
 </tr>
 </table>
 
@@ -1198,15 +1204,15 @@ Two vertical, highly detailed, illustrated travel infographic maps showcasing Ja
 
 <a id="prompt-16"></a>
 
-#### No. 13: Technical Outerwear Specification Sheet
+#### No. 13: 테크니컬 아우터 사양서
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 설명
 
-Lay out a complete menswear design sheet with garment angles, material close-ups, modular accessories, and technical specifications.
+의상 각도별 도면, 소재 확대, 모듈형 액세서리와 기술 사양을 한 장에 정리합니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 An AMZ Collection fashion design spec sheet and product layout presented as a tall, vertical infographic for men's technical outerwear. On the left side, a full-body shot features a 32-year-old male model with a short beard and a faded haircut, wearing a rugged, multi-pocketed utility jacket and matching cargo pants in deep olive green and slate grey with bright orange accents. The top of the sheet prominently displays the title "AMZLECTION - URBAN FRONTIER SERIES" and "AERO SHELL PARKA SYSTEM" in a bold, clean sans-serif typeface, accompanied by a bio detailing his occupation as a systems engineer and urban explorer. The right side features a technical "Articulation & Layer Study" breakdown showing multiple back and front silhouette angles detailing the zip-in system, articulated sleeves, and hood stowage. The center section provides macro close-up macro shots highlighting the technical textures, including ripstop tech fabric, a seal-zip closure, and a grip-liner sleeve cuff. Below, a "Modular Styling" column showcases alternative ways to style the garment, such as a full protection system or a light urban shell. The bottom of the layout features grid sections labeled "Modular Add-Ons" displaying accessories like a utility belt, touchscreen-compatible tech gloves, an EDC multi-tool, and a headlamp. Adjacent to this is an "Urban Palette & Mats" swatch color bar showing slate grey, olive green, night black, blaze orange, and technical ivory, followed by a comprehensive "Technical Specifications" block outlining the fabric, insulation, closures, pockets, and features of the high-performance gear.
@@ -1216,7 +1222,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HJUQCtgWcAQ8xE1.jpg" width="100%" alt="Technical Outerwear Specification Sheet - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HJUQCtgWcAQ8xE1.jpg" width="100%" alt="테크니컬 아우터 사양서 - Image 1"></td>
 </tr>
 </table>
 
@@ -1239,15 +1245,15 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="prompt-13"></a>
 
-#### No. 14: Photorealistic Futuristic Mecha
+#### No. 14: 사실적인 미래형 메카
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 설명
 
-A reusable style recipe for transforming creatures or machines into metallic, cinematic mecha designs.
+생물이나 기계를 금속 질감과 영화적 조명을 갖춘 사실적인 메카로 바꾸는 재사용 스타일 설계입니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 Theme: Futuristic Mecha Design with Photorealistic Details Color Image: Metallic shades of gunmetal gray and steel, with glowing red or neon accents Color Pallet: Main color: #4B4E50 Sub color: #A3A5A8, #2E2F31, #FF3B30 Accent color: #FF0000, #1E1E1E Camera Settings: Close-up or dynamic low-angle shots, slight depth of field for dramatic focus, high contrast with sharp details Film Stock/Analog Settings: High-resolution digital photography with post-apocalyptic grading Lighting: Dramatic, high contrast lighting with a mix of cool and warm tones, occasional backlighting or side-lighting for a cinematic feel Vibe: Intense, futuristic, action-packed, and slightly dystopian Content Transformation (Optional): Converts organic animals or creatures into hyper-realistic mechanical designs Font Setting(Optional): Main: Orbitron 18px, Sub: Roboto 14px Additional Effects: Motion blur, dust and particle effects for action scenes, subtle reflections on metallic surfaces
@@ -1257,7 +1263,7 @@ Theme: Futuristic Mecha Design with Photorealistic Details Color Image: Metallic
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HG-4lhZasAA35Gb.jpg" width="100%" alt="Photorealistic Futuristic Mecha - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HG-4lhZasAA35Gb.jpg" width="100%" alt="사실적인 미래형 메카 - Image 1"></td>
 </tr>
 </table>
 
@@ -1274,15 +1280,15 @@ Theme: Futuristic Mecha Design with Photorealistic Details Color Image: Metallic
 
 <a id="prompt-19"></a>
 
-#### No. 15: 1990s Indie Bedroom Portrait
+#### No. 15: 1990년대 인디 침실 초상
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 설명
 
-Recreate a candid lo-fi bedroom portrait with direct flash, collage-covered walls, film grain, and nostalgic indie styling.
+직광 플래시, 콜라주 벽, 필름 그레인과 향수 어린 인디 감성으로 로파이 침실 사진을 재현합니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 A candid 1990s-inspired indie bedroom portrait of a young woman sitting cross-legged on a worn vintage patterned couch. She has short messy dark hair, natural makeup, soft skin texture, and a thoughtful, distant expression while looking slightly off-camera. She wears an oversized faded pastel pink Nirvana band T-shirt, blue denim shorts, and retro white tube socks with red and blue stripes.
@@ -1295,8 +1301,8 @@ Keywords: retro bedroom, indie aesthetic, grunge fashion, Nirvana shirt, cassett
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLV3_jxboAAadnf.jpg" width="100%" alt="1990s Indie Bedroom Portrait - Image 1"></td>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLV3_pxbkAA_BSc.jpg" width="100%" alt="1990s Indie Bedroom Portrait - Image 2"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLV3_jxboAAadnf.jpg" width="100%" alt="1990년대 인디 침실 초상 - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLV3_pxbkAA_BSc.jpg" width="100%" alt="1990년대 인디 침실 초상 - Image 2"></td>
 </tr>
 </table>
 
@@ -1313,15 +1319,16 @@ Keywords: retro bedroom, indie aesthetic, grunge fashion, Nirvana shirt, cassett
 
 <a id="prompt-27"></a>
 
-#### No. 16: Notion-Style Monochrome Avatar
+#### No. 16: Notion 스타일 흑백 아바타
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 ##### 설명
 
-Create a personable black-and-white vector portrait using confident monoline contours and selective solid fills instead of generic icon geometry.
+자신감 있는 균일 선과 선택적 검정 면을 사용해 흔한 아이콘과 다른 개성 있는 벡터 초상을 만듭니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 A minimalist, black-and-white flat vector illustration portrait of [NAME], rendered in the expressive "Notion avatar" art style.
@@ -1342,7 +1349,7 @@ High contrast, clean 2D vector graphics.
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G_SnZVIWkAAoaF9.jpg" width="100%" alt="Notion-Style Monochrome Avatar - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G_SnZVIWkAAoaF9.jpg" width="100%" alt="Notion 스타일 흑백 아바타 - Image 1"></td>
 </tr>
 </table>
 
@@ -1365,19 +1372,19 @@ High contrast, clean 2D vector graphics.
 
 **Community · 추천 프롬프트**
 
-- [Surreal Giantess in Venice](#prompt-21)
+- [베네치아의 초현실적 거인 여행 사진](#prompt-21)
 
 <a id="prompt-20"></a>
 
-#### No. 17: Golden-Hour Mountain Meadow
+#### No. 17: 골든아워의 산악 초원
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 설명
 
-A structured landscape brief for a winding path, wildflower meadow, solitary tree, distant wildlife, and glowing mountain range.
+굽이치는 길, 야생화 초원, 외로운 나무, 먼 동물과 빛나는 산맥으로 깊이 있는 풍경을 만듭니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 "subject": "A serene landscape transformation of a mountain scene",
@@ -1416,7 +1423,7 @@ A structured landscape brief for a winding path, wildflower meadow, solitary tre
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLvkD0RbgAAWXzv.jpg" width="100%" alt="Golden-Hour Mountain Meadow - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLvkD0RbgAAWXzv.jpg" width="100%" alt="골든아워의 산악 초원 - Image 1"></td>
 </tr>
 </table>
 
@@ -1439,15 +1446,15 @@ A structured landscape brief for a winding path, wildflower meadow, solitary tre
 
 <a id="prompt-6"></a>
 
-#### No. 18: Gemini 2.5 vs 3.1 Editorial Portrait Benchmark
+#### No. 18: Gemini 2.5 대 3.1 에디토리얼 인물 벤치마크
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 설명
 
-A controlled portrait brief shown across Gemini 2.5 Flash Image and Gemini 3.1 Flash Image for visual comparison.
+동일한 인물 촬영 지시를 Gemini 2.5 Flash Image와 Gemini 3.1 Flash Image에 적용해 결과를 비교합니다.
 
-##### 프롬프트
+##### 원문 프롬프트(영어)
 
 ```
 Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean female portrait subject with small teardrop gemstone earring detail, delicate understated sparkle, natural basic body, about 160-165 cm visual height, 83-62-88 body proportion anchor, balanced torso-to-leg ratio around 4:6, low-contrast waist curve, modest bust and hips, smooth natural silhouette, young beautiful Korean idol face, refined small face, clear bright eyes, polished youthful beauty, photogenic K-pop portrait balance, straight medium-to-long hair with a sleek wet texture, clean straight lengths, separated damp strands, minimal wave, natural black hair, soft realistic shine, clean dark depth, none, looking directly at the camera, direct eye contact, innocent clear eyes, delicate soft expression, pure transparent mood. show the selected styling only through collar edge, neckline fabric, partial shoulder line, small accessory details near the face, eyewear, and earrings; keep torso clothing, lower-body garments, legwear, and shoes off-frame rather than widening the crop. render selected historic library window corner only as soft background color, environmental light, atmosphere, and faint spatial shapes behind the face; do not widen the frame just to reveal the full room or complete environment, indoor fluorescent everyday environment, cool-white overhead room light, practical daily interior brightness, plain lived-in space, local warm practical-light pool on the subject, lamp-driven amber highlight zone, warm falloff across face hands and clothing. Inspired by Masumi Ishida, luminous summer film image language. luminous youth-photobook portraiture, gentle summer-color brightness, softly lifted exposure, airy pastel balance, washed film texture, transparent tonal softness. The composition uses tight facial close-up portrait, face dominant in frame, balanced proportions, clean frontal readability, shoulder-level camera position, level lens axis near the shoulder line, stable upper-body portrait viewpoint, camera positioned directly in front of the subject, 0-degree front view, frontal torso orientation, shot on 20mm ultra-wide-angle lens, very wide field of view, strong perspective expansion, close foreground enlargement, visible edge stretching, deep subject-to-background spatial inclusion, peripheral edge blur, center sharpness with soft frame edges, field curvature softness, reduced corner resolution, lens falloff away from the image center. warm digital portrait rendering, flattering skin-tone response, soft highlight roll-off, smooth color transitions, gentle contrast curve, polished color, natural photographic detail, coherent fabric construction, clear facial readability, realistic spatial depth, do not add visible text unless explicitly requested.
@@ -1457,10 +1464,10 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <table>
 <tr>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK571nBakAAxshH.jpg" width="100%" alt="Gemini 2.5 vs 3.1 Editorial Portrait Benchmark - Image 1"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK571nkbkAAJ7Wu.jpg" width="100%" alt="Gemini 2.5 vs 3.1 Editorial Portrait Benchmark - Image 2"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK5792CaEAAs9YT.jpg" width="100%" alt="Gemini 2.5 vs 3.1 Editorial Portrait Benchmark - Image 3"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK58Db6a4AAws5c.jpg" width="100%" alt="Gemini 2.5 vs 3.1 Editorial Portrait Benchmark - Image 4"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK571nBakAAxshH.jpg" width="100%" alt="Gemini 2.5 대 3.1 에디토리얼 인물 벤치마크 - Image 1"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK571nkbkAAJ7Wu.jpg" width="100%" alt="Gemini 2.5 대 3.1 에디토리얼 인물 벤치마크 - Image 2"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK5792CaEAAs9YT.jpg" width="100%" alt="Gemini 2.5 대 3.1 에디토리얼 인물 벤치마크 - Image 3"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK58Db6a4AAws5c.jpg" width="100%" alt="Gemini 2.5 대 3.1 에디토리얼 인물 벤치마크 - Image 4"></td>
 </tr>
 </table>
 
@@ -1525,6 +1532,6 @@ GitHub Issues를 통한 고품질 프롬프트 제출을 환영합니다.
 **[프롬프트 제출](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[저장소에 Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>이 README는 자동 생성되었습니다. 마지막 업데이트: 2026-07-14T06:04:06.792Z</sub>
+<sub>이 README는 자동 생성되었습니다. 마지막 업데이트: 2026-07-14T09:20:24.686Z</sub>
 
 </div>

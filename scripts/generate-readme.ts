@@ -10,7 +10,7 @@ import {
   sortPrompts,
   fetchPromptCategories,
   fetchOfficialCases,
-} from "./utils/cms-client.js";
+} from "./utils/prompt-repository.js";
 import {
   generateMarkdown,
   SUPPORTED_LANGUAGES,

@@ -13,7 +13,7 @@
 
 > Une collection ImagineVid de prompts Nano Banana, de skills réutilisables et d’exemples visuels
 
-> **Avis de copyright** : les prompts sont réunis avec attribution pour la référence éducative et créative. Ouvrez un issue si un contenu doit être retiré.
+> **Attribution et retrait :** chaque prompt renvoie à sa source publique et à son auteur. Les droits restent la propriété de leurs titulaires. Ouvrez une issue pour demander une correction ou un retrait.
 
 ---
 
@@ -77,16 +77,16 @@ Les actions produit renvoient vers ImagineVid ; les capacités du modèle s’ap
 
 **Sources de recherche :** [Gemini image generation guide](https://ai.google.dev/gemini-api/docs/image-generation) · [Gemini 2.5 Flash Image model page](https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image) · [Nano Banana on ImagineVid](https://imaginevid.io/fr/nano-banana)
 
-### Arguments de prompt skill
+### Réutiliser les variables du prompt
 
-Certains prompts prennent en charge des variables dynamiques `{argument ...}` façon Raycast Snippets. Repérez le badge Raycast Friendly.
+Certains prompts sources proposent des variables entre crochets, comme `[BRAND]`, `[OBJECT]` ou `[NAME]`. Ne remplacez que ces valeurs et conservez la structure visuelle éprouvée.
 
 **Exemple :**
 ```
-Une affiche cinématographique pour un produit avec l’ambiance choisie
+Remplacez `[BRAND]` par votre marque ou `[OBJECT]` par votre sujet, sans modifier la composition, la lumière ni les matériaux.
 ```
 
-Remplacez les arguments pour réutiliser le prompt comme skill créative compacte.
+Les variables rendent un prompt sourcé réutilisable sans réécrire tout le brief à chaque fois.
 
 ---
 
@@ -98,7 +98,7 @@ Remplacez les arguments pour réutiliser le prompt comme skill créative compact
 |--------|-------|
 | Total des prompts | **27** |
 | En vedette | **9** |
-| Dernière mise à jour | **mardi 14 juillet 2026 à 06:04:06 UTC** |
+| Dernière mise à jour | **mardi 14 juillet 2026 à 09:20:24 UTC** |
 
 </div>
 
@@ -112,16 +112,17 @@ Remplacez les arguments pour réutiliser le prompt comme skill créative compact
 
 <a id="prompt-1"></a>
 
-### No. 1: Swiss Geometric Embossed Logo
+### No. 1: Logo géométrique suisse en relief
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### Description
 
-Turn a brand mark into a centered monochrome relief with a liquid-glass rim and restrained Swiss-design spacing.
+Transforme une marque en relief monochrome centré, bordé d’un effet verre liquide et entouré d’un espace blanc très maîtrisé.
 
-#### Prompt
+#### Prompt original (en anglais)
 
 ```
 (change [BRAND] and [COLOR])
@@ -133,7 +134,7 @@ Turn a brand mark into a centered monochrome relief with a liquid-glass rim and 
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G7GW1EjWgAAgtWV.jpg" width="100%" alt="Swiss Geometric Embossed Logo - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G7GW1EjWgAAgtWV.jpg" width="100%" alt="Logo géométrique suisse en relief - Image 1"></td>
 </tr>
 </table>
 
@@ -150,16 +151,17 @@ Turn a brand mark into a centered monochrome relief with a liquid-glass rim and 
 
 <a id="prompt-2"></a>
 
-### No. 2: Tactile Wax Seal Brand Mark
+### No. 2: Sceau de cire de marque à l’aspect tactile
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### Description
 
-Render a supplied logo as a glossy, irregular wax seal with raised relief and soft product lighting.
+Rend le logo fourni sous forme de sceau brillant, irrégulier et embossé, éclairé comme un produit haut de gamme.
 
-#### Prompt
+#### Prompt original (en anglais)
 
 ```
 [MATERIAL COLOR] glossy wax seal icon depicting [BRAND] logo, lying flat on a plain white background. The seal is made of thick, deformed plastic or wax with an irregular, squashed shape and a prominent 'drip' or smear extending to the right side. The center features a clear, raised relief impression of the subject. The lighting is soft and even, creating smooth specular highlights on the curved, glossy edges. The shadow cast is soft and minimal.
@@ -169,7 +171,7 @@ Render a supplied logo as a glossy, irregular wax seal with raised relief and so
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G70LO0WXQAIlvMY.jpg" width="100%" alt="Tactile Wax Seal Brand Mark - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G70LO0WXQAIlvMY.jpg" width="100%" alt="Sceau de cire de marque à l’aspect tactile - Image 1"></td>
 </tr>
 </table>
 
@@ -186,16 +188,17 @@ Render a supplied logo as a glossy, irregular wax seal with raised relief and so
 
 <a id="prompt-3"></a>
 
-### No. 3: Fashion Collage for a Social Campaign
+### No. 3: Collage mode pour campagne sociale
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### Description
 
-A detailed art-direction system for combining fashion photography, collage fragments, typography, and controlled visual disorder.
+Un système de direction artistique mêlant photographie de mode, fragments découpés, typographie et désordre visuel contrôlé.
 
-#### Prompt
+#### Prompt original (en anglais)
 
 ```
 [BRAND NAME]. Act as a Social Media Art Director and Digital Collage Artist specializing in bold, youth-oriented brand content for Instagram and digital campaigns.
@@ -265,7 +268,7 @@ TECHNICAL SPECS:
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HAupnj7XgAIL_ja.jpg" width="100%" alt="Fashion Collage for a Social Campaign - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HAupnj7XgAIL_ja.jpg" width="100%" alt="Collage mode pour campagne sociale - Image 1"></td>
 </tr>
 </table>
 
@@ -282,16 +285,17 @@ TECHNICAL SPECS:
 
 <a id="prompt-4"></a>
 
-### No. 4: Integrated Social Ad Template
+### No. 4: Modèle intégré de publicité sociale
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### Description
 
-Build a reusable social advertisement whose brand, headline, visual system, and CTA can be changed through compact variables.
+Crée une publicité réutilisable dont la marque, le titre, le système visuel et l’appel à l’action se remplacent par variables.
 
-#### Prompt
+#### Prompt original (en anglais)
 
 ```
 [BRAND NAME] | [HEADLINE] | [SUB-TEXT] | [CTA]. Act as a Senior Art Director.
@@ -330,7 +334,7 @@ High-end commercial aesthetic. Crisp, saturated, professional fusion of flat vec
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HB7r12tWMAA1nTv.jpg" width="100%" alt="Integrated Social Ad Template - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HB7r12tWMAA1nTv.jpg" width="100%" alt="Modèle intégré de publicité sociale - Image 1"></td>
 </tr>
 </table>
 
@@ -347,16 +351,16 @@ High-end commercial aesthetic. Crisp, saturated, professional fusion of flat vec
 
 <a id="prompt-17"></a>
 
-### No. 5: Four-Panel Engineering Cutaway Board
+### No. 5: Planche d’ingénierie en quatre coupes
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
 
 #### Description
 
-Compare four consumer devices in a precise grid using exploded assemblies, transparent cutaways, measurements, and engineering callouts.
+Compare quatre appareils dans une grille précise avec vues éclatées, coupes transparentes, mesures et annotations.
 
-#### Prompt
+#### Prompt original (en anglais)
 
 ```
 Ultra-detailed technical engineering infographic, clean white background, divided into a precise 2×2 grid by sharp black separator lines. Blueprint-style industrial design visualization featuring photorealistic 3D renders, transparent cutaways, exploded views, dimensional annotations, technical callout boxes, measurement guides, and color-coded engineering arrows (red, blue, green, orange). Professional product design presentation, Apple-style industrial design documentation, high-end technical illustration.
@@ -376,7 +380,7 @@ Highly detailed CAD visualization, industrial design presentation board, precisi
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HKEHL3YbsAAFhpN.jpg" width="100%" alt="Four-Panel Engineering Cutaway Board - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HKEHL3YbsAAFhpN.jpg" width="100%" alt="Planche d’ingénierie en quatre coupes - Image 1"></td>
 </tr>
 </table>
 
@@ -393,16 +397,16 @@ Highly detailed CAD visualization, industrial design presentation board, precisi
 
 <a id="prompt-18"></a>
 
-### No. 6: Eight-Panel Anime Friendship Storyboard
+### No. 6: Storyboard d’amitié en huit plans d’anime
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
 
 #### Description
 
-An emotionally paced storyboard brief with shot direction for a silent child finding friendship after losing a paper windmill.
+Cadre une histoire émouvante, avec indications de caméra, où un enfant silencieux trouve l’amitié après avoir perdu son moulinet.
 
-#### Prompt
+#### Prompt original (en anglais)
 
 ```
 STORY
@@ -529,8 +533,8 @@ The artwork should feel like a lost masterpiece from a classic theatrical anime 
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLLo2ekWEAASktJ.jpg" width="100%" alt="Eight-Panel Anime Friendship Storyboard - Image 1"></td>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/amplify_video_thumb/2067971201561989120/img/HGb-fSrVr8UrbrJi.jpg" width="100%" alt="Eight-Panel Anime Friendship Storyboard - Image 2"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLLo2ekWEAASktJ.jpg" width="100%" alt="Storyboard d’amitié en huit plans d’anime - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/amplify_video_thumb/2067971201561989120/img/HGb-fSrVr8UrbrJi.jpg" width="100%" alt="Storyboard d’amitié en huit plans d’anime - Image 2"></td>
 </tr>
 </table>
 
@@ -547,16 +551,16 @@ The artwork should feel like a lost masterpiece from a classic theatrical anime 
 
 <a id="prompt-21"></a>
 
-### No. 7: Surreal Giantess in Venice
+### No. 7: Géante surréaliste à Venise
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
 
 #### Description
 
-Stage a playful forced-perspective travel photograph in which a giant figure sits among the landmarks of St. Mark's Square.
+Met en scène, par perspective forcée, une photographie de voyage ludique entre les monuments de la place Saint-Marc.
 
-#### Prompt
+#### Prompt original (en anglais)
 
 ```
 Create a surreal giantess travel photography scene featuring a beautiful young woman wearing a white embroidered summer dress, white crew socks, and white sneakers. She is sitting gracefully among the iconic architecture of St. Mark's Square, Venice, Italy, appearing hundreds of feet tall, with one leg crossed over the other and her hands resting behind her for support. She smiles peacefully with her eyes closed, enjoying the warm sunshine and gentle breeze. Below her, crowds of tourists gather, taking photos and looking up in amazement, emphasizing her enormous scale. Capture the famous bell tower and basilica in the background under a bright blue sky with soft clouds. Use realistic forced perspective, natural daylight, cinematic travel photography, ultra-detailed skin and fabric textures, photorealistic architecture, vibrant colors, editorial travel magazine style, 8K, HDR, vertical 9: 16 composition, no text, no logos, no watermarks, no UI elements.
@@ -566,7 +570,7 @@ Create a surreal giantess travel photography scene featuring a beautiful young w
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMD5qkpXIAAEnOO.jpg" width="100%" alt="Surreal Giantess in Venice - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMD5qkpXIAAEnOO.jpg" width="100%" alt="Géante surréaliste à Venise - Image 1"></td>
 </tr>
 </table>
 
@@ -583,7 +587,7 @@ Create a surreal giantess travel photography scene featuring a beautiful young w
 
 <a id="prompt-23"></a>
 
-### No. 8: Reference Photo to Collectible Figurine
+### No. 8: D’une photo de référence à une figurine de collection
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
@@ -591,9 +595,9 @@ Create a surreal giantess travel photography scene featuring a beautiful young w
 
 #### Description
 
-Turn an uploaded character photo into a realistic desk-scale collectible with its modeling screen, acrylic base, and illustrated packaging.
+Transforme une photo de personnage en figurine réaliste de bureau avec écran de modélisation, socle transparent et boîte illustrée.
 
-#### Prompt
+#### Prompt original (en anglais)
 
 ```
 Create a 1/7 scale commercialized figurine of the characters in the picture, in a realistic style, in a real environment. The figurine is placed on a computer desk. The figurine has a round transparent acrylic base, with no text on the base. The content on the computer screen is a 3D modeling process of this figurine. Next to the computer screen is a toy packaging box, designed in a style reminiscent of high-quality collectible figures, printed with original artwork. The packaging features two-dimensional flat illustrations.
@@ -603,10 +607,10 @@ Create a 1/7 scale commercialized figurine of the characters in the picture, in 
 
 <table>
 <tr>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4V72WwAA7PRR.jpg" width="100%" alt="Reference Photo to Collectible Figurine - Image 1"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4d2ka0AAtnQV.jpg" width="100%" alt="Reference Photo to Collectible Figurine - Image 2"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4h2qXUAA3FA5.jpg" width="100%" alt="Reference Photo to Collectible Figurine - Image 3"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4oMyWwAAmyWW.jpg" width="100%" alt="Reference Photo to Collectible Figurine - Image 4"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4V72WwAA7PRR.jpg" width="100%" alt="D’une photo de référence à une figurine de collection - Image 1"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4d2ka0AAtnQV.jpg" width="100%" alt="D’une photo de référence à une figurine de collection - Image 2"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4h2qXUAA3FA5.jpg" width="100%" alt="D’une photo de référence à une figurine de collection - Image 3"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4oMyWwAAmyWW.jpg" width="100%" alt="D’une photo de référence à une figurine de collection - Image 4"></td>
 </tr>
 </table>
 
@@ -623,17 +627,18 @@ Create a 1/7 scale commercialized figurine of the characters in the picture, in 
 
 <a id="prompt-25"></a>
 
-### No. 9: Top-Down Editorial Product Photograph
+### No. 9: Photographie éditoriale de produit en plongée verticale
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 #### Description
 
-Build a reusable overhead product scene with natural sunlight, controlled negative space, and optional supporting elements.
+Crée une scène réutilisable avec lumière naturelle, espace négatif maîtrisé et éléments d’accompagnement facultatifs.
 
-#### Prompt
+#### Prompt original (en anglais)
 
 ```
 A high-end editorial photo of a [IMAGE UPLOADED] placed flat on a [YOUR SURFACE], captured from a direct top-down view. The surface is gently disturbed to suggest recent motion or interaction. The front of the product is fully visible and properly oriented upright. The area around the product is intentionally left open to optionally place [YOUR ELEMENTS] that visually enhance the scene. Natural sunlight from the upper left casts warm, realistic shadows. 3D realism, luxury product photography, shallow depth of field, 1:1 format.
@@ -643,7 +648,7 @@ A high-end editorial photo of a [IMAGE UPLOADED] placed flat on a [YOUR SURFACE]
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G1x51QZWEAAvZ9-.jpg" width="100%" alt="Top-Down Editorial Product Photograph - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G1x51QZWEAAvZ9-.jpg" width="100%" alt="Photographie éditoriale de produit en plongée verticale - Image 1"></td>
 </tr>
 </table>
 
@@ -672,20 +677,20 @@ Prompts qui modifient une image existante ou pilotent le résultat à l’aide d
 
 **Community · Prompts en vedette**
 
-- [Reference Photo to Collectible Figurine](#prompt-23)
+- [D’une photo de référence à une figurine de collection](#prompt-23)
 
 <a id="prompt-5"></a>
 
-#### No. 1: Restore and Colorize an Old Photograph
+#### No. 1: Restaurer et coloriser une photographie ancienne
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### Description
 
-Repair scratches, tears, and fading while preserving the people, lighting, and atmosphere of the source photograph.
+Répare rayures, déchirures et décoloration tout en préservant les personnes, la lumière et l’atmosphère de l’original.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 Fix any scratches or tears, remove fading, and then color it with realistic skin tones, clothing colors, and background colors. Preserve the original lighting and atmosphere, and don't alter people's features.
@@ -697,8 +702,8 @@ Fix any scratches or tears, remove fading, and then color it with realistic skin
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HHpJfykbAAAqqzm.jpg" width="100%" alt="Restore and Colorize an Old Photograph - Image 1"></td>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HHpJfyMaUAEx6ei.jpg" width="100%" alt="Restore and Colorize an Old Photograph - Image 2"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HHpJfykbAAAqqzm.jpg" width="100%" alt="Restaurer et coloriser une photographie ancienne - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HHpJfyMaUAEx6ei.jpg" width="100%" alt="Restaurer et coloriser une photographie ancienne - Image 2"></td>
 </tr>
 </table>
 
@@ -715,16 +720,16 @@ Fix any scratches or tears, remove fading, and then color it with realistic skin
 
 <a id="prompt-7"></a>
 
-#### No. 2: France Tribute Relief Poster
+#### No. 2: Affiche en relief en hommage à la France
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### Description
 
-Compose a sculpted national tribute poster from a profile portrait, Paris landmarks, flag colors, and embossed display type.
+Associe portrait de profil, monuments parisiens, couleurs nationales et titre embossé dans une composition sculpturale.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 Create a 1:1 ultra-detailed luxury France tribute artwork featuring a completely different elegant woman (not the reference model), shown in dramatic side profile with porcelain skin, long wavy brunette hair flowing softly behind her, bold blue upper lip and red lower lip lipstick inspired by the French flag, long eyelashes, and a calm, confident expression.
@@ -740,7 +745,7 @@ The entire artwork should feel like a premium 3D sculpted poster with embossed t
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HM842XhbgAAIfMr.jpg" width="100%" alt="France Tribute Relief Poster - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HM842XhbgAAIfMr.jpg" width="100%" alt="Affiche en relief en hommage à la France - Image 1"></td>
 </tr>
 </table>
 
@@ -757,16 +762,16 @@ The entire artwork should feel like a premium 3D sculpted poster with embossed t
 
 <a id="prompt-8"></a>
 
-#### No. 3: Neo-Noir Sci-Fi Portrait with Negative Space
+#### No. 3: Portrait de science-fiction néo-noir en espace négatif
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### Description
 
-Use a face reference to stage a restrained low-angle portrait beneath an expansive overcast sky.
+Utilise un visage de référence pour mettre en scène un portrait sobre en contre-plongée sous un vaste ciel couvert.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 Create a low-angle neo-noir sci-fi still, chest-up portrait of a person with a slight upward gaze. Place the subject in the lower-right third, leaving vast negative space with about 80 percent empty sky above. The subject wears a matte shearling-collar heavy coat over a dark knit sweater in a desaturated olive and charcoal palette. The background is a blank, overcast sky with subtle haze. Use soft ambient daylight with negative fill on camera-left. Use image for face reference.
@@ -776,7 +781,7 @@ Create a low-angle neo-noir sci-fi still, chest-up portrait of a person with a s
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNCG4yGbgAA4Txd.jpg" width="100%" alt="Neo-Noir Sci-Fi Portrait with Negative Space - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNCG4yGbgAA4Txd.jpg" width="100%" alt="Portrait de science-fiction néo-noir en espace négatif - Image 1"></td>
 </tr>
 </table>
 
@@ -793,16 +798,16 @@ Create a low-angle neo-noir sci-fi still, chest-up portrait of a person with a s
 
 <a id="prompt-9"></a>
 
-#### No. 4: Rugged Outdoor Lifestyle Portrait
+#### No. 4: Portrait outdoor au style robuste
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### Description
 
-Place a referenced face into a naturally lit outdoor editorial scene with technical clothing and a softly blurred vintage 4x4.
+Place le visage de référence dans une scène éditoriale en lumière naturelle, avec vêtements techniques et 4×4 ancien flouté.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 Clean cinematic outdoor lifestyle portrait of a young rugged male figure standing in three-quarter angle, head bowed slightly downward and turned to the side, gaze cast down with a calm, quietly contemplative expression. He has voluminous dark curly hair with natural texture and volume, tousled and full. A full well-groomed dark beard and mustache cover his jaw and cheeks. He wears a dark navy-black technical hooded jacket/anorak — structured and outdoorsy with a relaxed hood resting behind the neck, clean minimal design with a small zippered chest pocket detail, both hands tucked casually into the front pockets. Dark olive-green trousers visible at the bottom of the frame, with a hint of a light-colored base layer peeking at the waist. He stands on a sandy, gravelly outdoor ground surface. Directly behind him, a rugged vintage off-road vehicle — a classic boxy 4x4 SUV in dark forest green with a white roof and roof rack — is parked and softly blurred, suggesting an adventure or overlanding lifestyle setting. The background beyond the vehicle shows soft blurred dark green trees and foliage, suggesting a forest or wilderness campsite location. The lighting is bright, natural, and directional — strong outdoor daylight from the upper right catching his hair, forehead, and the jacket shoulder in warm natural highlights, with soft natural shadow across the rest of the face and body. Color palette: dark navy jacket, olive green trousers, warm natural skin tones, muted forest green vehicle and background, warm sandy ground tones. Photography style: outdoor adventure lifestyle editorial, clean natural light, 85mm lens, shallow depth of field with vehicle and background softly blurred, photorealistic, 8K.
@@ -813,7 +818,7 @@ Use the provided face reference image for all facial details — bone structure,
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNChcwZacAAmyXi.jpg" width="100%" alt="Rugged Outdoor Lifestyle Portrait - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNChcwZacAAmyXi.jpg" width="100%" alt="Portrait outdoor au style robuste - Image 1"></td>
 </tr>
 </table>
 
@@ -830,16 +835,16 @@ Use the provided face reference image for all facial details — bone structure,
 
 <a id="prompt-22"></a>
 
-#### No. 5: Doodle-Layer Mirror Selfie
+#### No. 5: Selfie miroir couvert de gribouillis
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### Description
 
-Place a referenced character in a bright bedroom mirror selfie, then layer handwritten notes, playful icons, and a glowing outline over the photograph.
+Place le personnage de référence dans une chambre lumineuse puis ajoute notes manuscrites, icônes et contour lumineux.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 Using the attached character reference, create an ultra-realistic full-body mirror selfie in a bright, minimalist bedroom with large white wardrobe doors, light wooden flooring, and a neatly made bed. The woman wears a casual oversized red cardigan over a graphic white T-shirt, loose light-wash baggy jeans, red socks, and a trendy crossbody bag. She holds her smartphone in front of her face while posing confidently with one hand in her pocket.
@@ -853,7 +858,7 @@ Create a cheerful Gen Z aesthetic with bright natural lighting, soft shadows, cl
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMeKH7ibMAAmCHU.jpg" width="100%" alt="Doodle-Layer Mirror Selfie - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMeKH7ibMAAmCHU.jpg" width="100%" alt="Selfie miroir couvert de gribouillis - Image 1"></td>
 </tr>
 </table>
 
@@ -870,15 +875,16 @@ Create a cheerful Gen Z aesthetic with bright natural lighting, soft shadows, cl
 
 <a id="prompt-24"></a>
 
-#### No. 6: Object Dissolving into LEGO Bricks
+#### No. 6: Objet se désagrégeant en briques LEGO
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 ##### Description
 
-Freeze an everyday object halfway through a tactile transformation into floating LEGO bricks while preserving its original colors and textures.
+Fige un objet au milieu de sa transformation en briques LEGO flottantes tout en conservant ses couleurs et ses textures.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 Minimalist food photograph, [1080x1080] – a single [OBJECT] rests on a light, matte surface and is captured mid-transformation into a lego bricks 3D form: one half remains intact while the other organically fragments into large, floating lego bricks that drift outward, each brick revealing the object’s texture, ingredients, and colors. Studio lighting with soft, realistic shadows, shallow depth of field, tasteful perspective and composition, hyperrealistic detail, stylish geometric abstraction, high resolution, cinematic close-up
@@ -888,7 +894,7 @@ Minimalist food photograph, [1080x1080] – a single [OBJECT] rests on a light, 
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G1OQSQTW0AcNWdd.jpg" width="100%" alt="Object Dissolving into LEGO Bricks - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G1OQSQTW0AcNWdd.jpg" width="100%" alt="Objet se désagrégeant en briques LEGO - Image 1"></td>
 </tr>
 </table>
 
@@ -911,23 +917,23 @@ Briefs de production pour publicités, campagnes produit, interfaces, affiches, 
 
 **Community · Prompts en vedette**
 
-- [Swiss Geometric Embossed Logo](#prompt-1)
-- [Tactile Wax Seal Brand Mark](#prompt-2)
-- [Fashion Collage for a Social Campaign](#prompt-3)
-- [Integrated Social Ad Template](#prompt-4)
-- [Top-Down Editorial Product Photograph](#prompt-25)
+- [Logo géométrique suisse en relief](#prompt-1)
+- [Sceau de cire de marque à l’aspect tactile](#prompt-2)
+- [Collage mode pour campagne sociale](#prompt-3)
+- [Modèle intégré de publicité sociale](#prompt-4)
+- [Photographie éditoriale de produit en plongée verticale](#prompt-25)
 
 <a id="prompt-10"></a>
 
-#### No. 7: High-Fashion Tennis Campaign
+#### No. 7: Campagne tennis haute couture
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### Description
 
-Create a minimalist sports editorial with an oversized racket, reflective studio floor, and giant background typography.
+Compose un éditorial sportif minimaliste avec raquette géante, sol réfléchissant et typographie monumentale en arrière-plan.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 A clean high-fashion sports editorial featuring a confident female tennis athlete in an all-white luxury tennis outfit posing with an oversized tennis racket that towers above her like a modern art sculpture. She rests one foot casually on the racket while striking a powerful fashion pose against a seamless white studio backdrop. Behind her, giant bold black typography reading "FOCUS" spans the entire background, creating a striking graphic composition. Glossy reflective floor with scattered tennis balls, minimalist luxury aesthetic, cinematic softbox lighting, ultra-sharp details, premium athletic campaign, Vogue-style editorial photography, balanced composition, high contrast, photorealistic, 8K, 1:1 aspect ratio.
@@ -937,7 +943,7 @@ A clean high-fashion sports editorial featuring a confident female tennis athlet
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNG5K0gaEAAPTuo.jpg" width="100%" alt="High-Fashion Tennis Campaign - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNG5K0gaEAAPTuo.jpg" width="100%" alt="Campagne tennis haute couture - Image 1"></td>
 </tr>
 </table>
 
@@ -954,15 +960,15 @@ A clean high-fashion sports editorial featuring a confident female tennis athlet
 
 <a id="prompt-26"></a>
 
-#### No. 8: Dark Chrome Logo in a White Void
+#### No. 8: Logo en chrome sombre dans un vide blanc
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### Description
 
-Render an exact brand mark as a heavy polished-metal object with micro-scratches, edge bloom, shallow focus, and visible film grain.
+Rend la marque comme un métal poli et lourd, avec micro-rayures, halo de bord, faible profondeur de champ et grain argentique.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 BRAND NAME], the official trademark logo rendered strictly as a solid 3D object, maintaining the exact original vector shape and proportions without any artistic reinterpretation or distortion. The logo is crafted from dark, highly polished chrome metal with subtle surface micro-scratches and imperfections that break the mirror finish. The object is perfectly centered in a vast, infinite pure white void with no visible background elements or studio equipment. The lighting creates a soft, cinematic bloom (halo effect) along the metallic edges. 50mm lens aesthetic with a shallow depth of field gently blurring the furthest points of the object. A pronounced, visible film grain overlay is applied to the entire image.
@@ -972,7 +978,7 @@ BRAND NAME], the official trademark logo rendered strictly as a solid 3D object,
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G8OagDzXAAEjhzO.jpg" width="100%" alt="Dark Chrome Logo in a White Void - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G8OagDzXAAEjhzO.jpg" width="100%" alt="Logo en chrome sombre dans un vide blanc - Image 1"></td>
 </tr>
 </table>
 
@@ -995,20 +1001,20 @@ Visuels structurés où l’ordre de l’information compte : diagrammes, dessin
 
 **Community · Prompts en vedette**
 
-- [Four-Panel Engineering Cutaway Board](#prompt-17)
-- [Eight-Panel Anime Friendship Storyboard](#prompt-18)
+- [Planche d’ingénierie en quatre coupes](#prompt-17)
+- [Storyboard d’amitié en huit plans d’anime](#prompt-18)
 
 <a id="prompt-11"></a>
 
-#### No. 9: Open-Book Sci-Fi Story Diorama
+#### No. 9: Diorama de science-fiction dans un livre ouvert
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### Description
 
-Transform four science-fiction subjects into a structured 2x2 encyclopedia spread with toy-like dioramas and model-sheet details.
+Organise quatre sujets de science-fiction en double page 2×2, entre dioramas miniatures et planches de conception.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 2x2 grid, 16:9, do this for 4 famous scifi movies: {INPUT: $ SUBJECT
@@ -1075,7 +1081,7 @@ A premium open-book character encyclopedia diorama for $ SUBJECT, combining toy 
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HM022LJXwAABIO2.jpg" width="100%" alt="Open-Book Sci-Fi Story Diorama - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HM022LJXwAABIO2.jpg" width="100%" alt="Diorama de science-fiction dans un livre ouvert - Image 1"></td>
 </tr>
 </table>
 
@@ -1092,15 +1098,15 @@ A premium open-book character encyclopedia diorama for $ SUBJECT, combining toy 
 
 <a id="prompt-12"></a>
 
-#### No. 10: Character Turnaround Sheet for a Rugged Hero
+#### No. 10: Planche de rotation d’un héros endurci
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### Description
 
-A compact cinematic character sheet showing one rugged figure from the front, side, and back.
+Une fiche de personnage cinématographique montrant la même silhouette de face, de profil et de dos.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 Character reference sheet- rugged Indian man, intense expression, wavy hair, thick beard, maroon striped shirt, black jeans — front view, profile view, back view, cinematic realism.
@@ -1110,7 +1116,7 @@ Character reference sheet- rugged Indian man, intense expression, wavy hair, thi
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HCpAukXbwAAfxDK.jpg" width="100%" alt="Character Turnaround Sheet for a Rugged Hero - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HCpAukXbwAAfxDK.jpg" width="100%" alt="Planche de rotation d’un héros endurci - Image 1"></td>
 </tr>
 </table>
 
@@ -1127,15 +1133,15 @@ Character reference sheet- rugged Indian man, intense expression, wavy hair, thi
 
 <a id="prompt-14"></a>
 
-#### No. 11: Luxury Cruise Ship Technical Infographic
+#### No. 11: Infographie technique d’un paquebot de luxe
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### Description
 
-Present a fictional cruise ship through deck cutaways, specifications, interior highlights, and performance gauges.
+Présente un navire fictif par des coupes de ponts, données techniques, espaces intérieurs et jauges de performance.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 An ultra-detailed, vertical infographic poster for a fictional luxury cruise ship named "Titan of the Seas." The central focus is a massive, multi-deck ship rendered in a sophisticated deep red and gold color scheme. The layout features various data visualization elements, including technical specification tables, deck plan cutaways, interior highlight photos, and performance gauges. The aesthetic is clean and editorial, utilizing a soft cream background with professional typography to create a high-luxury informational moodboard.
@@ -1145,7 +1151,7 @@ An ultra-detailed, vertical infographic poster for a fictional luxury cruise shi
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HH2fQ-KWIAMnfi9.jpg" width="100%" alt="Luxury Cruise Ship Technical Infographic - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HH2fQ-KWIAMnfi9.jpg" width="100%" alt="Infographie technique d’un paquebot de luxe - Image 1"></td>
 </tr>
 </table>
 
@@ -1162,15 +1168,15 @@ An ultra-detailed, vertical infographic poster for a fictional luxury cruise shi
 
 <a id="prompt-15"></a>
 
-#### No. 12: Illustrated Travel Maps with Cultural Callouts
+#### No. 12: Cartes de voyage illustrées et annotées
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### Description
 
-Build richly labeled country maps from miniature landmarks, local food, wildlife, statistics, and bilingual captions.
+Construit des cartes nationales riches en monuments miniatures, gastronomie, faune, statistiques et légendes bilingues.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 Two vertical, highly detailed, illustrated travel infographic maps showcasing Japan and Russia. Each poster features a stylized, colorful 3D-rendered country map surrounded by deep blue seas, populated with miniature cultural landmarks, regional food items, and local wildlife connected to specific city labels. The top of each poster displays a bold, artistic title banner with the country's name, localized slogans, and cultural border motifs like cherry blossoms or traditional patterns. The bottom sections include key demographic statistics alongside a row of circular vignette photos highlighting local architecture, cuisine, and scenery, all tied together by a descriptive quote translated into both the native language and English.
@@ -1180,8 +1186,8 @@ Two vertical, highly detailed, illustrated travel infographic maps showcasing Ja
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HIrFCDWXsAAl99J.jpg" width="100%" alt="Illustrated Travel Maps with Cultural Callouts - Image 1"></td>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HIrFCAjW0AIZGnN.jpg" width="100%" alt="Illustrated Travel Maps with Cultural Callouts - Image 2"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HIrFCDWXsAAl99J.jpg" width="100%" alt="Cartes de voyage illustrées et annotées - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HIrFCAjW0AIZGnN.jpg" width="100%" alt="Cartes de voyage illustrées et annotées - Image 2"></td>
 </tr>
 </table>
 
@@ -1198,15 +1204,15 @@ Two vertical, highly detailed, illustrated travel infographic maps showcasing Ja
 
 <a id="prompt-16"></a>
 
-#### No. 13: Technical Outerwear Specification Sheet
+#### No. 13: Fiche technique de vêtement d’extérieur
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### Description
 
-Lay out a complete menswear design sheet with garment angles, material close-ups, modular accessories, and technical specifications.
+Réunit vues du vêtement, gros plans matière, accessoires modulaires et caractéristiques sur une planche complète.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 An AMZ Collection fashion design spec sheet and product layout presented as a tall, vertical infographic for men's technical outerwear. On the left side, a full-body shot features a 32-year-old male model with a short beard and a faded haircut, wearing a rugged, multi-pocketed utility jacket and matching cargo pants in deep olive green and slate grey with bright orange accents. The top of the sheet prominently displays the title "AMZLECTION - URBAN FRONTIER SERIES" and "AERO SHELL PARKA SYSTEM" in a bold, clean sans-serif typeface, accompanied by a bio detailing his occupation as a systems engineer and urban explorer. The right side features a technical "Articulation & Layer Study" breakdown showing multiple back and front silhouette angles detailing the zip-in system, articulated sleeves, and hood stowage. The center section provides macro close-up macro shots highlighting the technical textures, including ripstop tech fabric, a seal-zip closure, and a grip-liner sleeve cuff. Below, a "Modular Styling" column showcases alternative ways to style the garment, such as a full protection system or a light urban shell. The bottom of the layout features grid sections labeled "Modular Add-Ons" displaying accessories like a utility belt, touchscreen-compatible tech gloves, an EDC multi-tool, and a headlamp. Adjacent to this is an "Urban Palette & Mats" swatch color bar showing slate grey, olive green, night black, blaze orange, and technical ivory, followed by a comprehensive "Technical Specifications" block outlining the fabric, insulation, closures, pockets, and features of the high-performance gear.
@@ -1216,7 +1222,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HJUQCtgWcAQ8xE1.jpg" width="100%" alt="Technical Outerwear Specification Sheet - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HJUQCtgWcAQ8xE1.jpg" width="100%" alt="Fiche technique de vêtement d’extérieur - Image 1"></td>
 </tr>
 </table>
 
@@ -1239,15 +1245,15 @@ Prompts de personnages, portraits, mode, plans cinématographiques et recherche 
 
 <a id="prompt-13"></a>
 
-#### No. 14: Photorealistic Futuristic Mecha
+#### No. 14: Mecha futuriste photoréaliste
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### Description
 
-A reusable style recipe for transforming creatures or machines into metallic, cinematic mecha designs.
+Une recette de style réutilisable pour transformer créatures ou machines en mechas métalliques, cinématographiques et réalistes.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 Theme: Futuristic Mecha Design with Photorealistic Details Color Image: Metallic shades of gunmetal gray and steel, with glowing red or neon accents Color Pallet: Main color: #4B4E50 Sub color: #A3A5A8, #2E2F31, #FF3B30 Accent color: #FF0000, #1E1E1E Camera Settings: Close-up or dynamic low-angle shots, slight depth of field for dramatic focus, high contrast with sharp details Film Stock/Analog Settings: High-resolution digital photography with post-apocalyptic grading Lighting: Dramatic, high contrast lighting with a mix of cool and warm tones, occasional backlighting or side-lighting for a cinematic feel Vibe: Intense, futuristic, action-packed, and slightly dystopian Content Transformation (Optional): Converts organic animals or creatures into hyper-realistic mechanical designs Font Setting(Optional): Main: Orbitron 18px, Sub: Roboto 14px Additional Effects: Motion blur, dust and particle effects for action scenes, subtle reflections on metallic surfaces
@@ -1257,7 +1263,7 @@ Theme: Futuristic Mecha Design with Photorealistic Details Color Image: Metallic
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HG-4lhZasAA35Gb.jpg" width="100%" alt="Photorealistic Futuristic Mecha - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HG-4lhZasAA35Gb.jpg" width="100%" alt="Mecha futuriste photoréaliste - Image 1"></td>
 </tr>
 </table>
 
@@ -1274,15 +1280,15 @@ Theme: Futuristic Mecha Design with Photorealistic Details Color Image: Metallic
 
 <a id="prompt-19"></a>
 
-#### No. 15: 1990s Indie Bedroom Portrait
+#### No. 15: Portrait indie dans une chambre des années 1990
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### Description
 
-Recreate a candid lo-fi bedroom portrait with direct flash, collage-covered walls, film grain, and nostalgic indie styling.
+Recrée une photo lo-fi spontanée avec flash direct, murs couverts de collages, grain argentique et nostalgie indépendante.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 A candid 1990s-inspired indie bedroom portrait of a young woman sitting cross-legged on a worn vintage patterned couch. She has short messy dark hair, natural makeup, soft skin texture, and a thoughtful, distant expression while looking slightly off-camera. She wears an oversized faded pastel pink Nirvana band T-shirt, blue denim shorts, and retro white tube socks with red and blue stripes.
@@ -1295,8 +1301,8 @@ Keywords: retro bedroom, indie aesthetic, grunge fashion, Nirvana shirt, cassett
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLV3_jxboAAadnf.jpg" width="100%" alt="1990s Indie Bedroom Portrait - Image 1"></td>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLV3_pxbkAA_BSc.jpg" width="100%" alt="1990s Indie Bedroom Portrait - Image 2"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLV3_jxboAAadnf.jpg" width="100%" alt="Portrait indie dans une chambre des années 1990 - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLV3_pxbkAA_BSc.jpg" width="100%" alt="Portrait indie dans une chambre des années 1990 - Image 2"></td>
 </tr>
 </table>
 
@@ -1313,15 +1319,16 @@ Keywords: retro bedroom, indie aesthetic, grunge fashion, Nirvana shirt, cassett
 
 <a id="prompt-27"></a>
 
-#### No. 16: Notion-Style Monochrome Avatar
+#### No. 16: Avatar monochrome dans le style Notion
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 ##### Description
 
-Create a personable black-and-white vector portrait using confident monoline contours and selective solid fills instead of generic icon geometry.
+Crée un portrait vectoriel expressif avec lignes monolignes assurées et aplats noirs sélectifs, loin des icônes génériques.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 A minimalist, black-and-white flat vector illustration portrait of [NAME], rendered in the expressive "Notion avatar" art style.
@@ -1342,7 +1349,7 @@ High contrast, clean 2D vector graphics.
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G_SnZVIWkAAoaF9.jpg" width="100%" alt="Notion-Style Monochrome Avatar - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G_SnZVIWkAAoaF9.jpg" width="100%" alt="Avatar monochrome dans le style Notion - Image 1"></td>
 </tr>
 </table>
 
@@ -1365,19 +1372,19 @@ Prompts d’environnements, architecture, paysages, concept art et création d�
 
 **Community · Prompts en vedette**
 
-- [Surreal Giantess in Venice](#prompt-21)
+- [Géante surréaliste à Venise](#prompt-21)
 
 <a id="prompt-20"></a>
 
-#### No. 17: Golden-Hour Mountain Meadow
+#### No. 17: Prairie de montagne à l’heure dorée
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### Description
 
-A structured landscape brief for a winding path, wildflower meadow, solitary tree, distant wildlife, and glowing mountain range.
+Structure un paysage avec sentier sinueux, fleurs sauvages, arbre solitaire, animaux lointains et chaîne montagneuse lumineuse.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 "subject": "A serene landscape transformation of a mountain scene",
@@ -1416,7 +1423,7 @@ A structured landscape brief for a winding path, wildflower meadow, solitary tre
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLvkD0RbgAAWXzv.jpg" width="100%" alt="Golden-Hour Mountain Meadow - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLvkD0RbgAAWXzv.jpg" width="100%" alt="Prairie de montagne à l’heure dorée - Image 1"></td>
 </tr>
 </table>
 
@@ -1439,15 +1446,15 @@ Tests contrôlés pour évaluer le respect du prompt, l’édition, la cohérenc
 
 <a id="prompt-6"></a>
 
-#### No. 18: Gemini 2.5 vs 3.1 Editorial Portrait Benchmark
+#### No. 18: Comparatif de portrait éditorial Gemini 2.5 contre 3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### Description
 
-A controlled portrait brief shown across Gemini 2.5 Flash Image and Gemini 3.1 Flash Image for visual comparison.
+Soumet le même brief de portrait à Gemini 2.5 Flash Image et Gemini 3.1 Flash Image pour comparer leur rendu.
 
-##### Prompt
+##### Prompt original (en anglais)
 
 ```
 Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean female portrait subject with small teardrop gemstone earring detail, delicate understated sparkle, natural basic body, about 160-165 cm visual height, 83-62-88 body proportion anchor, balanced torso-to-leg ratio around 4:6, low-contrast waist curve, modest bust and hips, smooth natural silhouette, young beautiful Korean idol face, refined small face, clear bright eyes, polished youthful beauty, photogenic K-pop portrait balance, straight medium-to-long hair with a sleek wet texture, clean straight lengths, separated damp strands, minimal wave, natural black hair, soft realistic shine, clean dark depth, none, looking directly at the camera, direct eye contact, innocent clear eyes, delicate soft expression, pure transparent mood. show the selected styling only through collar edge, neckline fabric, partial shoulder line, small accessory details near the face, eyewear, and earrings; keep torso clothing, lower-body garments, legwear, and shoes off-frame rather than widening the crop. render selected historic library window corner only as soft background color, environmental light, atmosphere, and faint spatial shapes behind the face; do not widen the frame just to reveal the full room or complete environment, indoor fluorescent everyday environment, cool-white overhead room light, practical daily interior brightness, plain lived-in space, local warm practical-light pool on the subject, lamp-driven amber highlight zone, warm falloff across face hands and clothing. Inspired by Masumi Ishida, luminous summer film image language. luminous youth-photobook portraiture, gentle summer-color brightness, softly lifted exposure, airy pastel balance, washed film texture, transparent tonal softness. The composition uses tight facial close-up portrait, face dominant in frame, balanced proportions, clean frontal readability, shoulder-level camera position, level lens axis near the shoulder line, stable upper-body portrait viewpoint, camera positioned directly in front of the subject, 0-degree front view, frontal torso orientation, shot on 20mm ultra-wide-angle lens, very wide field of view, strong perspective expansion, close foreground enlargement, visible edge stretching, deep subject-to-background spatial inclusion, peripheral edge blur, center sharpness with soft frame edges, field curvature softness, reduced corner resolution, lens falloff away from the image center. warm digital portrait rendering, flattering skin-tone response, soft highlight roll-off, smooth color transitions, gentle contrast curve, polished color, natural photographic detail, coherent fabric construction, clear facial readability, realistic spatial depth, do not add visible text unless explicitly requested.
@@ -1457,10 +1464,10 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <table>
 <tr>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK571nBakAAxshH.jpg" width="100%" alt="Gemini 2.5 vs 3.1 Editorial Portrait Benchmark - Image 1"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK571nkbkAAJ7Wu.jpg" width="100%" alt="Gemini 2.5 vs 3.1 Editorial Portrait Benchmark - Image 2"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK5792CaEAAs9YT.jpg" width="100%" alt="Gemini 2.5 vs 3.1 Editorial Portrait Benchmark - Image 3"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK58Db6a4AAws5c.jpg" width="100%" alt="Gemini 2.5 vs 3.1 Editorial Portrait Benchmark - Image 4"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK571nBakAAxshH.jpg" width="100%" alt="Comparatif de portrait éditorial Gemini 2.5 contre 3.1 - Image 1"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK571nkbkAAJ7Wu.jpg" width="100%" alt="Comparatif de portrait éditorial Gemini 2.5 contre 3.1 - Image 2"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK5792CaEAAs9YT.jpg" width="100%" alt="Comparatif de portrait éditorial Gemini 2.5 contre 3.1 - Image 3"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK58Db6a4AAws5c.jpg" width="100%" alt="Comparatif de portrait éditorial Gemini 2.5 contre 3.1 - Image 4"></td>
 </tr>
 </table>
 
@@ -1525,6 +1532,6 @@ Sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Soumettre un prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Mettre une star au dépôt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Ce README est généré automatiquement. Dernière mise à jour : 2026-07-14T06:04:06.849Z</sub>
+<sub>Ce README est généré automatiquement. Dernière mise à jour : 2026-07-14T09:20:24.696Z</sub>
 
 </div>

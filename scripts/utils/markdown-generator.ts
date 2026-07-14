@@ -1,10 +1,10 @@
 /**
- * [INPUT]: 依赖 cms-client 的提示词数据契约、i18n 的 14 语界面文案与 workflow-copy 的分类说明
+ * [INPUT]: 依赖 prompt-repository 的提示词数据契约、i18n 的 14 语界面文案与 workflow-copy 的分类说明
  * [OUTPUT]: 对外提供 README、媒体表格、模型介绍、分类分组和 CTA 的 Markdown 生成能力
  * [POS]: scripts/utils 的核心展示层，把 Nano Banana 结构化数据渲染为 GitHub 原生页面
  * [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
  */
-import { Prompt, FilterCategory, OfficialCaseGroup, OfficialCase } from "./cms-client.js";
+import { Prompt, FilterCategory, OfficialCaseGroup, OfficialCase } from "./prompt-repository.js";
 import { t } from "./i18n.js";
 import { workflowDescription } from "./workflow-copy.js";
 
@@ -233,7 +233,7 @@ function generatePromptSection(
   });
   const rawContent = prompt.translatedContent || prompt.content;
   const promptContent = cleanPromptContent(rawContent);
-  const hasArguments = promptContent.includes("{argument");
+  const hasVariables = /\[[A-Z][A-Z0-9_ ]{1,40}\]/.test(promptContent);
 
   const heading = "#".repeat(headingLevel);
   const detailHeading = "#".repeat(headingLevel + 1);
@@ -243,8 +243,8 @@ function generatePromptSection(
   if (prompt.featured) {
     md += "![Featured](https://img.shields.io/badge/Featured-gold-gold)\n";
   }
-  if (hasArguments) {
-    md += "![Raycast](https://img.shields.io/badge/Raycast-Friendly-purple)\n";
+  if (hasVariables) {
+    md += "![Variables](https://img.shields.io/badge/Variables-Reusable-purple)\n";
   }
   if (prompt.needReferenceImages) {
     md += "![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)\n";
@@ -541,16 +541,16 @@ ${t("whatIsIntro", contentLocale)}
 
 ${t("learnMore", locale)} [Gemini image generation guide](${GEMINI_IMAGE_GUIDE_URL}) · [Gemini 2.5 Flash Image model page](${GEMINI_MODEL_URL}) · [Nano Banana on ImagineVid](${getNanoBananaProductUrl(locale)})
 
-### ${t("raycastIntegration", locale)}
+### ${t("variableWorkflowTitle", locale)}
 
-${t("raycastDescription", locale)}
+${t("variableWorkflowDescription", locale)}
 
 **${t("example", locale)}**
 \`\`\`
-${t("raycastExample", locale)}
+${t("variableWorkflowExample", locale)}
 \`\`\`
 
-${t("raycastUsage", locale)}
+${t("variableWorkflowUsage", locale)}
 
 ---
 

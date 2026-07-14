@@ -1,12 +1,12 @@
 /**
- * [INPUT]: 依赖 markdown-generator 的公开生成接口与最小提示词夹具
- * [OUTPUT]: 验证模型事实、产品链接、媒体布局、分类分组和官方/社区案例边界
+ * [INPUT]: 依赖 markdown-generator、prompt-repository 的公开接口与本地提示词本地化数据
+ * [OUTPUT]: 验证模型事实、14 语元数据、变量标记、产品链接、媒体布局与案例边界
  * [POS]: scripts/utils 的 README 行为回归套件，防止样板品牌与错误模型信息重新出现
  * [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
  */
 import assert from "node:assert/strict";
 import test from "node:test";
-import type { Prompt, FilterCategory } from "./cms-client.js";
+import { fetchAllPrompts, type Prompt, type FilterCategory } from "./prompt-repository.js";
 import {
   generateMarkdown,
   generateMediaTable,
@@ -132,8 +132,66 @@ test("every README locale uses the verified model introduction", () => {
     const markdown = generateModelIntroduction(code);
     assert.doesNotMatch(markdown, /Multi-Image Fusion/i, code);
     assert.doesNotMatch(markdown, /third-party model provider/i, code);
+    assert.doesNotMatch(markdown, /Raycast/i, code);
     assert.ok(markdown.includes(getNanoBananaProductUrl(code)), code);
   }
+});
+
+test("every non-English README locale has localized prompt titles and descriptions", async () => {
+  const english = (await fetchAllPrompts("en")).docs;
+
+  for (const { code } of SUPPORTED_LANGUAGES.filter(({ code }) => code !== "en")) {
+    const localized = (await fetchAllPrompts(code)).docs;
+    assert.equal(localized.length, english.length, code);
+    for (let index = 0; index < english.length; index += 1) {
+      assert.notEqual(localized[index].title, english[index].title, `${code}: title ${english[index].id}`);
+      assert.notEqual(
+        localized[index].description,
+        english[index].description,
+        `${code}: description ${english[index].id}`
+      );
+      assert.equal(localized[index].content, english[index].content, `${code}: source prompt ${english[index].id}`);
+    }
+  }
+});
+
+test("marks real square-bracket variables without advertising legacy integrations", () => {
+  const prompt = {
+    id: 201,
+    title: "Variable prompt",
+    description: "A reusable sourced prompt.",
+    content: "Render [OBJECT] for [BRAND] with soft studio light.",
+    sourcePublishedAt: "2025-09-01T00:00:00Z",
+    sourceMedia: ["https://pbs.twimg.com/media/variables.jpg"],
+    author: { name: "Creator", link: "https://x.com/creator" },
+    language: "en",
+    imageCategories: {
+      workflows: [{ id: 62, title: "Commercial Design", slug: "commercial-design-ui-posters" }],
+    },
+  } as Prompt;
+  const markdown = generateMarkdown(
+    {
+      all: [prompt],
+      featured: [],
+      regular: [prompt],
+      stats: { total: 1, featured: 0 },
+      categories: [
+        {
+          id: 62,
+          title: "Commercial Design",
+          slug: "commercial-design-ui-posters",
+          parentSlug: "workflow-groups",
+          sort: 62,
+        },
+      ],
+      officialCases: [],
+    },
+    1,
+    "en"
+  );
+
+  assert.match(markdown, /Variables-Reusable/);
+  assert.doesNotMatch(markdown, /Raycast/i);
 });
 
 test("non-Latin README locales keep usable table-of-contents anchors", () => {

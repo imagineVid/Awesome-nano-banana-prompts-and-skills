@@ -13,7 +13,7 @@
 
 > 面向 Google 图像工作流的 Nano Banana 提示词、可复用提示词技能与视觉案例合集
 
-> **版权声明**：本仓库内容用于教育与创作参考，并保留来源署名。如需移除任何内容，请提交 issue，我们会及时处理。
+> **署名与移除：** 每条提示词都链接到公开来源和原作者，相关权利仍归各自权利人所有。如需更正或移除内容，请提交 issue。
 
 ---
 
@@ -77,16 +77,16 @@
 
 **调研来源：** [Gemini image generation guide](https://ai.google.dev/gemini-api/docs/image-generation) · [Gemini 2.5 Flash Image model page](https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image) · [Nano Banana on ImagineVid](https://imaginevid.io/zh/nano-banana)
 
-### 提示词技能参数
+### 复用提示词变量
 
-部分提示词支持 Raycast Snippets 风格的 `{argument ...}` 动态参数。看到 Raycast Friendly 标记即可复用。
+部分来源提示词提供 `[BRAND]`、`[OBJECT]` 或 `[NAME]` 等方括号变量。只替换变量值，保留已经验证过的构图、光线和材质结构。
 
 **示例：**
 ```
-为“{argument name="product" default="玻璃质感 AI 相机"}”制作电影感海报，氛围为 {argument name="mood" default="午夜棚拍灯光"}
+将 `[BRAND]` 换成你的品牌，或将 `[OBJECT]` 换成目标物体，其余视觉指令保持不变。
 ```
 
-替换参数即可把提示词当作轻量创意技能使用。
+变量让有真实来源的提示词能够稳定复用，而不必每次从零重写完整需求。
 
 ---
 
@@ -98,7 +98,7 @@
 |--------|-------|
 | 提示词总数 | **27** |
 | 精选 | **9** |
-| 最后更新 | **2026年7月14日星期二 UTC 06:04:06** |
+| 最后更新 | **2026年7月14日星期二 UTC 09:20:24** |
 
 </div>
 
@@ -112,16 +112,17 @@
 
 <a id="prompt-1"></a>
 
-### No. 1: Swiss Geometric Embossed Logo
+### No. 1: 瑞士几何浮雕标志
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### 说明
 
-Turn a brand mark into a centered monochrome relief with a liquid-glass rim and restrained Swiss-design spacing.
+将品牌标志塑造成居中的单色浮雕，并以液态玻璃边缘和克制的瑞士式留白完成画面。
 
-#### 提示词
+#### 原始提示词（英文）
 
 ```
 (change [BRAND] and [COLOR])
@@ -133,7 +134,7 @@ Turn a brand mark into a centered monochrome relief with a liquid-glass rim and 
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G7GW1EjWgAAgtWV.jpg" width="100%" alt="Swiss Geometric Embossed Logo - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G7GW1EjWgAAgtWV.jpg" width="100%" alt="瑞士几何浮雕标志 - Image 1"></td>
 </tr>
 </table>
 
@@ -150,16 +151,17 @@ Turn a brand mark into a centered monochrome relief with a liquid-glass rim and 
 
 <a id="prompt-2"></a>
 
-### No. 2: Tactile Wax Seal Brand Mark
+### No. 2: 触感蜡封品牌标志
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### 说明
 
-Render a supplied logo as a glossy, irregular wax seal with raised relief and soft product lighting.
+把提供的标志渲染成带有凸起纹章、自然变形边缘和柔和商品光线的亮面蜡封。
 
-#### 提示词
+#### 原始提示词（英文）
 
 ```
 [MATERIAL COLOR] glossy wax seal icon depicting [BRAND] logo, lying flat on a plain white background. The seal is made of thick, deformed plastic or wax with an irregular, squashed shape and a prominent 'drip' or smear extending to the right side. The center features a clear, raised relief impression of the subject. The lighting is soft and even, creating smooth specular highlights on the curved, glossy edges. The shadow cast is soft and minimal.
@@ -169,7 +171,7 @@ Render a supplied logo as a glossy, irregular wax seal with raised relief and so
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G70LO0WXQAIlvMY.jpg" width="100%" alt="Tactile Wax Seal Brand Mark - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G70LO0WXQAIlvMY.jpg" width="100%" alt="触感蜡封品牌标志 - Image 1"></td>
 </tr>
 </table>
 
@@ -186,16 +188,17 @@ Render a supplied logo as a glossy, irregular wax seal with raised relief and so
 
 <a id="prompt-3"></a>
 
-### No. 3: Fashion Collage for a Social Campaign
+### No. 3: 社交活动时尚拼贴
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### 说明
 
-A detailed art-direction system for combining fashion photography, collage fragments, typography, and controlled visual disorder.
+用一套完整的美术指导组合时尚摄影、拼贴碎片、字体和受控的视觉混乱。
 
-#### 提示词
+#### 原始提示词（英文）
 
 ```
 [BRAND NAME]. Act as a Social Media Art Director and Digital Collage Artist specializing in bold, youth-oriented brand content for Instagram and digital campaigns.
@@ -265,7 +268,7 @@ TECHNICAL SPECS:
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HAupnj7XgAIL_ja.jpg" width="100%" alt="Fashion Collage for a Social Campaign - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HAupnj7XgAIL_ja.jpg" width="100%" alt="社交活动时尚拼贴 - Image 1"></td>
 </tr>
 </table>
 
@@ -282,16 +285,17 @@ TECHNICAL SPECS:
 
 <a id="prompt-4"></a>
 
-### No. 4: Integrated Social Ad Template
+### No. 4: 一体化社交广告模板
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### 说明
 
-Build a reusable social advertisement whose brand, headline, visual system, and CTA can be changed through compact variables.
+通过少量变量替换品牌、标题、视觉系统和行动按钮，快速生成可复用的社交广告。
 
-#### 提示词
+#### 原始提示词（英文）
 
 ```
 [BRAND NAME] | [HEADLINE] | [SUB-TEXT] | [CTA]. Act as a Senior Art Director.
@@ -330,7 +334,7 @@ High-end commercial aesthetic. Crisp, saturated, professional fusion of flat vec
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HB7r12tWMAA1nTv.jpg" width="100%" alt="Integrated Social Ad Template - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HB7r12tWMAA1nTv.jpg" width="100%" alt="一体化社交广告模板 - Image 1"></td>
 </tr>
 </table>
 
@@ -347,16 +351,16 @@ High-end commercial aesthetic. Crisp, saturated, professional fusion of flat vec
 
 <a id="prompt-17"></a>
 
-### No. 5: Four-Panel Engineering Cutaway Board
+### No. 5: 四格工程剖视板
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
 
 #### 说明
 
-Compare four consumer devices in a precise grid using exploded assemblies, transparent cutaways, measurements, and engineering callouts.
+在精确网格中用爆炸结构、透明剖面、尺寸和工程标注比较四款消费设备。
 
-#### 提示词
+#### 原始提示词（英文）
 
 ```
 Ultra-detailed technical engineering infographic, clean white background, divided into a precise 2×2 grid by sharp black separator lines. Blueprint-style industrial design visualization featuring photorealistic 3D renders, transparent cutaways, exploded views, dimensional annotations, technical callout boxes, measurement guides, and color-coded engineering arrows (red, blue, green, orange). Professional product design presentation, Apple-style industrial design documentation, high-end technical illustration.
@@ -376,7 +380,7 @@ Highly detailed CAD visualization, industrial design presentation board, precisi
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HKEHL3YbsAAFhpN.jpg" width="100%" alt="Four-Panel Engineering Cutaway Board - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HKEHL3YbsAAFhpN.jpg" width="100%" alt="四格工程剖视板 - Image 1"></td>
 </tr>
 </table>
 
@@ -393,16 +397,16 @@ Highly detailed CAD visualization, industrial design presentation board, precisi
 
 <a id="prompt-18"></a>
 
-### No. 6: Eight-Panel Anime Friendship Storyboard
+### No. 6: 八格动漫友谊分镜
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
 
 #### 说明
 
-An emotionally paced storyboard brief with shot direction for a silent child finding friendship after losing a paper windmill.
+为失去纸风车的沉默孩子找到友谊，设计一套节奏清晰、标明镜头方向的情感分镜。
 
-#### 提示词
+#### 原始提示词（英文）
 
 ```
 STORY
@@ -529,8 +533,8 @@ The artwork should feel like a lost masterpiece from a classic theatrical anime 
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLLo2ekWEAASktJ.jpg" width="100%" alt="Eight-Panel Anime Friendship Storyboard - Image 1"></td>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/amplify_video_thumb/2067971201561989120/img/HGb-fSrVr8UrbrJi.jpg" width="100%" alt="Eight-Panel Anime Friendship Storyboard - Image 2"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLLo2ekWEAASktJ.jpg" width="100%" alt="八格动漫友谊分镜 - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/amplify_video_thumb/2067971201561989120/img/HGb-fSrVr8UrbrJi.jpg" width="100%" alt="八格动漫友谊分镜 - Image 2"></td>
 </tr>
 </table>
 
@@ -547,16 +551,16 @@ The artwork should feel like a lost masterpiece from a classic theatrical anime 
 
 <a id="prompt-21"></a>
 
-### No. 7: Surreal Giantess in Venice
+### No. 7: 威尼斯超现实巨人旅行照
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
 
 #### 说明
 
-Stage a playful forced-perspective travel photograph in which a giant figure sits among the landmarks of St. Mark's Square.
+运用强制透视，让巨型人物俏皮地坐在圣马可广场的地标建筑之间。
 
-#### 提示词
+#### 原始提示词（英文）
 
 ```
 Create a surreal giantess travel photography scene featuring a beautiful young woman wearing a white embroidered summer dress, white crew socks, and white sneakers. She is sitting gracefully among the iconic architecture of St. Mark's Square, Venice, Italy, appearing hundreds of feet tall, with one leg crossed over the other and her hands resting behind her for support. She smiles peacefully with her eyes closed, enjoying the warm sunshine and gentle breeze. Below her, crowds of tourists gather, taking photos and looking up in amazement, emphasizing her enormous scale. Capture the famous bell tower and basilica in the background under a bright blue sky with soft clouds. Use realistic forced perspective, natural daylight, cinematic travel photography, ultra-detailed skin and fabric textures, photorealistic architecture, vibrant colors, editorial travel magazine style, 8K, HDR, vertical 9: 16 composition, no text, no logos, no watermarks, no UI elements.
@@ -566,7 +570,7 @@ Create a surreal giantess travel photography scene featuring a beautiful young w
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMD5qkpXIAAEnOO.jpg" width="100%" alt="Surreal Giantess in Venice - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMD5qkpXIAAEnOO.jpg" width="100%" alt="威尼斯超现实巨人旅行照 - Image 1"></td>
 </tr>
 </table>
 
@@ -583,7 +587,7 @@ Create a surreal giantess travel photography scene featuring a beautiful young w
 
 <a id="prompt-23"></a>
 
-### No. 8: Reference Photo to Collectible Figurine
+### No. 8: 参考照片转收藏级手办
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
@@ -591,9 +595,9 @@ Create a surreal giantess travel photography scene featuring a beautiful young w
 
 #### 说明
 
-Turn an uploaded character photo into a realistic desk-scale collectible with its modeling screen, acrylic base, and illustrated packaging.
+把上传的人物照片变成写实桌面手办，并呈现建模屏幕、透明底座和插画包装。
 
-#### 提示词
+#### 原始提示词（英文）
 
 ```
 Create a 1/7 scale commercialized figurine of the characters in the picture, in a realistic style, in a real environment. The figurine is placed on a computer desk. The figurine has a round transparent acrylic base, with no text on the base. The content on the computer screen is a 3D modeling process of this figurine. Next to the computer screen is a toy packaging box, designed in a style reminiscent of high-quality collectible figures, printed with original artwork. The packaging features two-dimensional flat illustrations.
@@ -603,10 +607,10 @@ Create a 1/7 scale commercialized figurine of the characters in the picture, in 
 
 <table>
 <tr>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4V72WwAA7PRR.jpg" width="100%" alt="Reference Photo to Collectible Figurine - Image 1"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4d2ka0AAtnQV.jpg" width="100%" alt="Reference Photo to Collectible Figurine - Image 2"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4h2qXUAA3FA5.jpg" width="100%" alt="Reference Photo to Collectible Figurine - Image 3"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4oMyWwAAmyWW.jpg" width="100%" alt="Reference Photo to Collectible Figurine - Image 4"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4V72WwAA7PRR.jpg" width="100%" alt="参考照片转收藏级手办 - Image 1"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4d2ka0AAtnQV.jpg" width="100%" alt="参考照片转收藏级手办 - Image 2"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4h2qXUAA3FA5.jpg" width="100%" alt="参考照片转收藏级手办 - Image 3"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/Gzy4oMyWwAAmyWW.jpg" width="100%" alt="参考照片转收藏级手办 - Image 4"></td>
 </tr>
 </table>
 
@@ -623,17 +627,18 @@ Create a 1/7 scale commercialized figurine of the characters in the picture, in 
 
 <a id="prompt-25"></a>
 
-### No. 9: Top-Down Editorial Product Photograph
+### No. 9: 俯拍编辑式商品摄影
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 #### 说明
 
-Build a reusable overhead product scene with natural sunlight, controlled negative space, and optional supporting elements.
+用自然阳光、受控留白和可选陪衬元素构建可复用的俯拍商品场景。
 
-#### 提示词
+#### 原始提示词（英文）
 
 ```
 A high-end editorial photo of a [IMAGE UPLOADED] placed flat on a [YOUR SURFACE], captured from a direct top-down view. The surface is gently disturbed to suggest recent motion or interaction. The front of the product is fully visible and properly oriented upright. The area around the product is intentionally left open to optionally place [YOUR ELEMENTS] that visually enhance the scene. Natural sunlight from the upper left casts warm, realistic shadows. 3D realism, luxury product photography, shallow depth of field, 1:1 format.
@@ -643,7 +648,7 @@ A high-end editorial photo of a [IMAGE UPLOADED] placed flat on a [YOUR SURFACE]
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G1x51QZWEAAvZ9-.jpg" width="100%" alt="Top-Down Editorial Product Photograph - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G1x51QZWEAAvZ9-.jpg" width="100%" alt="俯拍编辑式商品摄影 - Image 1"></td>
 </tr>
 </table>
 
@@ -672,20 +677,20 @@ A high-end editorial photo of a [IMAGE UPLOADED] placed flat on a [YOUR SURFACE]
 
 **Community · 精选提示词**
 
-- [Reference Photo to Collectible Figurine](#prompt-23)
+- [参考照片转收藏级手办](#prompt-23)
 
 <a id="prompt-5"></a>
 
-#### No. 1: Restore and Colorize an Old Photograph
+#### No. 1: 修复并上色老照片
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### 说明
 
-Repair scratches, tears, and fading while preserving the people, lighting, and atmosphere of the source photograph.
+修复划痕、破损和褪色，同时保留原照片中的人物、光线与时代氛围。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 Fix any scratches or tears, remove fading, and then color it with realistic skin tones, clothing colors, and background colors. Preserve the original lighting and atmosphere, and don't alter people's features.
@@ -697,8 +702,8 @@ Fix any scratches or tears, remove fading, and then color it with realistic skin
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HHpJfykbAAAqqzm.jpg" width="100%" alt="Restore and Colorize an Old Photograph - Image 1"></td>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HHpJfyMaUAEx6ei.jpg" width="100%" alt="Restore and Colorize an Old Photograph - Image 2"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HHpJfykbAAAqqzm.jpg" width="100%" alt="修复并上色老照片 - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HHpJfyMaUAEx6ei.jpg" width="100%" alt="修复并上色老照片 - Image 2"></td>
 </tr>
 </table>
 
@@ -715,16 +720,16 @@ Fix any scratches or tears, remove fading, and then color it with realistic skin
 
 <a id="prompt-7"></a>
 
-#### No. 2: France Tribute Relief Poster
+#### No. 2: 法国致敬浮雕海报
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### 说明
 
-Compose a sculpted national tribute poster from a profile portrait, Paris landmarks, flag colors, and embossed display type.
+结合侧脸肖像、巴黎地标、法国国旗配色和压印标题，构成雕塑感国家主题海报。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 Create a 1:1 ultra-detailed luxury France tribute artwork featuring a completely different elegant woman (not the reference model), shown in dramatic side profile with porcelain skin, long wavy brunette hair flowing softly behind her, bold blue upper lip and red lower lip lipstick inspired by the French flag, long eyelashes, and a calm, confident expression.
@@ -740,7 +745,7 @@ The entire artwork should feel like a premium 3D sculpted poster with embossed t
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HM842XhbgAAIfMr.jpg" width="100%" alt="France Tribute Relief Poster - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HM842XhbgAAIfMr.jpg" width="100%" alt="法国致敬浮雕海报 - Image 1"></td>
 </tr>
 </table>
 
@@ -757,16 +762,16 @@ The entire artwork should feel like a premium 3D sculpted poster with embossed t
 
 <a id="prompt-8"></a>
 
-#### No. 3: Neo-Noir Sci-Fi Portrait with Negative Space
+#### No. 3: 大留白新黑色科幻肖像
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### 说明
 
-Use a face reference to stage a restrained low-angle portrait beneath an expansive overcast sky.
+借助人脸参考，在广阔阴天背景下拍摄克制的低机位科幻肖像。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 Create a low-angle neo-noir sci-fi still, chest-up portrait of a person with a slight upward gaze. Place the subject in the lower-right third, leaving vast negative space with about 80 percent empty sky above. The subject wears a matte shearling-collar heavy coat over a dark knit sweater in a desaturated olive and charcoal palette. The background is a blank, overcast sky with subtle haze. Use soft ambient daylight with negative fill on camera-left. Use image for face reference.
@@ -776,7 +781,7 @@ Create a low-angle neo-noir sci-fi still, chest-up portrait of a person with a s
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNCG4yGbgAA4Txd.jpg" width="100%" alt="Neo-Noir Sci-Fi Portrait with Negative Space - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNCG4yGbgAA4Txd.jpg" width="100%" alt="大留白新黑色科幻肖像 - Image 1"></td>
 </tr>
 </table>
 
@@ -793,16 +798,16 @@ Create a low-angle neo-noir sci-fi still, chest-up portrait of a person with a s
 
 <a id="prompt-9"></a>
 
-#### No. 4: Rugged Outdoor Lifestyle Portrait
+#### No. 4: 硬朗户外生活方式肖像
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### 说明
 
-Place a referenced face into a naturally lit outdoor editorial scene with technical clothing and a softly blurred vintage 4x4.
+把参考人物置于自然光户外编辑场景，搭配机能服装和虚化的复古越野车。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 Clean cinematic outdoor lifestyle portrait of a young rugged male figure standing in three-quarter angle, head bowed slightly downward and turned to the side, gaze cast down with a calm, quietly contemplative expression. He has voluminous dark curly hair with natural texture and volume, tousled and full. A full well-groomed dark beard and mustache cover his jaw and cheeks. He wears a dark navy-black technical hooded jacket/anorak — structured and outdoorsy with a relaxed hood resting behind the neck, clean minimal design with a small zippered chest pocket detail, both hands tucked casually into the front pockets. Dark olive-green trousers visible at the bottom of the frame, with a hint of a light-colored base layer peeking at the waist. He stands on a sandy, gravelly outdoor ground surface. Directly behind him, a rugged vintage off-road vehicle — a classic boxy 4x4 SUV in dark forest green with a white roof and roof rack — is parked and softly blurred, suggesting an adventure or overlanding lifestyle setting. The background beyond the vehicle shows soft blurred dark green trees and foliage, suggesting a forest or wilderness campsite location. The lighting is bright, natural, and directional — strong outdoor daylight from the upper right catching his hair, forehead, and the jacket shoulder in warm natural highlights, with soft natural shadow across the rest of the face and body. Color palette: dark navy jacket, olive green trousers, warm natural skin tones, muted forest green vehicle and background, warm sandy ground tones. Photography style: outdoor adventure lifestyle editorial, clean natural light, 85mm lens, shallow depth of field with vehicle and background softly blurred, photorealistic, 8K.
@@ -813,7 +818,7 @@ Use the provided face reference image for all facial details — bone structure,
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNChcwZacAAmyXi.jpg" width="100%" alt="Rugged Outdoor Lifestyle Portrait - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNChcwZacAAmyXi.jpg" width="100%" alt="硬朗户外生活方式肖像 - Image 1"></td>
 </tr>
 </table>
 
@@ -830,16 +835,16 @@ Use the provided face reference image for all facial details — bone structure,
 
 <a id="prompt-22"></a>
 
-#### No. 5: Doodle-Layer Mirror Selfie
+#### No. 5: 涂鸦叠层镜面自拍
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 ##### 说明
 
-Place a referenced character in a bright bedroom mirror selfie, then layer handwritten notes, playful icons, and a glowing outline over the photograph.
+把参考人物放进明亮卧室的镜面自拍，再叠加手写文字、趣味图标和发光轮廓。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 Using the attached character reference, create an ultra-realistic full-body mirror selfie in a bright, minimalist bedroom with large white wardrobe doors, light wooden flooring, and a neatly made bed. The woman wears a casual oversized red cardigan over a graphic white T-shirt, loose light-wash baggy jeans, red socks, and a trendy crossbody bag. She holds her smartphone in front of her face while posing confidently with one hand in her pocket.
@@ -853,7 +858,7 @@ Create a cheerful Gen Z aesthetic with bright natural lighting, soft shadows, cl
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMeKH7ibMAAmCHU.jpg" width="100%" alt="Doodle-Layer Mirror Selfie - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMeKH7ibMAAmCHU.jpg" width="100%" alt="涂鸦叠层镜面自拍 - Image 1"></td>
 </tr>
 </table>
 
@@ -870,15 +875,16 @@ Create a cheerful Gen Z aesthetic with bright natural lighting, soft shadows, cl
 
 <a id="prompt-24"></a>
 
-#### No. 6: Object Dissolving into LEGO Bricks
+#### No. 6: 物体分解成乐高积木
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 ##### 说明
 
-Freeze an everyday object halfway through a tactile transformation into floating LEGO bricks while preserving its original colors and textures.
+定格日常物体向漂浮乐高积木转化的中间状态，同时保留原有颜色和纹理。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 Minimalist food photograph, [1080x1080] – a single [OBJECT] rests on a light, matte surface and is captured mid-transformation into a lego bricks 3D form: one half remains intact while the other organically fragments into large, floating lego bricks that drift outward, each brick revealing the object’s texture, ingredients, and colors. Studio lighting with soft, realistic shadows, shallow depth of field, tasteful perspective and composition, hyperrealistic detail, stylish geometric abstraction, high resolution, cinematic close-up
@@ -888,7 +894,7 @@ Minimalist food photograph, [1080x1080] – a single [OBJECT] rests on a light, 
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G1OQSQTW0AcNWdd.jpg" width="100%" alt="Object Dissolving into LEGO Bricks - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G1OQSQTW0AcNWdd.jpg" width="100%" alt="物体分解成乐高积木 - Image 1"></td>
 </tr>
 </table>
 
@@ -911,23 +917,23 @@ Minimalist food photograph, [1080x1080] – a single [OBJECT] rests on a light, 
 
 **Community · 精选提示词**
 
-- [Swiss Geometric Embossed Logo](#prompt-1)
-- [Tactile Wax Seal Brand Mark](#prompt-2)
-- [Fashion Collage for a Social Campaign](#prompt-3)
-- [Integrated Social Ad Template](#prompt-4)
-- [Top-Down Editorial Product Photograph](#prompt-25)
+- [瑞士几何浮雕标志](#prompt-1)
+- [触感蜡封品牌标志](#prompt-2)
+- [社交活动时尚拼贴](#prompt-3)
+- [一体化社交广告模板](#prompt-4)
+- [俯拍编辑式商品摄影](#prompt-25)
 
 <a id="prompt-10"></a>
 
-#### No. 7: High-Fashion Tennis Campaign
+#### No. 7: 高级时尚网球广告
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 说明
 
-Create a minimalist sports editorial with an oversized racket, reflective studio floor, and giant background typography.
+用超大球拍、反光棚拍地面和巨型背景文字制作极简运动时尚画面。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 A clean high-fashion sports editorial featuring a confident female tennis athlete in an all-white luxury tennis outfit posing with an oversized tennis racket that towers above her like a modern art sculpture. She rests one foot casually on the racket while striking a powerful fashion pose against a seamless white studio backdrop. Behind her, giant bold black typography reading "FOCUS" spans the entire background, creating a striking graphic composition. Glossy reflective floor with scattered tennis balls, minimalist luxury aesthetic, cinematic softbox lighting, ultra-sharp details, premium athletic campaign, Vogue-style editorial photography, balanced composition, high contrast, photorealistic, 8K, 1:1 aspect ratio.
@@ -937,7 +943,7 @@ A clean high-fashion sports editorial featuring a confident female tennis athlet
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNG5K0gaEAAPTuo.jpg" width="100%" alt="High-Fashion Tennis Campaign - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNG5K0gaEAAPTuo.jpg" width="100%" alt="高级时尚网球广告 - Image 1"></td>
 </tr>
 </table>
 
@@ -954,15 +960,15 @@ A clean high-fashion sports editorial featuring a confident female tennis athlet
 
 <a id="prompt-26"></a>
 
-#### No. 8: Dark Chrome Logo in a White Void
+#### No. 8: 纯白空间中的暗铬标志
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 说明
 
-Render an exact brand mark as a heavy polished-metal object with micro-scratches, edge bloom, shallow focus, and visible film grain.
+把品牌标志渲染成厚重抛光金属物体，加入细微划痕、边缘光晕、浅景深和胶片颗粒。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 BRAND NAME], the official trademark logo rendered strictly as a solid 3D object, maintaining the exact original vector shape and proportions without any artistic reinterpretation or distortion. The logo is crafted from dark, highly polished chrome metal with subtle surface micro-scratches and imperfections that break the mirror finish. The object is perfectly centered in a vast, infinite pure white void with no visible background elements or studio equipment. The lighting creates a soft, cinematic bloom (halo effect) along the metallic edges. 50mm lens aesthetic with a shallow depth of field gently blurring the furthest points of the object. A pronounced, visible film grain overlay is applied to the entire image.
@@ -972,7 +978,7 @@ BRAND NAME], the official trademark logo rendered strictly as a solid 3D object,
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G8OagDzXAAEjhzO.jpg" width="100%" alt="Dark Chrome Logo in a White Void - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G8OagDzXAAEjhzO.jpg" width="100%" alt="纯白空间中的暗铬标志 - Image 1"></td>
 </tr>
 </table>
 
@@ -995,20 +1001,20 @@ BRAND NAME], the official trademark logo rendered strictly as a solid 3D object,
 
 **Community · 精选提示词**
 
-- [Four-Panel Engineering Cutaway Board](#prompt-17)
-- [Eight-Panel Anime Friendship Storyboard](#prompt-18)
+- [四格工程剖视板](#prompt-17)
+- [八格动漫友谊分镜](#prompt-18)
 
 <a id="prompt-11"></a>
 
-#### No. 9: Open-Book Sci-Fi Story Diorama
+#### No. 9: 翻页式科幻故事立体书
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 说明
 
-Transform four science-fiction subjects into a structured 2x2 encyclopedia spread with toy-like dioramas and model-sheet details.
+把四个科幻主题组织成 2×2 百科版面，结合玩具立体场景和设定稿细节。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 2x2 grid, 16:9, do this for 4 famous scifi movies: {INPUT: $ SUBJECT
@@ -1075,7 +1081,7 @@ A premium open-book character encyclopedia diorama for $ SUBJECT, combining toy 
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HM022LJXwAABIO2.jpg" width="100%" alt="Open-Book Sci-Fi Story Diorama - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HM022LJXwAABIO2.jpg" width="100%" alt="翻页式科幻故事立体书 - Image 1"></td>
 </tr>
 </table>
 
@@ -1092,15 +1098,15 @@ A premium open-book character encyclopedia diorama for $ SUBJECT, combining toy 
 
 <a id="prompt-12"></a>
 
-#### No. 10: Character Turnaround Sheet for a Rugged Hero
+#### No. 10: 硬汉角色三视图
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 说明
 
-A compact cinematic character sheet showing one rugged figure from the front, side, and back.
+用正面、侧面和背面视图制作紧凑且具有电影感的硬汉角色设定表。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 Character reference sheet- rugged Indian man, intense expression, wavy hair, thick beard, maroon striped shirt, black jeans — front view, profile view, back view, cinematic realism.
@@ -1110,7 +1116,7 @@ Character reference sheet- rugged Indian man, intense expression, wavy hair, thi
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HCpAukXbwAAfxDK.jpg" width="100%" alt="Character Turnaround Sheet for a Rugged Hero - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HCpAukXbwAAfxDK.jpg" width="100%" alt="硬汉角色三视图 - Image 1"></td>
 </tr>
 </table>
 
@@ -1127,15 +1133,15 @@ Character reference sheet- rugged Indian man, intense expression, wavy hair, thi
 
 <a id="prompt-14"></a>
 
-#### No. 11: Luxury Cruise Ship Technical Infographic
+#### No. 11: 豪华邮轮技术信息图
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 说明
 
-Present a fictional cruise ship through deck cutaways, specifications, interior highlights, and performance gauges.
+通过甲板剖面、参数、舱内亮点和性能仪表展示一艘虚构豪华邮轮。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 An ultra-detailed, vertical infographic poster for a fictional luxury cruise ship named "Titan of the Seas." The central focus is a massive, multi-deck ship rendered in a sophisticated deep red and gold color scheme. The layout features various data visualization elements, including technical specification tables, deck plan cutaways, interior highlight photos, and performance gauges. The aesthetic is clean and editorial, utilizing a soft cream background with professional typography to create a high-luxury informational moodboard.
@@ -1145,7 +1151,7 @@ An ultra-detailed, vertical infographic poster for a fictional luxury cruise shi
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HH2fQ-KWIAMnfi9.jpg" width="100%" alt="Luxury Cruise Ship Technical Infographic - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HH2fQ-KWIAMnfi9.jpg" width="100%" alt="豪华邮轮技术信息图 - Image 1"></td>
 </tr>
 </table>
 
@@ -1162,15 +1168,15 @@ An ultra-detailed, vertical infographic poster for a fictional luxury cruise shi
 
 <a id="prompt-15"></a>
 
-#### No. 12: Illustrated Travel Maps with Cultural Callouts
+#### No. 12: 文化标注旅行地图
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 说明
 
-Build richly labeled country maps from miniature landmarks, local food, wildlife, statistics, and bilingual captions.
+以微缩地标、地方美食、野生动物、统计数据和双语标注绘制信息丰富的国家地图。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 Two vertical, highly detailed, illustrated travel infographic maps showcasing Japan and Russia. Each poster features a stylized, colorful 3D-rendered country map surrounded by deep blue seas, populated with miniature cultural landmarks, regional food items, and local wildlife connected to specific city labels. The top of each poster displays a bold, artistic title banner with the country's name, localized slogans, and cultural border motifs like cherry blossoms or traditional patterns. The bottom sections include key demographic statistics alongside a row of circular vignette photos highlighting local architecture, cuisine, and scenery, all tied together by a descriptive quote translated into both the native language and English.
@@ -1180,8 +1186,8 @@ Two vertical, highly detailed, illustrated travel infographic maps showcasing Ja
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HIrFCDWXsAAl99J.jpg" width="100%" alt="Illustrated Travel Maps with Cultural Callouts - Image 1"></td>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HIrFCAjW0AIZGnN.jpg" width="100%" alt="Illustrated Travel Maps with Cultural Callouts - Image 2"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HIrFCDWXsAAl99J.jpg" width="100%" alt="文化标注旅行地图 - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HIrFCAjW0AIZGnN.jpg" width="100%" alt="文化标注旅行地图 - Image 2"></td>
 </tr>
 </table>
 
@@ -1198,15 +1204,15 @@ Two vertical, highly detailed, illustrated travel infographic maps showcasing Ja
 
 <a id="prompt-16"></a>
 
-#### No. 13: Technical Outerwear Specification Sheet
+#### No. 13: 机能外套技术规格表
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 说明
 
-Lay out a complete menswear design sheet with garment angles, material close-ups, modular accessories, and technical specifications.
+用多角度服装图、材质特写、模块化配件和技术参数完成男装设计规格页。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 An AMZ Collection fashion design spec sheet and product layout presented as a tall, vertical infographic for men's technical outerwear. On the left side, a full-body shot features a 32-year-old male model with a short beard and a faded haircut, wearing a rugged, multi-pocketed utility jacket and matching cargo pants in deep olive green and slate grey with bright orange accents. The top of the sheet prominently displays the title "AMZLECTION - URBAN FRONTIER SERIES" and "AERO SHELL PARKA SYSTEM" in a bold, clean sans-serif typeface, accompanied by a bio detailing his occupation as a systems engineer and urban explorer. The right side features a technical "Articulation & Layer Study" breakdown showing multiple back and front silhouette angles detailing the zip-in system, articulated sleeves, and hood stowage. The center section provides macro close-up macro shots highlighting the technical textures, including ripstop tech fabric, a seal-zip closure, and a grip-liner sleeve cuff. Below, a "Modular Styling" column showcases alternative ways to style the garment, such as a full protection system or a light urban shell. The bottom of the layout features grid sections labeled "Modular Add-Ons" displaying accessories like a utility belt, touchscreen-compatible tech gloves, an EDC multi-tool, and a headlamp. Adjacent to this is an "Urban Palette & Mats" swatch color bar showing slate grey, olive green, night black, blaze orange, and technical ivory, followed by a comprehensive "Technical Specifications" block outlining the fabric, insulation, closures, pockets, and features of the high-performance gear.
@@ -1216,7 +1222,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HJUQCtgWcAQ8xE1.jpg" width="100%" alt="Technical Outerwear Specification Sheet - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HJUQCtgWcAQ8xE1.jpg" width="100%" alt="机能外套技术规格表 - Image 1"></td>
 </tr>
 </table>
 
@@ -1239,15 +1245,15 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="prompt-13"></a>
 
-#### No. 14: Photorealistic Futuristic Mecha
+#### No. 14: 写实未来机甲
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 说明
 
-A reusable style recipe for transforming creatures or machines into metallic, cinematic mecha designs.
+将生物或机器转化为金属质感、电影光影和写实细节兼具的未来机甲。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 Theme: Futuristic Mecha Design with Photorealistic Details Color Image: Metallic shades of gunmetal gray and steel, with glowing red or neon accents Color Pallet: Main color: #4B4E50 Sub color: #A3A5A8, #2E2F31, #FF3B30 Accent color: #FF0000, #1E1E1E Camera Settings: Close-up or dynamic low-angle shots, slight depth of field for dramatic focus, high contrast with sharp details Film Stock/Analog Settings: High-resolution digital photography with post-apocalyptic grading Lighting: Dramatic, high contrast lighting with a mix of cool and warm tones, occasional backlighting or side-lighting for a cinematic feel Vibe: Intense, futuristic, action-packed, and slightly dystopian Content Transformation (Optional): Converts organic animals or creatures into hyper-realistic mechanical designs Font Setting(Optional): Main: Orbitron 18px, Sub: Roboto 14px Additional Effects: Motion blur, dust and particle effects for action scenes, subtle reflections on metallic surfaces
@@ -1257,7 +1263,7 @@ Theme: Futuristic Mecha Design with Photorealistic Details Color Image: Metallic
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HG-4lhZasAA35Gb.jpg" width="100%" alt="Photorealistic Futuristic Mecha - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HG-4lhZasAA35Gb.jpg" width="100%" alt="写实未来机甲 - Image 1"></td>
 </tr>
 </table>
 
@@ -1274,15 +1280,15 @@ Theme: Futuristic Mecha Design with Photorealistic Details Color Image: Metallic
 
 <a id="prompt-19"></a>
 
-#### No. 15: 1990s Indie Bedroom Portrait
+#### No. 15: 1990 年代独立卧室肖像
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 说明
 
-Recreate a candid lo-fi bedroom portrait with direct flash, collage-covered walls, film grain, and nostalgic indie styling.
+以直闪、拼贴墙、胶片颗粒和怀旧独立风格重现随性的低保真卧室照片。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 A candid 1990s-inspired indie bedroom portrait of a young woman sitting cross-legged on a worn vintage patterned couch. She has short messy dark hair, natural makeup, soft skin texture, and a thoughtful, distant expression while looking slightly off-camera. She wears an oversized faded pastel pink Nirvana band T-shirt, blue denim shorts, and retro white tube socks with red and blue stripes.
@@ -1295,8 +1301,8 @@ Keywords: retro bedroom, indie aesthetic, grunge fashion, Nirvana shirt, cassett
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLV3_jxboAAadnf.jpg" width="100%" alt="1990s Indie Bedroom Portrait - Image 1"></td>
-<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLV3_pxbkAA_BSc.jpg" width="100%" alt="1990s Indie Bedroom Portrait - Image 2"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLV3_jxboAAadnf.jpg" width="100%" alt="1990 年代独立卧室肖像 - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLV3_pxbkAA_BSc.jpg" width="100%" alt="1990 年代独立卧室肖像 - Image 2"></td>
 </tr>
 </table>
 
@@ -1313,15 +1319,16 @@ Keywords: retro bedroom, indie aesthetic, grunge fashion, Nirvana shirt, cassett
 
 <a id="prompt-27"></a>
 
-#### No. 16: Notion-Style Monochrome Avatar
+#### No. 16: Notion 风格黑白头像
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 ##### 说明
 
-Create a personable black-and-white vector portrait using confident monoline contours and selective solid fills instead of generic icon geometry.
+使用自信的等粗线条和选择性黑色填充，创作有个性而非通用图标感的黑白矢量肖像。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 A minimalist, black-and-white flat vector illustration portrait of [NAME], rendered in the expressive "Notion avatar" art style.
@@ -1342,7 +1349,7 @@ High contrast, clean 2D vector graphics.
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G_SnZVIWkAAoaF9.jpg" width="100%" alt="Notion-Style Monochrome Avatar - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/G_SnZVIWkAAoaF9.jpg" width="100%" alt="Notion 风格黑白头像 - Image 1"></td>
 </tr>
 </table>
 
@@ -1365,19 +1372,19 @@ High contrast, clean 2D vector graphics.
 
 **Community · 精选提示词**
 
-- [Surreal Giantess in Venice](#prompt-21)
+- [威尼斯超现实巨人旅行照](#prompt-21)
 
 <a id="prompt-20"></a>
 
-#### No. 17: Golden-Hour Mountain Meadow
+#### No. 17: 金色时刻山间草甸
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 说明
 
-A structured landscape brief for a winding path, wildflower meadow, solitary tree, distant wildlife, and glowing mountain range.
+用蜿蜒小径、野花草甸、孤树、远处动物和发光山脉构建层次清楚的风景。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 "subject": "A serene landscape transformation of a mountain scene",
@@ -1416,7 +1423,7 @@ A structured landscape brief for a winding path, wildflower meadow, solitary tre
 
 <table>
 <tr>
-<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLvkD0RbgAAWXzv.jpg" width="100%" alt="Golden-Hour Mountain Meadow - Image 1"></td>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HLvkD0RbgAAWXzv.jpg" width="100%" alt="金色时刻山间草甸 - Image 1"></td>
 </tr>
 </table>
 
@@ -1439,15 +1446,15 @@ A structured landscape brief for a winding path, wildflower meadow, solitary tre
 
 <a id="prompt-6"></a>
 
-#### No. 18: Gemini 2.5 vs 3.1 Editorial Portrait Benchmark
+#### No. 18: Gemini 2.5 与 3.1 编辑肖像基准
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
 ##### 说明
 
-A controlled portrait brief shown across Gemini 2.5 Flash Image and Gemini 3.1 Flash Image for visual comparison.
+使用同一份肖像简报对比 Gemini 2.5 Flash Image 与 Gemini 3.1 Flash Image 的视觉表现。
 
-##### 提示词
+##### 原始提示词（英文）
 
 ```
 Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean female portrait subject with small teardrop gemstone earring detail, delicate understated sparkle, natural basic body, about 160-165 cm visual height, 83-62-88 body proportion anchor, balanced torso-to-leg ratio around 4:6, low-contrast waist curve, modest bust and hips, smooth natural silhouette, young beautiful Korean idol face, refined small face, clear bright eyes, polished youthful beauty, photogenic K-pop portrait balance, straight medium-to-long hair with a sleek wet texture, clean straight lengths, separated damp strands, minimal wave, natural black hair, soft realistic shine, clean dark depth, none, looking directly at the camera, direct eye contact, innocent clear eyes, delicate soft expression, pure transparent mood. show the selected styling only through collar edge, neckline fabric, partial shoulder line, small accessory details near the face, eyewear, and earrings; keep torso clothing, lower-body garments, legwear, and shoes off-frame rather than widening the crop. render selected historic library window corner only as soft background color, environmental light, atmosphere, and faint spatial shapes behind the face; do not widen the frame just to reveal the full room or complete environment, indoor fluorescent everyday environment, cool-white overhead room light, practical daily interior brightness, plain lived-in space, local warm practical-light pool on the subject, lamp-driven amber highlight zone, warm falloff across face hands and clothing. Inspired by Masumi Ishida, luminous summer film image language. luminous youth-photobook portraiture, gentle summer-color brightness, softly lifted exposure, airy pastel balance, washed film texture, transparent tonal softness. The composition uses tight facial close-up portrait, face dominant in frame, balanced proportions, clean frontal readability, shoulder-level camera position, level lens axis near the shoulder line, stable upper-body portrait viewpoint, camera positioned directly in front of the subject, 0-degree front view, frontal torso orientation, shot on 20mm ultra-wide-angle lens, very wide field of view, strong perspective expansion, close foreground enlargement, visible edge stretching, deep subject-to-background spatial inclusion, peripheral edge blur, center sharpness with soft frame edges, field curvature softness, reduced corner resolution, lens falloff away from the image center. warm digital portrait rendering, flattering skin-tone response, soft highlight roll-off, smooth color transitions, gentle contrast curve, polished color, natural photographic detail, coherent fabric construction, clear facial readability, realistic spatial depth, do not add visible text unless explicitly requested.
@@ -1457,10 +1464,10 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <table>
 <tr>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK571nBakAAxshH.jpg" width="100%" alt="Gemini 2.5 vs 3.1 Editorial Portrait Benchmark - Image 1"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK571nkbkAAJ7Wu.jpg" width="100%" alt="Gemini 2.5 vs 3.1 Editorial Portrait Benchmark - Image 2"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK5792CaEAAs9YT.jpg" width="100%" alt="Gemini 2.5 vs 3.1 Editorial Portrait Benchmark - Image 3"></td>
-<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK58Db6a4AAws5c.jpg" width="100%" alt="Gemini 2.5 vs 3.1 Editorial Portrait Benchmark - Image 4"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK571nBakAAxshH.jpg" width="100%" alt="Gemini 2.5 与 3.1 编辑肖像基准 - Image 1"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK571nkbkAAJ7Wu.jpg" width="100%" alt="Gemini 2.5 与 3.1 编辑肖像基准 - Image 2"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK5792CaEAAs9YT.jpg" width="100%" alt="Gemini 2.5 与 3.1 编辑肖像基准 - Image 3"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HK58Db6a4AAws5c.jpg" width="100%" alt="Gemini 2.5 与 3.1 编辑肖像基准 - Image 4"></td>
 </tr>
 </table>
 
@@ -1525,6 +1532,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[提交提示词](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[为仓库点 Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>本 README 自动生成。最后更新： 2026-07-14T06:04:06.734Z</sub>
+<sub>本 README 自动生成。最后更新： 2026-07-14T09:20:24.679Z</sub>
 
 </div>

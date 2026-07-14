@@ -1,6 +1,6 @@
 /**
- * [INPUT]: 依赖 data/ 的提示词与案例，依赖 prompt-quality 及本地媒体审计工具
- * [OUTPUT]: 对外提供结构、来源、分类和重复媒体的发布前校验命令
+ * [INPUT]: 依赖 data/ 的提示词、13 语本地化元数据与案例，依赖 prompt-quality 及媒体审计工具
+ * [OUTPUT]: 对外提供结构、来源、本地化覆盖、分类和重复媒体的发布前校验命令
  * [POS]: scripts 的质量闸门，被 README 生成与持续集成共同调用
  * [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
  */
@@ -20,12 +20,32 @@ const ROOT_DIR = path.resolve(__dirname, "..");
 const PROMPTS_PATH = path.join(ROOT_DIR, "data/prompts.json");
 const CATEGORIES_PATH = path.join(ROOT_DIR, "data/categories.json");
 const OFFICIAL_CASES_PATH = path.join(ROOT_DIR, "data/official-cases.json");
+const LOCALIZATION_PATHS = [
+  path.join(ROOT_DIR, "data/prompt-localizations-core.json"),
+  path.join(ROOT_DIR, "data/prompt-localizations-extended.json"),
+];
+const REQUIRED_PROMPT_LOCALES = [
+  "zh",
+  "ja-JP",
+  "ko-KR",
+  "es-ES",
+  "de-DE",
+  "fr-FR",
+  "it-IT",
+  "pt-PT",
+  "tr-TR",
+  "ar-SA",
+  "ru-RU",
+  "nl-NL",
+  "pl-PL",
+] as const;
 
 type LocalizedText = string | Record<string, string>;
 
 interface StoredPrompt {
   id: number;
   title: LocalizedText;
+  description: LocalizedText;
   content: LocalizedText;
   promptVariants?: Array<{
     content: string;
@@ -62,6 +82,13 @@ interface StoredCategory {
   slug: string;
   parentSlug?: string | null;
 }
+
+interface PromptLocalization {
+  title: string;
+  description: string;
+}
+
+type PromptLocalizations = Record<string, Record<string, PromptLocalization>>;
 
 interface StoredOfficialCaseGroup {
   slug: string;
@@ -288,6 +315,46 @@ function validateStructuralDuplicates(
   return errors;
 }
 
+function validatePromptLocalizations(
+  prompts: StoredPrompt[],
+  localizations: PromptLocalizations
+): string[] {
+  const errors: string[] = [];
+  const promptIds = new Set(prompts.map((prompt) => String(prompt.id)));
+
+  for (const locale of REQUIRED_PROMPT_LOCALES) {
+    const entries = localizations[locale];
+    if (!entries) {
+      errors.push(`Localization: missing locale ${locale}`);
+      continue;
+    }
+
+    for (const prompt of prompts) {
+      const entry = entries[String(prompt.id)];
+      if (!entry?.title.trim() || !entry?.description.trim()) {
+        errors.push(`Localization: ${locale} is incomplete for prompt ${prompt.id}`);
+        continue;
+      }
+      if (normalizeText(entry.title) === normalizeText(localizedText(prompt.title))) {
+        errors.push(`Localization: ${locale} title falls back to English for prompt ${prompt.id}`);
+      }
+      if (
+        normalizeText(entry.description) === normalizeText(localizedText(prompt.description))
+      ) {
+        errors.push(`Localization: ${locale} description falls back to English for prompt ${prompt.id}`);
+      }
+    }
+
+    for (const id of Object.keys(entries)) {
+      if (!promptIds.has(id)) {
+        errors.push(`Localization: ${locale} contains unknown prompt ${id}`);
+      }
+    }
+  }
+
+  return errors;
+}
+
 async function downloadMedia(assets: MediaAsset[], tempDir: string): Promise<void> {
   let nextIndex = 0;
 
@@ -401,7 +468,17 @@ async function main(): Promise<void> {
   const officialCaseGroups = JSON.parse(
     fs.readFileSync(OFFICIAL_CASES_PATH, "utf8")
   ) as StoredOfficialCaseGroup[];
-  const errors = validateStructuralDuplicates(prompts, categories, officialCaseGroups);
+  const localizations = Object.assign(
+    {},
+    ...LOCALIZATION_PATHS.map(
+      (localizationPath) =>
+        JSON.parse(fs.readFileSync(localizationPath, "utf8")) as PromptLocalizations
+    )
+  ) as PromptLocalizations;
+  const errors = [
+    ...validateStructuralDuplicates(prompts, categories, officialCaseGroups),
+    ...validatePromptLocalizations(prompts, localizations),
+  ];
 
   if (process.argv.includes("--media")) {
     errors.push(...(await findVisualDuplicates(prompts)));
@@ -414,7 +491,7 @@ async function main(): Promise<void> {
   }
 
   console.log(
-    `Duplicate audit passed for ${prompts.length} prompts${
+    `Publication audit passed for ${prompts.length} prompts and ${REQUIRED_PROMPT_LOCALES.length} localized metadata sets${
       process.argv.includes("--media") ? " and their remote media" : ""
     }.`
   );

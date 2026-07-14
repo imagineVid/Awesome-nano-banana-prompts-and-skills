@@ -1,53 +1,58 @@
-# Twitter Prompt Quality Policy
+# X Source Review for Original Nano Banana
 
-This repository treats X/Twitter search as candidate discovery, not automatic publication. A matching keyword alone is never enough to enter `data/prompts.json`.
+twitterapi.io is a discovery tool, not a publication pipeline. A keyword match can surface reposts, newer Nano Banana family models, engagement bait, prompt fragments, or images created by another tool. Nothing enters `data/prompts.json` directly from search output.
 
-## Hard Gates
+## Discovery Pass
 
-Every accepted Twitter prompt must have:
+Searches should cover both the public nickname and the model identifier:
 
-1. A canonical original X post or prompt reply, not a retweet or scraped repost.
-2. A reusable prompt, edit instruction, or clearly documented prompt variant.
-3. At least one visual result tied to the source post.
-4. Original author attribution and a working source link.
-5. A useful category and an honest prompt-provenance label.
-6. No duplicate tweet, source URL, prompt text, media URL, or perceptually duplicate image.
-7. No pure product announcement, engagement bait, unrelated media, or fabricated prompt reconstructed from an image alone.
-8. Explicit Nano Banana evidence in the post or quoted source. Prompt-only replies without model context stay in manual review.
-9. No explicit Nano Banana 2, Nano Banana 2 Lite, Nano Banana Lite, or Nano Banana Pro targeting; this repository is scoped to Gemini 2.5 Flash Image.
+- `"nano banana" prompt`
+- `"gemini 2.5 flash image" prompt`
+- focused workflow terms such as edit, reference, typography, product, storyboard, map, restoration, or architecture
 
-Engagement is a supporting signal, not a substitute for prompt quality. A new creator with a strong, complete prompt can outrank a popular promotional post.
+Queries for newer family names are used only as exclusion checks. Raw responses stay in the ignored `data/research/` directory.
 
-## Candidate Scoring
+## Source Reconstruction
 
-Run the scorer on a raw `advanced_search` or `bulk_advanced_search` response:
+For each candidate, inspect the complete public context:
 
-```bash
-pnpm run quality:twitter -- /path/to/twitter-search.json
-```
+1. Start with the original post and confirm its author.
+2. Follow the author's replies when the post says “prompt below” or “prompt in thread.”
+3. Read image ALT text when the prompt is stored there.
+4. Inspect quoted posts to distinguish the prompt author from the person sharing a result.
+5. Record the exact prompt location in `sourceMeta.prompt_source`.
 
-The scorer assigns one of three decisions:
+If the public thread does not contain the full prompt, reject the candidate. A plausible reconstruction is not provenance.
 
-- `accept` (`65+`): strong candidate with explicit prompt evidence, media, attribution, and enough context.
-- `review` (`50-64`): potentially useful, but the prompt may be in ALT text, a reply, a quote, or require source verification.
-- `reject` (`below 50`): generic model mention, promotion, retweet, missing media, or insufficient reusable content.
+## Admission Gates
 
-The scorer checks existing repository data and the current search batch. Duplicate tweet IDs, normalized prompt text, and exact media URLs are rejected automatically. Before merging accepted candidates, run the remote media audit to catch re-uploaded or recompressed duplicates:
+An entry must satisfy every gate:
 
-```bash
-pnpm run audit:duplicates
-```
+- explicit evidence for Nano Banana or Gemini 2.5 Flash Image;
+- no explicit Nano Banana 2, Nano Banana Lite, Nano Banana 2 Lite, or Nano Banana Pro targeting;
+- canonical `x.com/{creator}/status/{id}` source;
+- original creator attribution;
+- complete reusable prompt text;
+- visible source result media;
+- exactly one primary workflow category;
+- honest prompt-location metadata;
+- no exact or perceptual duplicate in the published collection.
 
-## Publication Workflow
+## Quality Ranking
 
-1. Search focused Nano Banana queries with twitterapi.io.
-2. Rank the raw response with `quality:twitter`.
-3. Inspect accepted and review candidates against the original post, replies, quotes, and ALT text.
-4. Preserve the original prompt where available; label rewritten material honestly.
-5. Add source metadata, author, categories, and visual evidence.
-6. Run `pnpm run validate`, `pnpm run audit:duplicates`, `pnpm test`, and `pnpm run typecheck`.
-7. Regenerate every README locale with `pnpm run generate`.
+The scorer prioritizes complete prompts, visible results, author identity, and useful engagement signals. Its `accept` decision means “inspect first,” not “publish automatically.” Manual review may reject a high score when the post mixes models, hides the prompt behind a private message, or presents generic promotional material.
 
-## Curated External Sources
+## Duplicate Boundary
 
-External discoveries must be verified against the original public post before publication. Store the canonical X URL, preserve the original creator attribution, and label any rewritten or normalized prompt honestly.
+Before publication, compare:
+
+- tweet and source IDs;
+- normalized prompt text;
+- canonical media URLs;
+- perceptual hashes of downloaded public media.
+
+Visual duplicates are merged into one source-backed entry. Minor caption changes, crops, or reposts do not justify a second item.
+
+## Publication Record
+
+Published entries retain the search provider, root tweet ID, prompt tweet ID when applicable, prompt location, model evidence, engagement snapshot, and collection date. This record makes later corrections possible without exposing API credentials or committing raw search caches.

@@ -79,16 +79,16 @@ This collection focuses on reproducible practice rather than inspiration alone. 
 
 **Model references:** [Gemini image generation guide](https://ai.google.dev/gemini-api/docs/image-generation) · [Gemini 2.5 Flash Image model page](https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image) · [Nano Banana on ImagineVid](https://imaginevid.io/nano-banana)
 
-### Turn a Prompt into a Reusable Skill
+### Reuse the Prompt Variables
 
-Prompts with `{argument ...}` placeholders are designed to be reused. Replace the named values instead of rewriting the whole creative brief.
+Some source prompts expose square-bracket variables such as `[BRAND]`, `[OBJECT]`, or `[NAME]`. Replace only those values and keep the tested visual structure intact.
 
 **Example:**
 ```
-A cinematic poster for "{argument name="product" default="a glass AI camera"}" with {argument name="mood" default="midnight studio lighting"}
+Replace `[BRAND]` with your brand or `[OBJECT]` with your subject; leave the composition, lighting, and material instructions unchanged.
 ```
 
-Keep the structure, change the variables, and treat the prompt as a repeatable creative tool.
+Variables make a source-backed prompt reusable without pretending that every brief needs to be rewritten from scratch.
 
 ---
 
@@ -100,7 +100,7 @@ Keep the structure, change the variables, and treat the prompt as a repeatable c
 |--------|-------|
 | Total Prompts | **27** |
 | Featured | **9** |
-| Last Updated | **Tuesday, July 14, 2026 at 6:04:06 AM UTC** |
+| Last Updated | **Tuesday, July 14, 2026 at 9:20:24 AM UTC** |
 
 </div>
 
@@ -118,6 +118,7 @@ Keep the structure, change the variables, and treat the prompt as a repeatable c
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### Description
 
@@ -156,6 +157,7 @@ Turn a brand mark into a centered monochrome relief with a liquid-glass rim and 
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### Description
 
@@ -192,6 +194,7 @@ Render a supplied logo as a glossy, irregular wax seal with raised relief and so
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### Description
 
@@ -288,6 +291,7 @@ TECHNICAL SPECS:
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 #### Description
 
@@ -629,6 +633,7 @@ Create a 1/7 scale commercialized figurine of the characters in the picture, in 
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Featured](https://img.shields.io/badge/Featured-gold-gold)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
 
 #### Description
@@ -875,6 +880,7 @@ Create a cheerful Gen Z aesthetic with bright natural lighting, soft shadows, cl
 #### No. 6: Object Dissolving into LEGO Bricks
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 ##### Description
 
@@ -1318,6 +1324,7 @@ Keywords: retro bedroom, indie aesthetic, grunge fashion, Nirvana shirt, cassett
 #### No. 16: Notion-Style Monochrome Avatar
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
 
 ##### Description
 
@@ -1527,6 +1534,6 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Submit a Prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Star this repo](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>This README is automatically generated. Last updated: 2026-07-14T06:04:06.708Z</sub>
+<sub>This README is automatically generated. Last updated: 2026-07-14T09:20:24.672Z</sub>
 
 </div>

@@ -2,7 +2,7 @@
 ImagineVid 品牌的 Nano Banana prompts and skills 公开资料仓库。
 
 <directory>
-data/ - Nano Banana 分类真源、空提示词集与空官方案例集。
+data/ - Nano Banana 分类、27 条社区提示词、13 语标题说明覆盖层与空官方案例集的结构化真源。
 docs/ - 规划、贡献指南、本地开发说明与后续数据采集策略。
 public/images/ - 仓库 README 与社交预览图，只承载 ImagineVid 自有或明确授权的 Nano Banana 视觉资产。
 scripts/ - README 生成、数据导入、Issue 同步与后续 twitterapi.io 采集脚本。
@@ -33,5 +33,5 @@ AGENTS.md - 仓库级工程约束。
 
 ## 计划边界
 - 样板数据已清空；当前社区数据从 twitterapi.io 候选中人工核验写入，官方案例仍保持空数组。
-- 英文模型介绍与提示词元数据是内容真源；14 语 README 界面文案由本地语言包生成，原始英文提示词保持来源可核验。
+- 英文提示词正文保持来源真源；13 个非英语版本从独立本地化数据读取标题与说明，并明确把正文标记为英文原文，禁止静默回退造成伪本地化。
 - 提交前必须重新运行 `pnpm run generate`、`pnpm test`、`pnpm run typecheck`，并确认没有提交 twitterapi.io 原始抓取缓存。
