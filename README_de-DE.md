@@ -98,7 +98,7 @@ Ersetze die Argumente, um den Prompt als kompakten Kreativ-Skill wiederzuverwend
 |--------|-------|
 | Prompts gesamt | **27** |
 | Ausgewählt | **9** |
-| Zuletzt aktualisiert | **Dienstag, 14. Juli 2026 um 02:19:53 UTC** |
+| Zuletzt aktualisiert | **Dienstag, 14. Juli 2026 um 06:04:06 UTC** |
 
 </div>
 
@@ -1525,6 +1525,6 @@ Lizenziert unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Prompt einreichen](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Repository mit Star markieren](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Dieses README wird automatisch generiert. Zuletzt aktualisiert: 2026-07-14T02:19:53.607Z</sub>
+<sub>Dieses README wird automatisch generiert. Zuletzt aktualisiert: 2026-07-14T06:04:06.831Z</sub>
 
 </div>

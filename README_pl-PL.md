@@ -98,7 +98,7 @@ Podmień argumenty, aby ponownie wykorzystać prompt jako zwięzły skill kreaty
 |--------|-------|
 | Łącznie promptów | **27** |
 | Polecane | **9** |
-| Ostatnia aktualizacja | **wtorek, 14 lipca 2026 02:19:53 UTC** |
+| Ostatnia aktualizacja | **wtorek, 14 lipca 2026 06:04:06 UTC** |
 
 </div>
 
@@ -1525,6 +1525,6 @@ Udostępniono na licencji [CC BY 4.0](https://creativecommons.org/licenses/by/4.
 **[Zgłoś prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Daj Star repozytorium](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Ten README został wygenerowany automatycznie. Ostatnia aktualizacja: 2026-07-14T02:19:53.644Z</sub>
+<sub>Ten README został wygenerowany automatycznie. Ostatnia aktualizacja: 2026-07-14T06:04:06.914Z</sub>
 
 </div>

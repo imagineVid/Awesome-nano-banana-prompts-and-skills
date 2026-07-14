@@ -98,7 +98,7 @@ Veja os links de origem e exemplos reunidos neste repositório.
 |--------|-------|
 | Total de prompts | **27** |
 | Destaque | **9** |
-| Última atualização | **terça-feira, 14 de julho de 2026 às 02:19:53 UTC** |
+| Última atualização | **terça-feira, 14 de julho de 2026 às 06:04:06 UTC** |
 
 </div>
 
@@ -1525,6 +1525,6 @@ Como contribuir
 **[Enviar prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Histórico de stars](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Última atualização: 2026-07-14T02:19:53.622Z</sub>
+<sub>Última atualização: 2026-07-14T06:04:06.870Z</sub>
 
 </div>
