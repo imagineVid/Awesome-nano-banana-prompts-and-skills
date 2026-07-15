@@ -96,9 +96,9 @@
 
 | 항목 | 수량 |
 |--------|-------|
-| 총 프롬프트 | **27** |
+| 총 프롬프트 | **29** |
 | 추천 | **9** |
-| 마지막 업데이트 | **2026년 7월 15일 수요일 오후 1시 13분 44초 UTC** |
+| 마지막 업데이트 | **2026년 7월 15일 수요일 PM 2시 24분 13초 UTC** |
 
 </div>
 
@@ -671,7 +671,7 @@ A high-end editorial photo of a [IMAGE UPLOADED] placed flat on a [YOUR SURFACE]
 
 <a id="workflow-directed-editing-input-control"></a>
 
-### 지정 편집 및 입력 제어 (7)
+### 지정 편집 및 입력 제어 (8)
 
 기존 이미지를 수정하거나 영역, 스케치, 참조 이미지, 위치 지시로 결과를 제어하는 프롬프트입니다.
 
@@ -909,6 +909,42 @@ Minimalist food photograph, [1080x1080] – a single [OBJECT] rests on a light, 
 
 ---
 
+<a id="prompt-28"></a>
+
+#### No. 7: 참조 구도를 보존한 자수 질감 변환
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
+
+##### 설명
+
+구도, 인물 정체성, 자세를 유지하고 작은 전후 비교 이미지를 더해 업로드 사진을 촉감이 살아 있는 박물관급 자수 작품으로 변환합니다.
+
+##### 원문 프롬프트(영어)
+
+```
+Use the uploaded photo as the exact reference for the composition, pose, facial expressions, framing, camera angle, and overall arrangement. Preserve the couple's identity, clothing, hairstyle, and background placement exactly, but transform the entire image into a luxurious handcrafted embroidery artwork. Every visible element—including skin, hair, clothing, smartphone, sky, clouds, trees, and background—must be recreated entirely from thick yarn, woven fibers, dense stitches, punch-needle embroidery, tufted textile, and layered thread loops. Create rich volumetric thread textures with highly detailed embroidery contours, visible fabric grain, soft wool fibers, knitted surfaces, and handcrafted textile depth. Use realistic color matching while maintaining a warm, cozy, artisan aesthetic with subtle muted tones. The artwork should resemble a premium museum-quality embroidered tapestry with intricate stitch direction, raised thread relief, and tactile fabric realism. Add a small rounded-corner inset photo in the bottom-right corner showing the original reference image exactly as uploaded, creating a clear before-and-after comparison. Ultra-detailed, handcrafted textile illustration, premium embroidery art, photorealistic thread detail, highly tactile surface, masterpiece quality, 8K.
+```
+
+##### 출처 이미지
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNMA5IJa8AAokAk.jpg" width="100%" alt="참조 구도를 보존한 자수 질감 변환 - Image 1"></td>
+</tr>
+</table>
+
+##### 세부 정보
+
+- **작성자:** [Smiling Khan](https://x.com/AIwithkhan)
+- **출처:** [출처](https://x.com/AIwithkhan/status/2077004845312331809)
+- **게시일:** 2026년 7월 14일
+- **언어:** en
+
+**[이 프롬프트 사용 · ImagineVid](https://imaginevid.io/ko/nano-banana)**
+
+---
+
 <a id="workflow-commercial-design-ui-posters"></a>
 
 ### 상업 디자인, UI 및 포스터 (7)
@@ -925,7 +961,7 @@ Minimalist food photograph, [1080x1080] – a single [OBJECT] rests on a light, 
 
 <a id="prompt-10"></a>
 
-#### No. 7: 하이패션 테니스 캠페인
+#### No. 8: 하이패션 테니스 캠페인
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -960,7 +996,7 @@ A clean high-fashion sports editorial featuring a confident female tennis athlet
 
 <a id="prompt-26"></a>
 
-#### No. 8: 흰 공간 속 다크 크롬 로고
+#### No. 9: 흰 공간 속 다크 크롬 로고
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1006,7 +1042,7 @@ BRAND NAME], the official trademark logo rendered strictly as a solid 3D object,
 
 <a id="prompt-11"></a>
 
-#### No. 9: 펼친 책 형태의 SF 디오라마
+#### No. 10: 펼친 책 형태의 SF 디오라마
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1098,7 +1134,7 @@ A premium open-book character encyclopedia diorama for $ SUBJECT, combining toy 
 
 <a id="prompt-12"></a>
 
-#### No. 10: 거친 영웅 캐릭터 턴어라운드
+#### No. 11: 거친 영웅 캐릭터 턴어라운드
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1133,7 +1169,7 @@ Character reference sheet- rugged Indian man, intense expression, wavy hair, thi
 
 <a id="prompt-14"></a>
 
-#### No. 11: 호화 크루즈선 기술 인포그래픽
+#### No. 12: 호화 크루즈선 기술 인포그래픽
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1168,7 +1204,7 @@ An ultra-detailed, vertical infographic poster for a fictional luxury cruise shi
 
 <a id="prompt-15"></a>
 
-#### No. 12: 문화 설명이 담긴 여행 지도
+#### No. 13: 문화 설명이 담긴 여행 지도
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1204,7 +1240,7 @@ Two vertical, highly detailed, illustrated travel infographic maps showcasing Ja
 
 <a id="prompt-16"></a>
 
-#### No. 13: 테크니컬 아우터 사양서
+#### No. 14: 테크니컬 아우터 사양서
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1239,13 +1275,13 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### 캐릭터, 시네마 및 비주얼 스타일 (3)
+### 캐릭터, 시네마 및 비주얼 스타일 (4)
 
 시각 연출과 이미지 언어를 중심으로 캐릭터, 인물, 패션, 영화 장면, 스타일을 탐색하는 프롬프트입니다.
 
 <a id="prompt-13"></a>
 
-#### No. 14: 사실적인 미래형 메카
+#### No. 15: 사실적인 미래형 메카
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1280,7 +1316,7 @@ Theme: Futuristic Mecha Design with Photorealistic Details Color Image: Metallic
 
 <a id="prompt-19"></a>
 
-#### No. 15: 1990년대 인디 침실 초상
+#### No. 16: 1990년대 인디 침실 초상
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1319,7 +1355,7 @@ Keywords: retro bedroom, indie aesthetic, grunge fashion, Nirvana shirt, cassett
 
 <a id="prompt-27"></a>
 
-#### No. 16: Notion 스타일 흑백 아바타
+#### No. 17: Notion 스타일 흑백 아바타
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
@@ -1364,6 +1400,48 @@ High contrast, clean 2D vector graphics.
 
 ---
 
+<a id="prompt-29"></a>
+
+#### No. 18: 기하학 모자이크 청사진 초상화
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### 설명
+
+맞물린 다각형 조각, 기술 제도선, 대담한 모더니즘 색면으로 현대적인 초상화를 구성합니다.
+
+##### 원문 프롬프트(영어)
+
+```
+An ultra-detailed geometric mosaic portrait illustration blending cubist abstraction, architectural blueprint aesthetics, and contemporary editorial pop-art design. Constructed from thousands of interlocking angular polygon fragments with no color lines, fragmented planes, segmented colorless contours, and intricate line grids. The highly structured composition, with layered technical drawing details embedded throughout, creates a complex look that blends schematic and artwork.
+Bold complementary color blocks are dominated by saturated cobalt blue, yellow, turquoise, vibrant golden earth tones, warm orange, and sharp white accents. The color treatment is flat yet dimensional, with a balanced contrast between large color fields and subtle geometric micro-details. Clean, vector-like precision combines with the imperfection of hand-drawn sketches and the texture of architectural drawings.
+Expressive contemporary character design with stylized facial construction, exaggerated eyeglass shapes, and fragmented surface geometry. A dense network of thin construction lines, blueprint markings, technical annotations, abstract map-like divisions, and layered polygonal textures seamlessly integrate into the subject and background.
+
+A mixed-media blend of cubism, urban mural art, technical illustration, generative geometry, and modern magazine cover aesthetics. Sharp edge definition, highly detailed surface articulation, intricate tessellation patterns, crystalline segmentation, and sophisticated visual rhythms. The background and subject are treated as a unified geometric ecosystem, with forms flowing continuously throughout.
+Premium gallery-quality digital artwork, razor-sharp linework, complex layered depth, contemporary design language, architectural abstraction, vibrant modernist color harmonies, highly detailed geometric storytelling, and a visually rich yet clean and organized composition. R 9:16.
+```
+
+##### 출처 이미지
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMmrkkCXkAAHuEx.jpg" width="100%" alt="기하학 모자이크 청사진 초상화 - Image 1"></td>
+<td width="33%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMmrkwYXkAAhA3H.jpg" width="100%" alt="기하학 모자이크 청사진 초상화 - Image 2"></td>
+<td width="33%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMmrk35W8AAHq5V.jpg" width="100%" alt="기하학 모자이크 청사진 초상화 - Image 3"></td>
+</tr>
+</table>
+
+##### 세부 정보
+
+- **작성자:** [zayan](https://x.com/HustleXR)
+- **출처:** [출처](https://x.com/HustleXR/status/2074377759674057125)
+- **게시일:** 2026년 7월 7일
+- **언어:** en
+
+**[이 프롬프트 사용 · ImagineVid](https://imaginevid.io/ko/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### 환경, 건축 및 세계관 구축 (2)
@@ -1376,7 +1454,7 @@ High contrast, clean 2D vector graphics.
 
 <a id="prompt-20"></a>
 
-#### No. 17: 골든아워의 산악 초원
+#### No. 19: 골든아워의 산악 초원
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1446,7 +1524,7 @@ High contrast, clean 2D vector graphics.
 
 <a id="prompt-6"></a>
 
-#### No. 18: Gemini 2.5 대 3.1 에디토리얼 인물 벤치마크
+#### No. 20: Gemini 2.5 대 3.1 에디토리얼 인물 벤치마크
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1509,10 +1587,11 @@ GitHub Issues를 통한 고품질 프롬프트 제출을 환영합니다.
 ## 감사의 말
 
 <details>
-<summary>커뮤니티 제작자 감사 명단 (16)</summary>
+<summary>커뮤니티 제작자 감사 명단 (17)</summary>
 
 [⁠ luciaAI](https://x.com/luciaverseai) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra)<br>
-[Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR)<br>
+[四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -1532,6 +1611,6 @@ GitHub Issues를 통한 고품질 프롬프트 제출을 환영합니다.
 **[프롬프트 제출](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[저장소에 Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>이 README는 자동 생성되었습니다. 마지막 업데이트: 2026-07-15T13:13:44.816Z</sub>
+<sub>이 README는 자동 생성되었습니다. 마지막 업데이트: 2026-07-15T14:24:13.463Z</sub>
 
 </div>

@@ -26,7 +26,9 @@
     "24": { "title": "Oggetto che si dissolve in mattoncini LEGO", "description": "Blocca un oggetto a metà della trasformazione in mattoncini LEGO sospesi, conservandone colori e materiali." },
     "25": { "title": "Fotografia editoriale di prodotto dall’alto", "description": "Costruisce una scena riutilizzabile con luce naturale, spazio negativo controllato ed elementi di supporto facoltativi." },
     "26": { "title": "Logo in cromo scuro nel vuoto bianco", "description": "Rende il marchio come metallo pesante lucidato, con micrograffi, bagliore sui bordi, profondità ridotta e grana fotografica." },
-    "27": { "title": "Avatar monocromatico in stile Notion", "description": "Crea un ritratto vettoriale personale con linee uniformi sicure e campiture nere selettive, evitando l’aspetto da icona generica." }
+    "27": { "title": "Avatar monocromatico in stile Notion", "description": "Crea un ritratto vettoriale personale con linee uniformi sicure e campiture nere selettive, evitando l’aspetto da icona generica." },
+    "28": { "title": "Trasformazione ricamata fedele all’immagine di riferimento", "description": "Trasforma una foto caricata in un ricamo materico di qualità museale, mantenendo composizione, identità, posa e un piccolo confronto prima-dopo." },
+    "29": { "title": "Ritratto a mosaico geometrico in stile blueprint", "description": "Costruisci un ritratto contemporaneo con frammenti poligonali a incastro, linee tecniche di costruzione e campiture moderniste decise." }
   },
   "pt-PT": {
     "1": { "title": "Logótipo geométrico suíço em relevo", "description": "Transforma uma marca num relevo monocromático centrado, com contorno de vidro líquido e espaço negativo de inspiração suíça." },
@@ -55,7 +57,9 @@
     "24": { "title": "Objeto a desfazer-se em peças LEGO", "description": "Congela um objeto a meio da transformação em peças LEGO flutuantes, preservando as suas cores e texturas." },
     "25": { "title": "Fotografia editorial de produto vista de cima", "description": "Cria uma cena reutilizável com luz natural, espaço negativo controlado e elementos complementares opcionais." },
     "26": { "title": "Logótipo em cromo escuro num vazio branco", "description": "Representa a marca como metal polido e pesado, com microrriscos, brilho nas arestas, pouca profundidade de campo e grão." },
-    "27": { "title": "Avatar monocromático ao estilo Notion", "description": "Cria um retrato vetorial com personalidade através de linhas uniformes e preenchimentos pretos seletivos, sem aspeto de ícone genérico." }
+    "27": { "title": "Avatar monocromático ao estilo Notion", "description": "Cria um retrato vetorial com personalidade através de linhas uniformes e preenchimentos pretos seletivos, sem aspeto de ícone genérico." },
+    "28": { "title": "Transformação em bordado que preserva a referência", "description": "Transforme uma fotografia carregada num bordado tátil de qualidade museológica, mantendo a composição, as identidades, a pose e uma pequena comparação antes e depois." },
+    "29": { "title": "Retrato em mosaico geométrico com estética de planta técnica", "description": "Construa um retrato contemporâneo com fragmentos poligonais interligados, linhas técnicas de construção e campos de cor modernistas marcantes." }
   },
   "tr-TR": {
     "1": { "title": "İsviçre geometrisinde kabartma logo", "description": "Markayı sıvı cam kenarlı, ölçülü boşluk kullanan ve ortalanmış tek renkli bir kabartmaya dönüştürür." },
@@ -84,7 +88,9 @@
     "24": { "title": "LEGO parçalarına dağılan nesne", "description": "Gündelik bir nesneyi, özgün renk ve dokularını koruyarak havada süzülen LEGO parçalarına dönüşürken dondurur." },
     "25": { "title": "Üstten editoryal ürün fotoğrafı", "description": "Doğal güneş, denetimli boşluk ve isteğe bağlı yardımcı ögelerle yeniden kullanılabilir bir üstten ürün sahnesi kurar." },
     "26": { "title": "Beyaz boşlukta koyu krom logo", "description": "Kesin marka biçimini mikro çizikler, kenar parlaması, sığ alan derinliği ve grenle ağır cilalı metal olarak işler." },
-    "27": { "title": "Notion tarzı tek renk avatar", "description": "Kendinden emin tek kalınlıkta çizgiler ve seçici siyah dolgularla sıradan ikon görünümünden uzak kişilikli bir vektör portre oluşturur." }
+    "27": { "title": "Notion tarzı tek renk avatar", "description": "Kendinden emin tek kalınlıkta çizgiler ve seçici siyah dolgularla sıradan ikon görünümünden uzak kişilikli bir vektör portre oluşturur." },
+    "28": { "title": "Referansı koruyan nakış dokusu dönüşümü", "description": "Yüklenen fotoğrafı; kompozisyonu, kimlikleri, pozu ve küçük bir önce-sonra görselini koruyarak dokunsal, müze kalitesinde bir nakış eserine dönüştürün." },
+    "29": { "title": "Geometrik mozaik plan estetiğinde portre", "description": "Birbirine geçen çokgen parçaları, teknik yapı çizgileri ve cesur modernist renk alanlarıyla çağdaş bir portre oluşturun." }
   },
   "ar-SA": {
     "1": { "title": "شعار هندسي سويسري بارز", "description": "يحوّل العلامة إلى نقش أحادي اللون في المنتصف، بحافة زجاجية سائلة ومساحات بيضاء منضبطة على النهج السويسري." },
@@ -113,7 +119,9 @@
     "24": { "title": "جسم يتفكك إلى مكعبات LEGO", "description": "يجمد جسماً يومياً في منتصف تحوله إلى مكعبات LEGO طافية مع الحفاظ على ألوانه وخاماته." },
     "25": { "title": "تصوير تحريري علوي لمنتج", "description": "يبني مشهد منتج قابلاً لإعادة الاستخدام بضوء طبيعي ومساحة سلبية مضبوطة وعناصر مساندة اختيارية." },
     "26": { "title": "شعار كروم داكن في فراغ أبيض", "description": "يعرض العلامة بدقة كمعدن مصقول ثقيل مع خدوش دقيقة وتوهج حواف وعمق مجال ضحل وحبيبات فيلم." },
-    "27": { "title": "صورة رمزية أحادية بأسلوب Notion", "description": "ينشئ بورتريهاً متجهياً ذا شخصية بخطوط موحدة واثقة ومساحات سوداء منتقاة بعيداً عن الأيقونات العامة." }
+    "27": { "title": "صورة رمزية أحادية بأسلوب Notion", "description": "ينشئ بورتريهاً متجهياً ذا شخصية بخطوط موحدة واثقة ومساحات سوداء منتقاة بعيداً عن الأيقونات العامة." },
+    "28": { "title": "تحويل الصورة المرجعية إلى تطريز مع الحفاظ على بنيتها", "description": "حوّل الصورة المرفوعة إلى عمل تطريز ملموس بجودة متحفية مع الحفاظ على التكوين والهوية والوضعية وإضافة مقارنة صغيرة قبل التحويل وبعده." },
+    "29": { "title": "بورتريه فسيفسائي هندسي بأسلوب المخططات", "description": "أنشئ بورتريهاً معاصراً من شظايا مضلعة متشابكة وخطوط إنشاء تقنية ومساحات لونية حداثية جريئة." }
   },
   "ru-RU": {
     "1": { "title": "Швейцарский геометрический логотип с тиснением", "description": "Превращает знак в центрированный монохромный рельеф с жидким стеклянным кантом и строгими швейцарскими отступами." },
@@ -142,7 +150,9 @@
     "24": { "title": "Объект распадается на детали LEGO", "description": "Замораживает предмет в момент превращения в парящие детали LEGO, сохраняя исходные цвета и фактуры." },
     "25": { "title": "Редакционная предметная съёмка сверху", "description": "Создаёт повторяемую сцену с естественным светом, контролируемым свободным пространством и дополнительными предметами." },
     "26": { "title": "Тёмный хромированный логотип в белом пространстве", "description": "Рендерит точный знак как тяжёлый полированный металл с микроцарапинами, свечением кромок, малой глубиной резкости и зерном." },
-    "27": { "title": "Монохромный аватар в стиле Notion", "description": "Создаёт выразительный векторный портрет уверенными линиями одной толщины и выборочными чёрными заливками." }
+    "27": { "title": "Монохромный аватар в стиле Notion", "description": "Создаёт выразительный векторный портрет уверенными линиями одной толщины и выборочными чёрными заливками." },
+    "28": { "title": "Вышивка с сохранением структуры референса", "description": "Преобразуйте загруженную фотографию в фактурную вышивку музейного качества, сохранив композицию, личности, позу и небольшую вставку «до и после»." },
+    "29": { "title": "Геометрический мозаичный портрет в стиле чертежа", "description": "Соберите современный портрет из сцепленных многоугольных фрагментов, технических построений и смелых модернистских цветовых полей." }
   },
   "nl-NL": {
     "1": { "title": "Zwitsers geometrisch reliëflogo", "description": "Vormt een merkbeeld om tot een gecentreerd monochroom reliëf met een vloeibare glasrand en beheerste Zwitserse witruimte." },
@@ -171,7 +181,9 @@
     "24": { "title": "Object valt uiteen in LEGO-stenen", "description": "Bevriest een alledaags object halverwege de overgang naar zwevende LEGO-stenen, met behoud van kleur en textuur." },
     "25": { "title": "Redactionele productfoto van bovenaf", "description": "Bouwt een herbruikbare bovenaanzichtscène met natuurlijk zonlicht, beheerste negatieve ruimte en optionele rekwisieten." },
     "26": { "title": "Donker chromen logo in een witte leegte", "description": "Rendert het exacte merkbeeld als zwaar gepolijst metaal met microkrassen, randgloed, kleine scherptediepte en filmkorrel." },
-    "27": { "title": "Monochrome avatar in Notion-stijl", "description": "Maakt een persoonlijk vectorportret met zelfverzekerde monolijnen en selectieve zwarte vlakken, zonder generieke pictogramlook." }
+    "27": { "title": "Monochrome avatar in Notion-stijl", "description": "Maakt een persoonlijk vectorportret met zelfverzekerde monolijnen en selectieve zwarte vlakken, zonder generieke pictogramlook." },
+    "28": { "title": "Geborduurde transformatie met behoud van de referentie", "description": "Verander een geüploade foto in tastbaar borduurwerk van museumkwaliteit, met behoud van compositie, identiteiten, pose en een kleine voor-en-naweergave." },
+    "29": { "title": "Geometrisch mozaïekportret in blauwdrukstijl", "description": "Bouw een eigentijds portret uit in elkaar grijpende veelhoekige fragmenten, technische constructielijnen en krachtige modernistische kleurvlakken." }
   },
   "pl-PL": {
     "1": { "title": "Szwajcarskie geometryczne logo z tłoczeniem", "description": "Przekształca znak w wyśrodkowany monochromatyczny relief ze szklaną krawędzią i oszczędnym szwajcarskim światłem." },
@@ -200,6 +212,8 @@
     "24": { "title": "Przedmiot rozpadający się na klocki LEGO", "description": "Zatrzymuje przedmiot w połowie przemiany w unoszące się klocki LEGO, zachowując jego kolory i faktury." },
     "25": { "title": "Redakcyjne zdjęcie produktu z góry", "description": "Tworzy wielorazową scenę z naturalnym światłem, kontrolowaną pustą przestrzenią i opcjonalnymi dodatkami." },
     "26": { "title": "Ciemne chromowane logo w białej przestrzeni", "description": "Renderuje dokładny znak jako ciężki polerowany metal z mikrorysami, poświatą krawędzi, małą głębią ostrości i ziarnem." },
-    "27": { "title": "Monochromatyczny awatar w stylu Notion", "description": "Tworzy osobisty portret wektorowy pewną linią o stałej grubości i selektywnymi czarnymi wypełnieniami." }
+    "27": { "title": "Monochromatyczny awatar w stylu Notion", "description": "Tworzy osobisty portret wektorowy pewną linią o stałej grubości i selektywnymi czarnymi wypełnieniami." },
+    "28": { "title": "Haftowana transformacja zachowująca układ referencji", "description": "Przekształć przesłane zdjęcie w dotykowe dzieło haftowane o jakości muzealnej, zachowując kompozycję, tożsamość postaci, pozę i małą wstawkę przed i po." },
+    "29": { "title": "Geometryczny portret mozaikowy w stylu projektu technicznego", "description": "Zbuduj współczesny portret z zazębiających się wielokątnych fragmentów, technicznych linii konstrukcyjnych i odważnych modernistycznych pól koloru." }
   }
 }

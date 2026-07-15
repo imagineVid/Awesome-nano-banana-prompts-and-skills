@@ -96,9 +96,9 @@ Zmienne pozwalają używać promptu z potwierdzonym źródłem bez pisania całe
 
 | Metryka | Liczba |
 |--------|-------|
-| Łącznie promptów | **27** |
+| Łącznie promptów | **29** |
 | Polecane | **9** |
-| Ostatnia aktualizacja | **środa, 15 lipca 2026 13:13:44 UTC** |
+| Ostatnia aktualizacja | **środa, 15 lipca 2026 14:24:13 UTC** |
 
 </div>
 
@@ -671,7 +671,7 @@ A high-end editorial photo of a [IMAGE UPLOADED] placed flat on a [YOUR SURFACE]
 
 <a id="workflow-directed-editing-input-control"></a>
 
-### Ukierunkowana edycja i kontrola danych wejściowych (7)
+### Ukierunkowana edycja i kontrola danych wejściowych (8)
 
 Prompty do modyfikowania istniejących obrazów i sterowania wynikiem za pomocą obszarów, szkiców, referencji oraz położenia.
 
@@ -909,6 +909,42 @@ Minimalist food photograph, [1080x1080] – a single [OBJECT] rests on a light, 
 
 ---
 
+<a id="prompt-28"></a>
+
+#### No. 7: Haftowana transformacja zachowująca układ referencji
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
+
+##### Opis
+
+Przekształć przesłane zdjęcie w dotykowe dzieło haftowane o jakości muzealnej, zachowując kompozycję, tożsamość postaci, pozę i małą wstawkę przed i po.
+
+##### Oryginalny prompt (po angielsku)
+
+```
+Use the uploaded photo as the exact reference for the composition, pose, facial expressions, framing, camera angle, and overall arrangement. Preserve the couple's identity, clothing, hairstyle, and background placement exactly, but transform the entire image into a luxurious handcrafted embroidery artwork. Every visible element—including skin, hair, clothing, smartphone, sky, clouds, trees, and background—must be recreated entirely from thick yarn, woven fibers, dense stitches, punch-needle embroidery, tufted textile, and layered thread loops. Create rich volumetric thread textures with highly detailed embroidery contours, visible fabric grain, soft wool fibers, knitted surfaces, and handcrafted textile depth. Use realistic color matching while maintaining a warm, cozy, artisan aesthetic with subtle muted tones. The artwork should resemble a premium museum-quality embroidered tapestry with intricate stitch direction, raised thread relief, and tactile fabric realism. Add a small rounded-corner inset photo in the bottom-right corner showing the original reference image exactly as uploaded, creating a clear before-and-after comparison. Ultra-detailed, handcrafted textile illustration, premium embroidery art, photorealistic thread detail, highly tactile surface, masterpiece quality, 8K.
+```
+
+##### Wyniki źródłowe
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNMA5IJa8AAokAk.jpg" width="100%" alt="Haftowana transformacja zachowująca układ referencji - Image 1"></td>
+</tr>
+</table>
+
+##### Szczegóły
+
+- **Autor:** [Smiling Khan](https://x.com/AIwithkhan)
+- **Źródło:** [Źródło](https://x.com/AIwithkhan/status/2077004845312331809)
+- **Opublikowano:** 14 lipca 2026
+- **Języki:** en
+
+**[Użyj tego promptu · ImagineVid](https://imaginevid.io/pl/nano-banana)**
+
+---
+
 <a id="workflow-commercial-design-ui-posters"></a>
 
 ### Projekty komercyjne, UI i plakaty (7)
@@ -925,7 +961,7 @@ Briefy produkcyjne dla reklam, kampanii produktowych, interfejsów, plakatów, t
 
 <a id="prompt-10"></a>
 
-#### No. 7: Tenisowa kampania wysokiej mody
+#### No. 8: Tenisowa kampania wysokiej mody
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -960,7 +996,7 @@ A clean high-fashion sports editorial featuring a confident female tennis athlet
 
 <a id="prompt-26"></a>
 
-#### No. 8: Ciemne chromowane logo w białej przestrzeni
+#### No. 9: Ciemne chromowane logo w białej przestrzeni
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1006,7 +1042,7 @@ Uporządkowane wizualizacje, w których liczy się kolejność informacji: diagr
 
 <a id="prompt-11"></a>
 
-#### No. 9: Diorama science fiction w otwartej książce
+#### No. 10: Diorama science fiction w otwartej książce
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1098,7 +1134,7 @@ A premium open-book character encyclopedia diorama for $ SUBJECT, combining toy 
 
 <a id="prompt-12"></a>
 
-#### No. 10: Karta obrotowa zahartowanego bohatera
+#### No. 11: Karta obrotowa zahartowanego bohatera
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1133,7 +1169,7 @@ Character reference sheet- rugged Indian man, intense expression, wavy hair, thi
 
 <a id="prompt-14"></a>
 
-#### No. 11: Infografika techniczna luksusowego wycieczkowca
+#### No. 12: Infografika techniczna luksusowego wycieczkowca
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1168,7 +1204,7 @@ An ultra-detailed, vertical infographic poster for a fictional luxury cruise shi
 
 <a id="prompt-15"></a>
 
-#### No. 12: Ilustrowane mapy podróżnicze z opisami kultury
+#### No. 13: Ilustrowane mapy podróżnicze z opisami kultury
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1204,7 +1240,7 @@ Two vertical, highly detailed, illustrated travel infographic maps showcasing Ja
 
 <a id="prompt-16"></a>
 
-#### No. 13: Karta techniczna odzieży wierzchniej
+#### No. 14: Karta techniczna odzieży wierzchniej
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1239,13 +1275,13 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Postacie, kino i style wizualne (3)
+### Postacie, kino i style wizualne (4)
 
 Prompty do postaci, portretów, mody, kadrów filmowych i poszukiwania stylu opartego na świadomej reżyserii wizualnej.
 
 <a id="prompt-13"></a>
 
-#### No. 14: Fotorealistyczny futurystyczny mecha
+#### No. 15: Fotorealistyczny futurystyczny mecha
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1280,7 +1316,7 @@ Theme: Futuristic Mecha Design with Photorealistic Details Color Image: Metallic
 
 <a id="prompt-19"></a>
 
-#### No. 15: Indie portret w sypialni z lat dziewięćdziesiątych
+#### No. 16: Indie portret w sypialni z lat dziewięćdziesiątych
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1319,7 +1355,7 @@ Keywords: retro bedroom, indie aesthetic, grunge fashion, Nirvana shirt, cassett
 
 <a id="prompt-27"></a>
 
-#### No. 16: Monochromatyczny awatar w stylu Notion
+#### No. 17: Monochromatyczny awatar w stylu Notion
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
@@ -1364,6 +1400,48 @@ High contrast, clean 2D vector graphics.
 
 ---
 
+<a id="prompt-29"></a>
+
+#### No. 18: Geometryczny portret mozaikowy w stylu projektu technicznego
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Opis
+
+Zbuduj współczesny portret z zazębiających się wielokątnych fragmentów, technicznych linii konstrukcyjnych i odważnych modernistycznych pól koloru.
+
+##### Oryginalny prompt (po angielsku)
+
+```
+An ultra-detailed geometric mosaic portrait illustration blending cubist abstraction, architectural blueprint aesthetics, and contemporary editorial pop-art design. Constructed from thousands of interlocking angular polygon fragments with no color lines, fragmented planes, segmented colorless contours, and intricate line grids. The highly structured composition, with layered technical drawing details embedded throughout, creates a complex look that blends schematic and artwork.
+Bold complementary color blocks are dominated by saturated cobalt blue, yellow, turquoise, vibrant golden earth tones, warm orange, and sharp white accents. The color treatment is flat yet dimensional, with a balanced contrast between large color fields and subtle geometric micro-details. Clean, vector-like precision combines with the imperfection of hand-drawn sketches and the texture of architectural drawings.
+Expressive contemporary character design with stylized facial construction, exaggerated eyeglass shapes, and fragmented surface geometry. A dense network of thin construction lines, blueprint markings, technical annotations, abstract map-like divisions, and layered polygonal textures seamlessly integrate into the subject and background.
+
+A mixed-media blend of cubism, urban mural art, technical illustration, generative geometry, and modern magazine cover aesthetics. Sharp edge definition, highly detailed surface articulation, intricate tessellation patterns, crystalline segmentation, and sophisticated visual rhythms. The background and subject are treated as a unified geometric ecosystem, with forms flowing continuously throughout.
+Premium gallery-quality digital artwork, razor-sharp linework, complex layered depth, contemporary design language, architectural abstraction, vibrant modernist color harmonies, highly detailed geometric storytelling, and a visually rich yet clean and organized composition. R 9:16.
+```
+
+##### Wyniki źródłowe
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMmrkkCXkAAHuEx.jpg" width="100%" alt="Geometryczny portret mozaikowy w stylu projektu technicznego - Image 1"></td>
+<td width="33%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMmrkwYXkAAhA3H.jpg" width="100%" alt="Geometryczny portret mozaikowy w stylu projektu technicznego - Image 2"></td>
+<td width="33%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMmrk35W8AAHq5V.jpg" width="100%" alt="Geometryczny portret mozaikowy w stylu projektu technicznego - Image 3"></td>
+</tr>
+</table>
+
+##### Szczegóły
+
+- **Autor:** [zayan](https://x.com/HustleXR)
+- **Źródło:** [Źródło](https://x.com/HustleXR/status/2074377759674057125)
+- **Opublikowano:** 7 lipca 2026
+- **Języki:** en
+
+**[Użyj tego promptu · ImagineVid](https://imaginevid.io/pl/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Otoczenie, architektura i budowanie światów (2)
@@ -1376,7 +1454,7 @@ Prompty do otoczenia, architektury, krajobrazu, concept artu i budowania świat�
 
 <a id="prompt-20"></a>
 
-#### No. 17: Górska łąka o złotej godzinie
+#### No. 19: Górska łąka o złotej godzinie
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1446,7 +1524,7 @@ Kontrolowane testy zgodności z promptem, edycji, spójności, typografii i jako
 
 <a id="prompt-6"></a>
 
-#### No. 18: Porównanie portretu redakcyjnego Gemini 2.5 i 3.1
+#### No. 20: Porównanie portretu redakcyjnego Gemini 2.5 i 3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1509,10 +1587,11 @@ Udostępniono na licencji [CC BY 4.0](https://creativecommons.org/licenses/by/4.
 ## Podziękowania
 
 <details>
-<summary>Twórcy społeczności (16)</summary>
+<summary>Twórcy społeczności (17)</summary>
 
 [⁠ luciaAI](https://x.com/luciaverseai) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra)<br>
-[Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR)<br>
+[四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -1532,6 +1611,6 @@ Udostępniono na licencji [CC BY 4.0](https://creativecommons.org/licenses/by/4.
 **[Zgłoś prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Daj Star repozytorium](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Ten README został wygenerowany automatycznie. Ostatnia aktualizacja: 2026-07-15T13:13:44.874Z</sub>
+<sub>Ten README został wygenerowany automatycznie. Ostatnia aktualizacja: 2026-07-15T14:24:13.508Z</sub>
 
 </div>

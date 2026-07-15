@@ -96,9 +96,9 @@
 
 | المقياس | العدد |
 |--------|-------|
-| إجمالي التعليمات | **27** |
+| إجمالي التعليمات | **29** |
 | مميز | **9** |
-| آخر تحديث | **الأربعاء، ١٥ يوليو ٢٠٢٦ في ١:١٣:٤٤ م UTC** |
+| آخر تحديث | **الأربعاء، ١٥ يوليو ٢٠٢٦ في ٢:٢٤:١٣ م UTC** |
 
 </div>
 
@@ -671,7 +671,7 @@ A high-end editorial photo of a [IMAGE UPLOADED] placed flat on a [YOUR SURFACE]
 
 <a id="workflow-directed-editing-input-control"></a>
 
-### التحرير الموجّه والتحكم في المدخلات (7)
+### التحرير الموجّه والتحكم في المدخلات (8)
 
 تعليمات لتعديل صورة موجودة أو ضبط النتيجة باستخدام المناطق والرسومات المرجعية وتعليمات الموضع.
 
@@ -909,6 +909,42 @@ Minimalist food photograph, [1080x1080] – a single [OBJECT] rests on a light, 
 
 ---
 
+<a id="prompt-28"></a>
+
+#### No. 7: تحويل الصورة المرجعية إلى تطريز مع الحفاظ على بنيتها
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
+
+##### الوصف
+
+حوّل الصورة المرفوعة إلى عمل تطريز ملموس بجودة متحفية مع الحفاظ على التكوين والهوية والوضعية وإضافة مقارنة صغيرة قبل التحويل وبعده.
+
+##### التعليمة الأصلية (بالإنجليزية)
+
+```
+Use the uploaded photo as the exact reference for the composition, pose, facial expressions, framing, camera angle, and overall arrangement. Preserve the couple's identity, clothing, hairstyle, and background placement exactly, but transform the entire image into a luxurious handcrafted embroidery artwork. Every visible element—including skin, hair, clothing, smartphone, sky, clouds, trees, and background—must be recreated entirely from thick yarn, woven fibers, dense stitches, punch-needle embroidery, tufted textile, and layered thread loops. Create rich volumetric thread textures with highly detailed embroidery contours, visible fabric grain, soft wool fibers, knitted surfaces, and handcrafted textile depth. Use realistic color matching while maintaining a warm, cozy, artisan aesthetic with subtle muted tones. The artwork should resemble a premium museum-quality embroidered tapestry with intricate stitch direction, raised thread relief, and tactile fabric realism. Add a small rounded-corner inset photo in the bottom-right corner showing the original reference image exactly as uploaded, creating a clear before-and-after comparison. Ultra-detailed, handcrafted textile illustration, premium embroidery art, photorealistic thread detail, highly tactile surface, masterpiece quality, 8K.
+```
+
+##### نتائج المصدر
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNMA5IJa8AAokAk.jpg" width="100%" alt="تحويل الصورة المرجعية إلى تطريز مع الحفاظ على بنيتها - Image 1"></td>
+</tr>
+</table>
+
+##### التفاصيل
+
+- **المؤلف:** [Smiling Khan](https://x.com/AIwithkhan)
+- **المصدر:** [المصدر](https://x.com/AIwithkhan/status/2077004845312331809)
+- **تاريخ النشر:** ١٤ يوليو ٢٠٢٦
+- **اللغات:** en
+
+**[استخدم هذه التعليمة · ImagineVid](https://imaginevid.io/ar/nano-banana)**
+
+---
+
 <a id="workflow-commercial-design-ui-posters"></a>
 
 ### التصميم التجاري وواجهات المستخدم والملصقات (7)
@@ -925,7 +961,7 @@ Minimalist food photograph, [1080x1080] – a single [OBJECT] rests on a light, 
 
 <a id="prompt-10"></a>
 
-#### No. 7: حملة تنس للأزياء الراقية
+#### No. 8: حملة تنس للأزياء الراقية
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -960,7 +996,7 @@ A clean high-fashion sports editorial featuring a confident female tennis athlet
 
 <a id="prompt-26"></a>
 
-#### No. 8: شعار كروم داكن في فراغ أبيض
+#### No. 9: شعار كروم داكن في فراغ أبيض
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1006,7 +1042,7 @@ BRAND NAME], the official trademark logo rendered strictly as a solid 3D object,
 
 <a id="prompt-11"></a>
 
-#### No. 9: ديوراما خيال علمي داخل كتاب مفتوح
+#### No. 10: ديوراما خيال علمي داخل كتاب مفتوح
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1098,7 +1134,7 @@ A premium open-book character encyclopedia diorama for $ SUBJECT, combining toy 
 
 <a id="prompt-12"></a>
 
-#### No. 10: لوحة دوران لبطل صلب الملامح
+#### No. 11: لوحة دوران لبطل صلب الملامح
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1133,7 +1169,7 @@ Character reference sheet- rugged Indian man, intense expression, wavy hair, thi
 
 <a id="prompt-14"></a>
 
-#### No. 11: إنفوغرافيك تقني لسفينة سياحية فاخرة
+#### No. 12: إنفوغرافيك تقني لسفينة سياحية فاخرة
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1168,7 +1204,7 @@ An ultra-detailed, vertical infographic poster for a fictional luxury cruise shi
 
 <a id="prompt-15"></a>
 
-#### No. 12: خرائط سفر مصورة بتعليقات ثقافية
+#### No. 13: خرائط سفر مصورة بتعليقات ثقافية
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1204,7 +1240,7 @@ Two vertical, highly detailed, illustrated travel infographic maps showcasing Ja
 
 <a id="prompt-16"></a>
 
-#### No. 13: ورقة مواصفات لملابس خارجية تقنية
+#### No. 14: ورقة مواصفات لملابس خارجية تقنية
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1239,13 +1275,13 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### الشخصيات والسينما والأساليب البصرية (3)
+### الشخصيات والسينما والأساليب البصرية (4)
 
 تعليمات للشخصيات والصور الشخصية والأزياء واللقطات السينمائية واستكشاف الأساليب وفق توجيه بصري واضح.
 
 <a id="prompt-13"></a>
 
-#### No. 14: ميكا مستقبلي واقعي
+#### No. 15: ميكا مستقبلي واقعي
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1280,7 +1316,7 @@ Theme: Futuristic Mecha Design with Photorealistic Details Color Image: Metallic
 
 <a id="prompt-19"></a>
 
-#### No. 15: بورتريه غرفة نوم مستقل من تسعينيات القرن الماضي
+#### No. 16: بورتريه غرفة نوم مستقل من تسعينيات القرن الماضي
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1319,7 +1355,7 @@ Keywords: retro bedroom, indie aesthetic, grunge fashion, Nirvana shirt, cassett
 
 <a id="prompt-27"></a>
 
-#### No. 16: صورة رمزية أحادية بأسلوب Notion
+#### No. 17: صورة رمزية أحادية بأسلوب Notion
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
@@ -1364,6 +1400,48 @@ High contrast, clean 2D vector graphics.
 
 ---
 
+<a id="prompt-29"></a>
+
+#### No. 18: بورتريه فسيفسائي هندسي بأسلوب المخططات
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### الوصف
+
+أنشئ بورتريهاً معاصراً من شظايا مضلعة متشابكة وخطوط إنشاء تقنية ومساحات لونية حداثية جريئة.
+
+##### التعليمة الأصلية (بالإنجليزية)
+
+```
+An ultra-detailed geometric mosaic portrait illustration blending cubist abstraction, architectural blueprint aesthetics, and contemporary editorial pop-art design. Constructed from thousands of interlocking angular polygon fragments with no color lines, fragmented planes, segmented colorless contours, and intricate line grids. The highly structured composition, with layered technical drawing details embedded throughout, creates a complex look that blends schematic and artwork.
+Bold complementary color blocks are dominated by saturated cobalt blue, yellow, turquoise, vibrant golden earth tones, warm orange, and sharp white accents. The color treatment is flat yet dimensional, with a balanced contrast between large color fields and subtle geometric micro-details. Clean, vector-like precision combines with the imperfection of hand-drawn sketches and the texture of architectural drawings.
+Expressive contemporary character design with stylized facial construction, exaggerated eyeglass shapes, and fragmented surface geometry. A dense network of thin construction lines, blueprint markings, technical annotations, abstract map-like divisions, and layered polygonal textures seamlessly integrate into the subject and background.
+
+A mixed-media blend of cubism, urban mural art, technical illustration, generative geometry, and modern magazine cover aesthetics. Sharp edge definition, highly detailed surface articulation, intricate tessellation patterns, crystalline segmentation, and sophisticated visual rhythms. The background and subject are treated as a unified geometric ecosystem, with forms flowing continuously throughout.
+Premium gallery-quality digital artwork, razor-sharp linework, complex layered depth, contemporary design language, architectural abstraction, vibrant modernist color harmonies, highly detailed geometric storytelling, and a visually rich yet clean and organized composition. R 9:16.
+```
+
+##### نتائج المصدر
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMmrkkCXkAAHuEx.jpg" width="100%" alt="بورتريه فسيفسائي هندسي بأسلوب المخططات - Image 1"></td>
+<td width="33%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMmrkwYXkAAhA3H.jpg" width="100%" alt="بورتريه فسيفسائي هندسي بأسلوب المخططات - Image 2"></td>
+<td width="33%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HMmrk35W8AAHq5V.jpg" width="100%" alt="بورتريه فسيفسائي هندسي بأسلوب المخططات - Image 3"></td>
+</tr>
+</table>
+
+##### التفاصيل
+
+- **المؤلف:** [zayan](https://x.com/HustleXR)
+- **المصدر:** [المصدر](https://x.com/HustleXR/status/2074377759674057125)
+- **تاريخ النشر:** ٧ يوليو ٢٠٢٦
+- **اللغات:** en
+
+**[استخدم هذه التعليمة · ImagineVid](https://imaginevid.io/ar/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### البيئات والعمارة وبناء العوالم (2)
@@ -1376,7 +1454,7 @@ High contrast, clean 2D vector graphics.
 
 <a id="prompt-20"></a>
 
-#### No. 17: مرج جبلي في الساعة الذهبية
+#### No. 19: مرج جبلي في الساعة الذهبية
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1446,7 +1524,7 @@ High contrast, clean 2D vector graphics.
 
 <a id="prompt-6"></a>
 
-#### No. 18: مقارنة بورتريه تحريري بين Gemini 2.5 و3.1
+#### No. 20: مقارنة بورتريه تحريري بين Gemini 2.5 و3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1509,10 +1587,11 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 ## شكر وتقدير
 
 <details>
-<summary>مبدعو المجتمع الذين نشكرهم (16)</summary>
+<summary>مبدعو المجتمع الذين نشكرهم (17)</summary>
 
 [⁠ luciaAI](https://x.com/luciaverseai) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra)<br>
-[Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR)<br>
+[四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -1532,6 +1611,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[إرسال تعليمة](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[ضع نجمة للمستودع](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>تم توليد README هذا تلقائيا. آخر تحديث: 2026-07-15T13:13:44.858Z</sub>
+<sub>تم توليد README هذا تلقائيا. آخر تحديث: 2026-07-15T14:24:13.495Z</sub>
 
 </div>
