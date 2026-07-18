@@ -98,7 +98,7 @@
 |--------|-------|
 | 총 프롬프트 | **31** |
 | 추천 | **9** |
-| 마지막 업데이트 | **2026년 7월 18일 토요일 오전 5시 57분 7초 UTC** |
+| 마지막 업데이트 | **2026년 7월 18일 토요일 오전 9시 16분 18초 UTC** |
 
 </div>
 
@@ -1689,6 +1689,6 @@ GitHub Issues를 통한 고품질 프롬프트 제출을 환영합니다.
 **[프롬프트 제출](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[저장소에 Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>이 README는 자동 생성되었습니다. 마지막 업데이트: 2026-07-18T05:57:07.636Z</sub>
+<sub>이 README는 자동 생성되었습니다. 마지막 업데이트: 2026-07-18T09:16:18.422Z</sub>
 
 </div>
