@@ -98,7 +98,7 @@
 |--------|-------|
 | プロンプト総数 | **31** |
 | 注目 | **9** |
-| 最終更新 | **2026年7月19日日曜日 12:55:24 UTC** |
+| 最終更新 | **2026年7月19日日曜日 16:44:54 UTC** |
 
 </div>
 
@@ -1689,6 +1689,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[プロンプトを投稿](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[このリポジトリに Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>この README は自動生成されています。最終更新： 2026-07-19T12:55:24.370Z</sub>
+<sub>この README は自動生成されています。最終更新： 2026-07-19T16:44:54.042Z</sub>
 
 </div>
