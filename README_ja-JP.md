@@ -96,9 +96,9 @@
 
 | 項目 | 数 |
 |--------|-------|
-| プロンプト総数 | **32** |
+| プロンプト総数 | **33** |
 | 注目 | **9** |
-| 最終更新 | **2026年7月22日水曜日 13:22:28 UTC** |
+| 最終更新 | **2026年7月22日水曜日 14:40:25 UTC** |
 
 </div>
 
@@ -1318,7 +1318,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### キャラクター・映画表現・ビジュアルスタイル (6)
+### キャラクター・映画表現・ビジュアルスタイル (7)
 
 視覚演出と画面言語を軸に、キャラクター、肖像、ファッション、映画的な画面、スタイルを探るプロンプト。
 
@@ -1556,6 +1556,42 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 ---
 
+<a id="prompt-33"></a>
+
+#### No. 22: アイデンティティを固定した風のモノクロ接写
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
+
+##### 説明
+
+切り取り、コントラスト、視線、粒子、髪の動きを制御し、顔の同一性を明示的に守る簡潔な参照ポートレート。
+
+##### 原文プロンプト（英語）
+
+```
+Using the supplied face reference, create a high-contrast black-and-white portrait. Frame an extreme close-up showing only the face from the eyebrows to the neck, with half of the face dominating the composition. The fictional adult subject wears a plain black turtleneck, faces the camera directly, and holds a slightly tense gaze. Preserve the reference facial structure exactly. Keep the hair loose and voluminous, with a few individual strands blowing across the frame. Hard cinematic contrast, visible monochrome grain, natural skin texture, restrained sharpness, no beauty smoothing, no jewelry, no text, and no change to identity.
+```
+
+##### 出典画像
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNv0bCQboAAUgHA.jpg" width="100%" alt="アイデンティティを固定した風のモノクロ接写 - Image 1"></td>
+</tr>
+</table>
+
+##### 詳細
+
+- **作者:** [dreamy digital arts](https://x.com/dreamydigiarts)
+- **出典:** [出典](https://x.com/dreamydigiarts/status/2079884159447707994)
+- **公開日:** 2026年7月22日
+- **言語:** en
+
+**[このプロンプトを使う · ImagineVid](https://imaginevid.io/ja/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### 環境・建築・世界観構築 (2)
@@ -1568,7 +1604,7 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 <a id="prompt-20"></a>
 
-#### No. 22: ゴールデンアワーの山岳草原
+#### No. 23: ゴールデンアワーの山岳草原
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1638,7 +1674,7 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 <a id="prompt-6"></a>
 
-#### No. 23: Gemini 2.5 対 3.1 編集ポートレート比較
+#### No. 24: Gemini 2.5 対 3.1 編集ポートレート比較
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1701,11 +1737,11 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 ## 謝辞
 
 <details>
-<summary>コミュニティ作者への謝辞 (18)</summary>
+<summary>コミュニティ作者への謝辞 (19)</summary>
 
-[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas)<br>
-[H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33)<br>
-[zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp)<br>
+[Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan)<br>
+[WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -1725,6 +1761,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[プロンプトを投稿](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[このリポジトリに Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>この README は自動生成されています。最終更新： 2026-07-22T13:22:28.860Z</sub>
+<sub>この README は自動生成されています。最終更新： 2026-07-22T14:40:25.546Z</sub>
 
 </div>

@@ -1474,5 +1474,54 @@
         }
       ]
     }
+  },
+  {
+    "id": 33,
+    "model": "nano-banana",
+    "title": {
+      "en": "Windblown monochrome close-up with identity lock"
+    },
+    "description": {
+      "en": "A compact reference portrait that limits framing, contrast, gaze, grain, and hair motion while explicitly protecting facial identity."
+    },
+    "content": {
+      "en": "Using the supplied face reference, create a high-contrast black-and-white portrait. Frame an extreme close-up showing only the face from the eyebrows to the neck, with half of the face dominating the composition. The fictional adult subject wears a plain black turtleneck, faces the camera directly, and holds a slightly tense gaze. Preserve the reference facial structure exactly. Keep the hair loose and voluminous, with a few individual strands blowing across the frame. Hard cinematic contrast, visible monochrome grain, natural skin texture, restrained sharpness, no beauty smoothing, no jewelry, no text, and no change to identity."
+    },
+    "sourceLink": "https://x.com/dreamydigiarts/status/2079884159447707994",
+    "sourcePublishedAt": "2026-07-22T11:00:00.000Z",
+    "sourceMedia": [
+      "https://pbs.twimg.com/media/HNv0bCQboAAUgHA.jpg"
+    ],
+    "author": {
+      "name": "dreamy digital arts",
+      "link": "https://x.com/dreamydigiarts"
+    },
+    "language": "en",
+    "featured": false,
+    "needReferenceImages": true,
+    "sourceMeta": {
+      "source": "twitterapi.io",
+      "tweet_id": "2079884159447707994",
+      "model_evidence": "nano-banana",
+      "collected_at": "2026-07-22",
+      "curation_note": "Passed explicit-model, reusable-prompt, canonical-source, inspectable-media, duplicate, and editorial-value review.",
+      "prompt_source": "tweet_text_prompt_normalized",
+      "retweetCount": 0,
+      "replyCount": 3,
+      "likeCount": 17,
+      "quoteCount": 0,
+      "viewCount": 524,
+      "bookmarkCount": 1
+    },
+    "imageCategories": {
+      "workflows": [
+        {
+          "id": 64,
+          "title": "Characters, Cinema & Visual Styles",
+          "slug": "characters-cinema-visual-styles"
+        }
+      ]
+    },
+    "sort": 33
   }
 ]

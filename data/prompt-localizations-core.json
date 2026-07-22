@@ -128,6 +128,10 @@
       "title": "十三张参考图合成时尚场景",
       "description": "将模特、汽车、服装、配饰、动物和小道具合并到统一棚拍画面的多参考压力测试。",
       "content": "把提供的参考图合成为一张连贯的棚拍照片。一名时尚模特倚靠粉色 BMW 摆姿势，背景为浅灰色；让她穿戴参考服装与配饰。把绿色外星人钥匙扣挂在粉色手提包上，让粉色鹦鹉自然停在肩头，并让参考图中的巴哥犬坐在汽车旁。保留十三个来源元素各自的颜色、形状、材质和尺度，统一摄影机透视、柔和棚灯、接触阴影与反射。避免物体重复、手部错位、配饰悬空和拼贴接缝。"
+    },
+    "33": {
+      "title": "锁定身份的风吹黑白特写",
+      "description": "一条紧凑的参考人像指令，限制裁切、对比、视线、颗粒与发丝动作，并明确保护面部身份。"
     }
   },
   "ja-JP": {
@@ -259,6 +263,10 @@
       "title": "13枚の参照画像を統合したファッション撮影",
       "description": "人物、車、衣装、小物、動物を一つのスタジオ構図へまとめる多参照ストレステスト。",
       "content": "提供された参照画像を一枚の整合したスタジオ写真に統合する。淡いグレー背景で、モデルがピンクのBMWにもたれてポーズを取り、参照衣装とアクセサリーを着用する。緑の宇宙人キーホルダーはピンクのバッグに付け、ピンクのオウムは肩に自然に止まり、参照のパグは車の横に座らせる。13要素それぞれの色、形、素材、尺度を保ち、カメラ遠近、柔らかな照明、接地影、反射を統一する。重複、崩れた手、浮く小物、合成の継ぎ目は禁止。"
+    },
+    "33": {
+      "title": "アイデンティティを固定した風のモノクロ接写",
+      "description": "切り取り、コントラスト、視線、粒子、髪の動きを制御し、顔の同一性を明示的に守る簡潔な参照ポートレート。"
     }
   },
   "ko-KR": {
@@ -390,6 +398,10 @@
       "title": "13개 레퍼런스를 합친 패션 스튜디오 장면",
       "description": "모델, 자동차, 의상, 액세서리, 동물과 소품을 하나의 일관된 촬영 장면으로 결합하는 다중 레퍼런스 테스트입니다.",
       "content": "제공된 레퍼런스를 하나의 자연스러운 스튜디오 사진으로 합친다. 연회색 배경에서 패션 모델이 분홍색 BMW에 기대어 포즈를 취하고 참고 의상과 액세서리를 착용한다. 초록 외계인 키링은 분홍 핸드백에 달고, 분홍 앵무새는 어깨에 자연스럽게 앉히며, 참고 이미지의 퍼그는 자동차 옆에 앉힌다. 13개 요소의 색, 형태, 재질과 크기를 보존하고 카메라 원근, 부드러운 스튜디오 조명, 접촉 그림자와 반사를 통일한다. 중복 물체, 잘못된 손, 떠 있는 액세서리와 콜라주 이음새를 피한다."
+    },
+    "33": {
+      "title": "정체성을 고정한 바람 부는 흑백 클로즈업",
+      "description": "크롭, 대비, 시선, 그레인과 머리 움직임을 제한하고 얼굴 정체성을 명시적으로 보호하는 간결한 참조 인물 지시."
     }
   },
   "es-ES": {
@@ -521,6 +533,10 @@
       "title": "Fusión de trece referencias en una escena de moda",
       "description": "Prueba multirreferencia que integra modelo, coche, ropa, accesorios, animales y objetos en una sola fotografía de estudio coherente.",
       "content": "Combina las referencias en una fotografía de estudio coherente. Una modelo posa apoyada en un BMW rosa sobre fondo gris claro, vestida con las prendas y accesorios de referencia. Sujeta el llavero alienígena verde al bolso rosa, coloca el loro rosa de forma natural sobre su hombro y sienta al carlino junto al coche. Conserva el color, la forma, el material y la escala de los trece elementos. Unifica perspectiva, luz suave, sombras de contacto y reflejos. Evita duplicados, manos defectuosas, accesorios flotantes y costuras de collage."
+    },
+    "33": {
+      "title": "Primer plano monocromo con identidad bloqueada",
+      "description": "Retrato de referencia conciso que controla encuadre, contraste, mirada, grano y cabello mientras protege la identidad facial."
     }
   },
   "de-DE": {
@@ -652,6 +668,10 @@
       "title": "Modeszene aus dreizehn Referenzbildern",
       "description": "Mehrfachreferenz-Test, der Model, Auto, Kleidung, Accessoires, Tiere und Requisiten in einer stimmigen Studioaufnahme vereint.",
       "content": "Führe die Referenzen zu einem stimmigen Studiofoto zusammen. Ein Model lehnt vor hellgrauem Hintergrund an einem rosa BMW und trägt die referenzierte Kleidung und Accessoires. Befestige den grünen Alien-Anhänger an der rosa Handtasche, setze den rosa Papagei natürlich auf ihre Schulter und den Mops neben das Auto. Bewahre Farbe, Form, Material und Maßstab aller dreizehn Elemente. Vereinheitliche Perspektive, weiches Studiolicht, Kontaktschatten und Reflexionen. Keine Duplikate, fehlerhaften Hände, schwebenden Accessoires oder Collagekanten."
+    },
+    "33": {
+      "title": "Windbewegte Schwarzweiß-Nahaufnahme mit Identitätssperre",
+      "description": "Kompaktes Referenzporträt mit Vorgaben für Ausschnitt, Kontrast, Blick, Korn und Haarbewegung bei geschützter Identität."
     }
   },
   "fr-FR": {
@@ -783,6 +803,10 @@
       "title": "Scène de mode fusionnant treize références",
       "description": "Test multiréférence réunissant mannequin, voiture, vêtements, accessoires, animaux et petits objets dans une photo de studio cohérente.",
       "content": "Fusionnez les références en une photographie de studio cohérente. Une mannequin pose adossée à une BMW rose sur fond gris clair, avec les vêtements et accessoires fournis. Fixez le porte-clés extraterrestre vert au sac rose, placez naturellement le perroquet rose sur son épaule et le carlin près de la voiture. Préservez couleur, forme, matière et échelle des treize éléments. Unifiez perspective, lumière douce, ombres de contact et reflets. Évitez doublons, mains incorrectes, accessoires flottants et raccords de collage."
+    },
+    "33": {
+      "title": "Gros plan monochrome avec identité verrouillée",
+      "description": "Portrait de référence concis qui contrôle cadrage, contraste, regard, grain et cheveux tout en protégeant l’identité."
     }
   }
 }

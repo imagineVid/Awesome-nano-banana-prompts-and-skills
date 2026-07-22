@@ -96,9 +96,9 @@
 
 | 항목 | 수량 |
 |--------|-------|
-| 총 프롬프트 | **32** |
+| 총 프롬프트 | **33** |
 | 추천 | **9** |
-| 마지막 업데이트 | **2026년 7월 22일 수요일 오후 1시 22분 28초 UTC** |
+| 마지막 업데이트 | **2026년 7월 22일 수요일 PM 2시 40분 25초 UTC** |
 
 </div>
 
@@ -1318,7 +1318,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### 캐릭터, 시네마 및 비주얼 스타일 (6)
+### 캐릭터, 시네마 및 비주얼 스타일 (7)
 
 시각 연출과 이미지 언어를 중심으로 캐릭터, 인물, 패션, 영화 장면, 스타일을 탐색하는 프롬프트입니다.
 
@@ -1556,6 +1556,42 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 ---
 
+<a id="prompt-33"></a>
+
+#### No. 22: 정체성을 고정한 바람 부는 흑백 클로즈업
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
+
+##### 설명
+
+크롭, 대비, 시선, 그레인과 머리 움직임을 제한하고 얼굴 정체성을 명시적으로 보호하는 간결한 참조 인물 지시.
+
+##### 원문 프롬프트(영어)
+
+```
+Using the supplied face reference, create a high-contrast black-and-white portrait. Frame an extreme close-up showing only the face from the eyebrows to the neck, with half of the face dominating the composition. The fictional adult subject wears a plain black turtleneck, faces the camera directly, and holds a slightly tense gaze. Preserve the reference facial structure exactly. Keep the hair loose and voluminous, with a few individual strands blowing across the frame. Hard cinematic contrast, visible monochrome grain, natural skin texture, restrained sharpness, no beauty smoothing, no jewelry, no text, and no change to identity.
+```
+
+##### 출처 이미지
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNv0bCQboAAUgHA.jpg" width="100%" alt="정체성을 고정한 바람 부는 흑백 클로즈업 - Image 1"></td>
+</tr>
+</table>
+
+##### 세부 정보
+
+- **작성자:** [dreamy digital arts](https://x.com/dreamydigiarts)
+- **출처:** [출처](https://x.com/dreamydigiarts/status/2079884159447707994)
+- **게시일:** 2026년 7월 22일
+- **언어:** en
+
+**[이 프롬프트 사용 · ImagineVid](https://imaginevid.io/ko/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### 환경, 건축 및 세계관 구축 (2)
@@ -1568,7 +1604,7 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 <a id="prompt-20"></a>
 
-#### No. 22: 골든아워의 산악 초원
+#### No. 23: 골든아워의 산악 초원
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1638,7 +1674,7 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 <a id="prompt-6"></a>
 
-#### No. 23: Gemini 2.5 대 3.1 에디토리얼 인물 벤치마크
+#### No. 24: Gemini 2.5 대 3.1 에디토리얼 인물 벤치마크
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1701,11 +1737,11 @@ GitHub Issues를 통한 고품질 프롬프트 제출을 환영합니다.
 ## 감사의 말
 
 <details>
-<summary>커뮤니티 제작자 감사 명단 (18)</summary>
+<summary>커뮤니티 제작자 감사 명단 (19)</summary>
 
-[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas)<br>
-[H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33)<br>
-[zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp)<br>
+[Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan)<br>
+[WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -1725,6 +1761,6 @@ GitHub Issues를 통한 고품질 프롬프트 제출을 환영합니다.
 **[프롬프트 제출](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[저장소에 Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>이 README는 자동 생성되었습니다. 마지막 업데이트: 2026-07-22T13:22:28.877Z</sub>
+<sub>이 README는 자동 생성되었습니다. 마지막 업데이트: 2026-07-22T14:40:25.550Z</sub>
 
 </div>

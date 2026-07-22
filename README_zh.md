@@ -96,9 +96,9 @@
 
 | 指标 | 数量 |
 |--------|-------|
-| 提示词总数 | **32** |
+| 提示词总数 | **33** |
 | 精选 | **9** |
-| 最后更新 | **2026年7月22日星期三 UTC 13:22:28** |
+| 最后更新 | **2026年7月22日星期三 UTC 14:40:25** |
 
 </div>
 
@@ -1318,7 +1318,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### 角色、电影感与视觉风格 (6)
+### 角色、电影感与视觉风格 (7)
 
 以视觉方向和画面语言为核心的角色、肖像、时尚、电影画面与风格探索提示词。
 
@@ -1556,6 +1556,42 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 ---
 
+<a id="prompt-33"></a>
+
+#### No. 22: 锁定身份的风吹黑白特写
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
+
+##### 说明
+
+一条紧凑的参考人像指令，限制裁切、对比、视线、颗粒与发丝动作，并明确保护面部身份。
+
+##### 原始提示词（英文）
+
+```
+Using the supplied face reference, create a high-contrast black-and-white portrait. Frame an extreme close-up showing only the face from the eyebrows to the neck, with half of the face dominating the composition. The fictional adult subject wears a plain black turtleneck, faces the camera directly, and holds a slightly tense gaze. Preserve the reference facial structure exactly. Keep the hair loose and voluminous, with a few individual strands blowing across the frame. Hard cinematic contrast, visible monochrome grain, natural skin texture, restrained sharpness, no beauty smoothing, no jewelry, no text, and no change to identity.
+```
+
+##### 来源结果
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNv0bCQboAAUgHA.jpg" width="100%" alt="锁定身份的风吹黑白特写 - Image 1"></td>
+</tr>
+</table>
+
+##### 详情
+
+- **作者:** [dreamy digital arts](https://x.com/dreamydigiarts)
+- **来源:** [来源](https://x.com/dreamydigiarts/status/2079884159447707994)
+- **发布时间:** 2026年7月22日
+- **语言:** en
+
+**[使用这个提示词 · ImagineVid](https://imaginevid.io/zh/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### 环境、建筑与世界构建 (2)
@@ -1568,7 +1604,7 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 <a id="prompt-20"></a>
 
-#### No. 22: 金色时刻山间草甸
+#### No. 23: 金色时刻山间草甸
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1638,7 +1674,7 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 <a id="prompt-6"></a>
 
-#### No. 23: Gemini 2.5 与 3.1 编辑肖像基准
+#### No. 24: Gemini 2.5 与 3.1 编辑肖像基准
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1701,11 +1737,11 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 ## 致谢
 
 <details>
-<summary>查看并感谢社区作者 (18)</summary>
+<summary>查看并感谢社区作者 (19)</summary>
 
-[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas)<br>
-[H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33)<br>
-[zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp)<br>
+[Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan)<br>
+[WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -1725,6 +1761,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[提交提示词](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[为仓库点 Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>本 README 自动生成。最后更新： 2026-07-22T13:22:28.837Z</sub>
+<sub>本 README 自动生成。最后更新： 2026-07-22T14:40:25.539Z</sub>
 
 </div>

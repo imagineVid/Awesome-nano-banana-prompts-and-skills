@@ -96,9 +96,9 @@
 
 | Показатель | Количество |
 |--------|-------|
-| Всего промптов | **32** |
+| Всего промптов | **33** |
 | Избранное | **9** |
-| Обновлено | **среда, 22 июля 2026 г. в 13:22:28 UTC** |
+| Обновлено | **среда, 22 июля 2026 г. в 14:40:25 UTC** |
 
 </div>
 
@@ -1318,7 +1318,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Персонажи, кино и визуальные стили (6)
+### Персонажи, кино и визуальные стили (7)
 
 Промпты для персонажей, портретов, моды, кинокадров и поиска стиля с акцентом на визуальную режиссуру.
 
@@ -1556,6 +1556,42 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 ---
 
+<a id="prompt-33"></a>
+
+#### No. 22: Ветреный монохромный крупный план с фиксацией личности
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
+
+##### Описание
+
+Краткий референсный портрет с контролем кадра, контраста, взгляда, зерна и волос при сохранении личности.
+
+##### Оригинальный промпт (на английском)
+
+```
+Using the supplied face reference, create a high-contrast black-and-white portrait. Frame an extreme close-up showing only the face from the eyebrows to the neck, with half of the face dominating the composition. The fictional adult subject wears a plain black turtleneck, faces the camera directly, and holds a slightly tense gaze. Preserve the reference facial structure exactly. Keep the hair loose and voluminous, with a few individual strands blowing across the frame. Hard cinematic contrast, visible monochrome grain, natural skin texture, restrained sharpness, no beauty smoothing, no jewelry, no text, and no change to identity.
+```
+
+##### Результаты из источника
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNv0bCQboAAUgHA.jpg" width="100%" alt="Ветреный монохромный крупный план с фиксацией личности - Image 1"></td>
+</tr>
+</table>
+
+##### Детали
+
+- **Автор:** [dreamy digital arts](https://x.com/dreamydigiarts)
+- **Источник:** [Источник](https://x.com/dreamydigiarts/status/2079884159447707994)
+- **Опубликовано:** 22 июля 2026 г.
+- **Языки:** en
+
+**[Использовать промпт · ImagineVid](https://imaginevid.io/ru/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Окружение, архитектура и миростроение (2)
@@ -1568,7 +1604,7 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 <a id="prompt-20"></a>
 
-#### No. 22: Горный луг в золотой час
+#### No. 23: Горный луг в золотой час
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1638,7 +1674,7 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 <a id="prompt-6"></a>
 
-#### No. 23: Сравнение редакционного портрета Gemini 2.5 и 3.1
+#### No. 24: Сравнение редакционного портрета Gemini 2.5 и 3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1701,11 +1737,11 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 ## Благодарности
 
 <details>
-<summary>Авторы сообщества (18)</summary>
+<summary>Авторы сообщества (19)</summary>
 
-[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas)<br>
-[H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33)<br>
-[zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp)<br>
+[Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan)<br>
+[WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -1725,6 +1761,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[Отправить промпт](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Поставить Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Этот README создан автоматически. Последнее обновление: 2026-07-22T13:22:28.972Z</sub>
+<sub>Этот README создан автоматически. Последнее обновление: 2026-07-22T14:40:25.600Z</sub>
 
 </div>

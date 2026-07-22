@@ -98,9 +98,9 @@ Variables make a source-backed prompt reusable without pretending that every bri
 
 | Metric | Count |
 |--------|-------|
-| Total Prompts | **32** |
+| Total Prompts | **33** |
 | Featured | **9** |
-| Last Updated | **Wednesday, July 22, 2026 at 1:22:28 PM UTC** |
+| Last Updated | **Wednesday, July 22, 2026 at 2:40:25 PM UTC** |
 
 </div>
 
@@ -1320,7 +1320,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Characters, Cinema & Visual Styles (6)
+### Characters, Cinema & Visual Styles (7)
 
 Character, portrait, fashion, cinematic-frame, and style-exploration prompts centered on visual direction and image language.
 
@@ -1558,6 +1558,42 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 ---
 
+<a id="prompt-33"></a>
+
+#### No. 22: Windblown monochrome close-up with identity lock
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
+
+##### Description
+
+A compact reference portrait that limits framing, contrast, gaze, grain, and hair motion while explicitly protecting facial identity.
+
+##### Prompt
+
+```
+Using the supplied face reference, create a high-contrast black-and-white portrait. Frame an extreme close-up showing only the face from the eyebrows to the neck, with half of the face dominating the composition. The fictional adult subject wears a plain black turtleneck, faces the camera directly, and holds a slightly tense gaze. Preserve the reference facial structure exactly. Keep the hair loose and voluminous, with a few individual strands blowing across the frame. Hard cinematic contrast, visible monochrome grain, natural skin texture, restrained sharpness, no beauty smoothing, no jewelry, no text, and no change to identity.
+```
+
+##### Source Results
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HNv0bCQboAAUgHA.jpg" width="100%" alt="Windblown monochrome close-up with identity lock - Image 1"></td>
+</tr>
+</table>
+
+##### Source Details
+
+- **Author:** [dreamy digital arts](https://x.com/dreamydigiarts)
+- **Source:** [Source](https://x.com/dreamydigiarts/status/2079884159447707994)
+- **Published on X:** July 22, 2026
+- **Prompt language:** en
+
+**[Use this prompt on ImagineVid](https://imaginevid.io/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Environments, Architecture & Worldbuilding (2)
@@ -1570,7 +1606,7 @@ Environment, architecture, landscape, concept-art, and worldbuilding prompts whe
 
 <a id="prompt-20"></a>
 
-#### No. 22: Golden-Hour Mountain Meadow
+#### No. 23: Golden-Hour Mountain Meadow
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1640,7 +1676,7 @@ Controlled tests and comparisons used to evaluate prompt following, editing beha
 
 <a id="prompt-6"></a>
 
-#### No. 23: Gemini 2.5 vs 3.1 Editorial Portrait Benchmark
+#### No. 24: Gemini 2.5 vs 3.1 Editorial Portrait Benchmark
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1703,11 +1739,11 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 ## Acknowledgements
 
 <details>
-<summary>Community creators we thank (18)</summary>
+<summary>Community creators we thank (19)</summary>
 
-[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas)<br>
-[H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33)<br>
-[zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp)<br>
+[Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan)<br>
+[WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -1727,6 +1763,6 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Submit a Prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Star this repo](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>This README is automatically generated. Last updated: 2026-07-22T13:22:28.810Z</sub>
+<sub>This README is automatically generated. Last updated: 2026-07-22T14:40:25.532Z</sub>
 
 </div>
