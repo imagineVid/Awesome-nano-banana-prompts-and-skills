@@ -98,7 +98,7 @@
 |--------|-------|
 | 提示词总数 | **33** |
 | 精选 | **9** |
-| 最后更新 | **2026年7月25日星期六 UTC 13:02:23** |
+| 最后更新 | **2026年7月25日星期六 UTC 16:45:47** |
 
 </div>
 
@@ -1761,6 +1761,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[提交提示词](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[为仓库点 Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>本 README 自动生成。最后更新： 2026-07-25T13:02:23.783Z</sub>
+<sub>本 README 自动生成。最后更新： 2026-07-25T16:45:47.599Z</sub>
 
 </div>
