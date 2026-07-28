@@ -98,9 +98,9 @@ Variables make a source-backed prompt reusable without pretending that every bri
 
 | Metric | Count |
 |--------|-------|
-| Total Prompts | **33** |
+| Total Prompts | **39** |
 | Featured | **9** |
-| Last Updated | **Tuesday, July 28, 2026 at 1:40:38 PM UTC** |
+| Last Updated | **Tuesday, July 28, 2026 at 10:51:18 AM UTC** |
 
 </div>
 
@@ -673,7 +673,7 @@ A high-end editorial photo of a [IMAGE UPLOADED] placed flat on a [YOUR SURFACE]
 
 <a id="workflow-directed-editing-input-control"></a>
 
-### Directed Editing & Input Control (8)
+### Directed Editing & Input Control (11)
 
 Prompts that modify an existing image or use regions, sketches, references, and positional instructions to control the result.
 
@@ -947,6 +947,113 @@ Use the uploaded photo as the exact reference for the composition, pose, facial 
 
 ---
 
+<a id="prompt-37"></a>
+
+#### No. 8: This image Upload Your Image into a 64K DSLR
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
+
+##### Description
+
+A source-backed image prompt for structured visual communication, readable text, and layout-controlled generation.
+
+##### Prompt
+
+```
+Transform this image [Upload Your Image] into a 64K DSLR shot resolution of A creative urban street portrait featuring a young man (same face as the uploaded image) sitting on a curb in a quiet city street, paired with a stylized cartoon illustration of himself placed beside him. The real-life subject (same face as the uploaded image) is seated casually on a concrete sidewalk edge, resting his head on one hand in a bored, contemplative pose. He looks slightly upward with a neutral, introspective expression, conveying a sense of quiet thoughtfulness and urban solitude. He wears a muted maroon cable-knit sweater with a relaxed fit, dark loose-fitting denim jeans with subtle stitched details near the cuffs, and worn brown leather boots. Accessories include layered silver chain dog tag with the name "[Add Text]" written on it, rings on his fingers, black-framed glasses, and a light-coloured baseball cap with bold embroidered lettering on the front. His hair is short, dark hair, a well-groomed beard texture and character. Next to him on the sidewalk sits a small cartoon version (same face as the uploaded image) of himself, matching his outfit and pose exactly—same sweater, jeans, boots, cap, glasses, and facial expression. The illustrated character has clean outlines, warm muted colors, and a soft shaded, hand-drawn animation style, creating a playful contrast between realism and illustration. The cartoon figure is proportionally smaller, emphasizing a companion-like or inner-self concept. The background features textured cobblestone pavement, a curb edge, and a building facade with muted yellow walls and green-tiled brickwork near a window. The color palette is earthy and subdued, with natural daylight providing soft, even lighting and realistic shadows. The overall composition blends street photography, fashion portraiture, and mixed-media digital art, evoking themes of identity, self-reflection, and creativity. Style & Mood Keywords: Urban street photography, casual fashion portrait, mixed media art, real and cartoon character duo, introspective mood, muted earthy tones, soft natural light, realistic textures, creative storytelling, high-resolution detail, cinematic realism. Octane render & Unreal Engine
+```
+
+##### Source Results
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOH_vMobUAAAZf1.jpg" width="100%" alt="This image Upload Your Image into a 64K DSLR - Image 1"></td>
+</tr>
+</table>
+
+##### Source Details
+
+- **Author:** [Duet | AI](https://x.com/Sheldon056)
+- **Source:** [Source](https://x.com/Sheldon056/status/2081225700061946007)
+- **Published on X:** July 26, 2026
+- **Prompt language:** en
+
+**[Use this prompt on ImagineVid](https://imaginevid.io/nano-banana)**
+
+---
+
+<a id="prompt-38"></a>
+
+#### No. 9: Red dress cherry-blossom path portrait
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Description
+
+A Nano Banana prompt for a cinematic full-length fashion portrait in an enchanted floral walkway.
+
+##### Prompt
+
+```
+A cinematic full-length shot of a graceful blonde woman standing in the center of a magical, enchanting path lined with dense cherry blossom trees in full bloom under a glowing night moon. She is wearing an elegant, flowing red halter-neck evening gown with a flared, swirling skirt that catches the motion of a gentle breeze. The path and ground are heavily scattered with fallen pink and red flower petals, while glowing traditional lanterns hang from the branches and rest on ornate stands, casting a warm, ambient light that illuminates the scene. Delicate cherry blossom petals drift through the air around her as she smiles softly, captured with professional depth of field, high detail, and a mystical, romantic atmosphere.
+```
+
+##### Source Results
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOTvX0_WIAAHRLc.jpg" width="100%" alt="Red dress cherry-blossom path portrait - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOTvYxEXYAAsn4i.jpg" width="100%" alt="Red dress cherry-blossom path portrait - Image 2"></td>
+</tr>
+</table>
+
+##### Source Details
+
+- **Author:** [Minahil](https://x.com/Minahil42298354)
+- **Source:** [Source](https://x.com/Minahil42298354/status/2082052148540375267)
+- **Published on X:** July 28, 2026
+- **Prompt language:** en
+
+**[Use this prompt on ImagineVid](https://imaginevid.io/nano-banana)**
+
+---
+
+<a id="prompt-39"></a>
+
+#### No. 10: Three-panel traditional beauty composite
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Description
+
+A Nano Banana prompt for a vertical paper-backed cultural fashion composite with three settings.
+
+##### Prompt
+
+```
+A three-panel vertical composite image, presented on a light, textured paper background, showcases an Indian woman in various traditional settings. The top panel, set in an ornate temple courtyard, shows her smiling gently and holding a lit diya. She is dressed in a rich emerald green silk saree with a gold-patterned border and wears traditional gold jewelry. The middle panel captures her in an outdoor, sand-colored Rajasthani village courtyard. She is laughing heartily and looking up, wearing a vibrant, multi-colored mirror-work lehenga and a braided hairstyle adorned with yellow flowers. The bottom panel features her in a majestic, arched stone palace courtyard. She stands composed and serene, looking directly ahead, dressed in a deep maroon velvet lehenga and choli heavily embroidered with silver and gold thread, complemented by a pearl-and-kundan necklace and matching earrings. Throughout the triptych, the woman's consistent features and warm, engaging expression create a cohesive narrative of cultural celebration and diverse architectural beauty.
+```
+
+##### Source Results
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOTjA2qWsAAQScd.jpg" width="100%" alt="Three-panel traditional beauty composite - Image 1"></td>
+</tr>
+</table>
+
+##### Source Details
+
+- **Author:** [Minahil](https://x.com/Minahil42298354)
+- **Source:** [Source](https://x.com/Minahil42298354/status/2082038544730612074)
+- **Published on X:** July 28, 2026
+- **Prompt language:** en
+
+**[Use this prompt on ImagineVid](https://imaginevid.io/nano-banana)**
+
+---
+
 <a id="workflow-commercial-design-ui-posters"></a>
 
 ### Commercial Design, UI & Posters (8)
@@ -963,7 +1070,7 @@ Production briefs for advertisements, product campaigns, interfaces, posters, ty
 
 <a id="prompt-10"></a>
 
-#### No. 8: High-Fashion Tennis Campaign
+#### No. 11: High-Fashion Tennis Campaign
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -998,7 +1105,7 @@ A clean high-fashion sports editorial featuring a confident female tennis athlet
 
 <a id="prompt-26"></a>
 
-#### No. 9: Dark Chrome Logo in a White Void
+#### No. 12: Dark Chrome Logo in a White Void
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1033,7 +1140,7 @@ BRAND NAME], the official trademark logo rendered strictly as a solid 3D object,
 
 <a id="prompt-30"></a>
 
-#### No. 10: Luxury basketball editorial triptych
+#### No. 13: Luxury basketball editorial triptych
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1087,7 +1194,7 @@ Structured visuals where information order matters: diagrams, technical drawings
 
 <a id="prompt-11"></a>
 
-#### No. 11: Open-Book Sci-Fi Story Diorama
+#### No. 14: Open-Book Sci-Fi Story Diorama
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1179,7 +1286,7 @@ A premium open-book character encyclopedia diorama for $ SUBJECT, combining toy 
 
 <a id="prompt-12"></a>
 
-#### No. 12: Character Turnaround Sheet for a Rugged Hero
+#### No. 15: Character Turnaround Sheet for a Rugged Hero
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1214,7 +1321,7 @@ Character reference sheet- rugged Indian man, intense expression, wavy hair, thi
 
 <a id="prompt-14"></a>
 
-#### No. 13: Luxury Cruise Ship Technical Infographic
+#### No. 16: Luxury Cruise Ship Technical Infographic
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1249,7 +1356,7 @@ An ultra-detailed, vertical infographic poster for a fictional luxury cruise shi
 
 <a id="prompt-15"></a>
 
-#### No. 14: Illustrated Travel Maps with Cultural Callouts
+#### No. 17: Illustrated Travel Maps with Cultural Callouts
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1285,7 +1392,7 @@ Two vertical, highly detailed, illustrated travel infographic maps showcasing Ja
 
 <a id="prompt-16"></a>
 
-#### No. 15: Technical Outerwear Specification Sheet
+#### No. 18: Technical Outerwear Specification Sheet
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1320,13 +1427,13 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Characters, Cinema & Visual Styles (7)
+### Characters, Cinema & Visual Styles (8)
 
 Character, portrait, fashion, cinematic-frame, and style-exploration prompts centered on visual direction and image language.
 
 <a id="prompt-13"></a>
 
-#### No. 16: Photorealistic Futuristic Mecha
+#### No. 19: Photorealistic Futuristic Mecha
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1361,7 +1468,7 @@ Theme: Futuristic Mecha Design with Photorealistic Details Color Image: Metallic
 
 <a id="prompt-19"></a>
 
-#### No. 17: 1990s Indie Bedroom Portrait
+#### No. 20: 1990s Indie Bedroom Portrait
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1400,7 +1507,7 @@ Keywords: retro bedroom, indie aesthetic, grunge fashion, Nirvana shirt, cassett
 
 <a id="prompt-27"></a>
 
-#### No. 18: Notion-Style Monochrome Avatar
+#### No. 21: Notion-Style Monochrome Avatar
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Variables](https://img.shields.io/badge/Variables-Reusable-purple)
@@ -1447,7 +1554,7 @@ High contrast, clean 2D vector graphics.
 
 <a id="prompt-29"></a>
 
-#### No. 19: Geometric mosaic blueprint portrait
+#### No. 22: Geometric mosaic blueprint portrait
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1489,7 +1596,7 @@ Premium gallery-quality digital artwork, razor-sharp linework, complex layered d
 
 <a id="prompt-31"></a>
 
-#### No. 20: Rembrandt-lit monochrome fashion portrait
+#### No. 23: Rembrandt-lit monochrome fashion portrait
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1524,7 +1631,7 @@ A cinematic black-and-white fine art portrait of a handsome young man with mediu
 
 <a id="prompt-32"></a>
 
-#### No. 21: Thirteen-reference fashion collage merge
+#### No. 24: Thirteen-reference fashion collage merge
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
@@ -1560,7 +1667,7 @@ Create one coherent studio photograph from the supplied references. A fashion mo
 
 <a id="prompt-33"></a>
 
-#### No. 22: Windblown monochrome close-up with identity lock
+#### No. 25: Windblown monochrome close-up with identity lock
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 ![Reference](https://img.shields.io/badge/Reference-Image%20Needed-orange)
@@ -1594,9 +1701,44 @@ Using the supplied face reference, create a high-contrast black-and-white portra
 
 ---
 
+<a id="prompt-34"></a>
+
+#### No. 26: □A Image 4K double-exposure style photo editing poster featuring
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Description
+
+A source-backed image prompt for structured visual communication, readable text, and layout-controlled generation.
+
+##### Prompt
+
+```
+□A Image cinematic 4K double-exposure style photo editing poster featuring a stylish young Indian man. In the foreground, he is walking confidently down a dark cobblestone alleyway, hands in his pockets, wearing a maroon-to-black gradient denim jacket with a black hoodie inside, grey ripped jeans, sandals, and dark sunglasses. In the background, a large ghosted, semi-transparent close-up portrait of his face looking upwards with a serious expression is blended smoothly. 3:5 vartical ratio
+```
+
+##### Source Results
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOM52w7XAAA_y1X.jpg" width="100%" alt="□A Image 4K double-exposure style photo editing poster featuring - Image 1"></td>
+</tr>
+</table>
+
+##### Source Details
+
+- **Author:** [Muhammad Jamil](https://x.com/JamilAI55)
+- **Source:** [Source](https://x.com/JamilAI55/status/2081571082415292841)
+- **Published on X:** July 27, 2026
+- **Prompt language:** en
+
+**[Use this prompt on ImagineVid](https://imaginevid.io/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
-### Environments, Architecture & Worldbuilding (2)
+### Environments, Architecture & Worldbuilding (3)
 
 Environment, architecture, landscape, concept-art, and worldbuilding prompts where the place itself carries the idea.
 
@@ -1606,7 +1748,7 @@ Environment, architecture, landscape, concept-art, and worldbuilding prompts whe
 
 <a id="prompt-20"></a>
 
-#### No. 23: Golden-Hour Mountain Meadow
+#### No. 27: Golden-Hour Mountain Meadow
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1668,15 +1810,53 @@ A structured landscape brief for a winding path, wildflower meadow, solitary tre
 
 ---
 
+<a id="prompt-35"></a>
+
+#### No. 28: Battle 🥊 4 Models 1 Models In Image Order
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Description
+
+A source-backed image prompt for structured visual communication, readable text, and layout-controlled generation.
+
+##### Prompt
+
+```
+Battle 🥊 4 Models 1 Prompt Models In Image Order: GPT Image-2, Midjourney, Muse, Nanobanana Theme: Google Street View Prompt: Authentic fullscreen Google Maps Street View. desktop screenshot with realistic UI: rounded search bar (top left), location card, navigation arrows, thin blue Street View route line, compass, zoom controls, map inset, "Jul 2026" capture date, "Street View," "Map data," copyright attribution, keyboard hints, aligned icons, Latin alphabet only, brief fictional street name. Set in Portugal with the tiled facades, patched asphalt, overhead cables. geographically accurate architecture, road surface, lane markings, traffic signs, driving side, utility poles, streetlights, sidewalks, parked vehicles, license plate shapes, vegetation, storefronts, street furniture, and plausible fictional business names. Elevated roof-mounted 360° panoramic camera, wide-angle, subtle stitching seams, slight geometric distortion, uneven exposure, washed-out colors, compressed detail, privacy blur on all faces and plates. Ordinary documentary realism: bins, patched asphalt, overhead cables, faded signs, delivery vans, weathered street furniture. Avoid cinematic lighting, portraits, shallow DOF, film stills, CCTV overlays, fisheye, illustration, CGI, fantasy, empty streets, malformed UI, duplicate controls, floating icons, warped people, extra limbs. The Battle: 🥇 GPT Image 2 Prompt Adherence: 9.2/10 Nearly all major requirements are present: convincing desktop UI, location card, capture date, map inset, controls, Portuguese tiles, patched asphalt, cables, vehicles, signs, privacy blur, and an elevated camera position. The main omission is the thin blue Street View route line. Composition and Lighting: 9.1/10 Strong road depth, a clear tiled-façade anchor, and appropriately flat overcast light. Photorealistic Recreation: 9.7/10 The most convincing genuine Street View reconstruction. 🥈 Nano Banana Prompt Adherence: 9.4/10 The most complete interface interpretation, including the date, blue route line, compass, zoom controls, map inset, street label, copyright text, Portuguese architecture, cars, bins, cables, and privacy blur. The empty search bar and weaker roof-mounted camera effect hold it back. Composition and Lighting: 8.7/10 The downhill perspective and blue route line create strong depth. Lighting remains suitably flat. Photorealistic Recreation: 9.1/1.
+```
+
+##### Source Results
+
+<table>
+<tr>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOMkiCTWYAA6hit.jpg" width="100%" alt="Battle 🥊 4 Models 1 Models In Image Order - Image 1"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOMkiCQWcAAiPAY.jpg" width="100%" alt="Battle 🥊 4 Models 1 Models In Image Order - Image 2"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOMkiCbW8AEompx.jpg" width="100%" alt="Battle 🥊 4 Models 1 Models In Image Order - Image 3"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOMkiCYWkAIoV4t.jpg" width="100%" alt="Battle 🥊 4 Models 1 Models In Image Order - Image 4"></td>
+</tr>
+</table>
+
+##### Source Details
+
+- **Author:** [LANDCÄSTER](https://x.com/LANDCASTER_92)
+- **Source:** [Source](https://x.com/LANDCASTER_92/status/2081547625032040952)
+- **Published on X:** July 27, 2026
+- **Prompt language:** en
+
+**[Use this prompt on ImagineVid](https://imaginevid.io/nano-banana)**
+
+---
+
 <a id="workflow-benchmarks-model-comparisons"></a>
 
-### Benchmarks & Model Comparisons (1)
+### Benchmarks & Model Comparisons (2)
 
 Controlled tests and comparisons used to evaluate prompt following, editing behavior, consistency, typography, or visual quality.
 
 <a id="prompt-6"></a>
 
-#### No. 24: Gemini 2.5 vs 3.1 Editorial Portrait Benchmark
+#### No. 29: Gemini 2.5 vs 3.1 Editorial Portrait Benchmark
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1712,6 +1892,41 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 ---
 
+<a id="prompt-36"></a>
+
+#### No. 30: 2x2 grid, 16:9, do this for 4 famous days
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Description
+
+A source-backed image prompt for structured visual communication, readable text, and layout-controlled generation.
+
+##### Prompt
+
+```
+2x2 grid, 16:9, do this for 4 famous days that changed history<instructions> CREATE VIEW clay_timeline AS WITH topic_data AS ( SELECT '$topic' AS subject, infer_historical_evolution('$topic') AS stages, infer_iconic_props('$topic') AS props, infer_educational_labels('$topic') AS labels ), panels AS ( SELECT stage_index, stage_name, stage_prop, stage_label, stage_color_accent FROM topic_data, unnest(stages) WITH ORDINALITY AS s(stage_name, stage_prop, stage_label, stage_color_accent, stage_index) ) SELECT compose_clay_timeline( main_subject := (SELECT subject FROM topic_data), panels := array_agg( clay_diorama_panel( title := stage_name, clay_object := stage_prop || ' as chunky matte polymer clay miniature', callouts := stage_label, color_accent := stage_color_accent, base := 'rounded display plinth with soft shadow' ) ORDER BY stage_index ), typography := 'bold hand‑drawn marker lettering, short punchy notes, underlines and arrows', materials := 'soft polymer clay, matte toy plastic, rounded handmade props, puffy sculpted icons', lighting := 'soft studio light, gentle shadows, even bright toy‑photography clarity', background := 'warm pastel with teal, coral, pink, cream, yellow, mint, orange, soft green', mood := 'friendly, educational, nostalgic, cute, clever, shareable', negative := 'photorealism, corporate infographic, flat 2D only, dark cinematic, gritty, tiny fragile detail' ) AS final_image FROM panels; RETURN final_image; </instructions>
+```
+
+##### Source Results
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HN6RCfRWsAAhCWX.jpg" width="100%" alt="2x2 grid, 16:9, do this for 4 famous days - Image 1"></td>
+</tr>
+</table>
+
+##### Source Details
+
+- **Author:** [Gadgetify](https://x.com/Gdgtify)
+- **Source:** [Source](https://x.com/Gdgtify/status/2081286397949001917)
+- **Published on X:** July 26, 2026
+- **Prompt language:** en
+
+**[Use this prompt on ImagineVid](https://imaginevid.io/nano-banana)**
+
+---
+
 ## How to Contribute
 
 Found a Nano Banana workflow worth preserving? Submit the original prompt, result media, creator, and canonical source through GitHub Issues.
@@ -1739,11 +1954,11 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 ## Acknowledgements
 
 <details>
-<summary>Community creators we thank (19)</summary>
+<summary>Community creators we thank (22)</summary>
 
-[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp)<br>
-[Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan)<br>
-[WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Gadgetify](https://x.com/Gdgtify)<br>
+[Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Muhammad Jamil](https://x.com/JamilAI55)<br>
+[Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -1763,6 +1978,6 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Submit a Prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Star this repo](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>This README is automatically generated. Last updated: 2026-07-28T13:40:38.512Z</sub>
+<sub>This README is automatically generated. Last updated: 2026-07-28T10:51:18.612Z</sub>
 
 </div>
