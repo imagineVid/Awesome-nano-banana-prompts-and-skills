@@ -98,7 +98,7 @@ Variabelen maken een prompt met verifieerbare bron herbruikbaar zonder de hele b
 |--------|-------|
 | Totaal prompts | **39** |
 | Uitgelicht | **9** |
-| Laatst bijgewerkt | **dinsdag 28 juli 2026 om 20:59:03 UTC** |
+| Laatst bijgewerkt | **woensdag 29 juli 2026 om 01:44:28 UTC** |
 
 </div>
 
@@ -1976,6 +1976,6 @@ Uitgegeven onder [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Prompt indienen](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Geef deze repo een Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Deze README is automatisch gegenereerd. Laatst bijgewerkt: 2026-07-28T20:59:03.823Z</sub>
+<sub>Deze README is automatisch gegenereerd. Laatst bijgewerkt: 2026-07-29T01:44:28.776Z</sub>
 
 </div>
