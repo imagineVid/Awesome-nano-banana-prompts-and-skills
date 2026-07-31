@@ -98,7 +98,7 @@
 |--------|-------|
 | プロンプト総数 | **39** |
 | 注目 | **9** |
-| 最終更新 | **2026年7月31日金曜日 1:54:00 UTC** |
+| 最終更新 | **2026年7月31日金曜日 6:36:53 UTC** |
 
 </div>
 
@@ -1976,6 +1976,6 @@ X の公開ソースに基づく再利用可能なプロンプト例。構図、
 **[プロンプトを投稿](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[このリポジトリに Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>この README は自動生成されています。最終更新： 2026-07-31T01:54:01.004Z</sub>
+<sub>この README は自動生成されています。最終更新： 2026-07-31T06:36:53.989Z</sub>
 
 </div>

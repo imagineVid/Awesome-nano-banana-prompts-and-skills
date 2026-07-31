@@ -98,7 +98,7 @@ Las variables permiten reutilizar un prompt con fuente verificada sin redactar t
 |--------|-------|
 | Prompts totales | **39** |
 | Destacado | **9** |
-| Última actualización | **viernes, 31 de julio de 2026, 1:54:01 UTC** |
+| Última actualización | **viernes, 31 de julio de 2026, 6:36:54 UTC** |
 
 </div>
 
@@ -1976,6 +1976,6 @@ Publicado bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Enviar un prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Dar star al repo](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Este README se genera automáticamente. Última actualización: 2026-07-31T01:54:01.028Z</sub>
+<sub>Este README se genera automáticamente. Última actualización: 2026-07-31T06:36:54.006Z</sub>
 
 </div>
