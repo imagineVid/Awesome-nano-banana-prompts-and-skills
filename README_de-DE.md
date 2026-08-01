@@ -98,7 +98,7 @@ Variablen machen einen belegten Prompt wiederverwendbar, ohne jedes Briefing von
 |--------|-------|
 | Prompts gesamt | **39** |
 | Ausgewählt | **9** |
-| Zuletzt aktualisiert | **Samstag, 1. August 2026 um 16:49:16 UTC** |
+| Zuletzt aktualisiert | **Samstag, 1. August 2026 um 20:40:22 UTC** |
 
 </div>
 
@@ -1976,6 +1976,6 @@ Lizenziert unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Prompt einreichen](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Repository mit Star markieren](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Dieses README wird automatisch generiert. Zuletzt aktualisiert: 2026-08-01T16:49:16.364Z</sub>
+<sub>Dieses README wird automatisch generiert. Zuletzt aktualisiert: 2026-08-01T20:40:22.855Z</sub>
 
 </div>
