@@ -96,9 +96,9 @@
 
 | 指标 | 数量 |
 |--------|-------|
-| 提示词总数 | **39** |
+| 提示词总数 | **40** |
 | 精选 | **9** |
-| 最后更新 | **2026年7月28日星期二 UTC 10:51:18** |
+| 最后更新 | **2026年8月3日星期一 UTC 13:15:41** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### 角色、电影感与视觉风格 (8)
+### 角色、电影感与视觉风格 (9)
 
 以视觉方向和画面语言为核心的角色、肖像、时尚、电影画面与风格探索提示词。
 
@@ -1734,6 +1734,45 @@ Using the supplied face reference, create a high-contrast black-and-white portra
 
 ---
 
+<a id="prompt-40"></a>
+
+#### No. 27: 新日式水墨画编辑肖像
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### 说明
+
+以可复用指令和可核验结果媒体测试“新日式水墨画编辑肖像”的来源明确案例。
+
+##### 原始提示词（英文）
+
+```
+Contemporary neo-Japanese mixed-media portrait illustration blending refined realism with expressive sumi-e aesthetics, urban editorial art, and premium street-culture design. Ultra-detailed painterly rendering with crisp facial realism contrasted against bold graphic ink elements. Hand-painted brush textures, dry-brush strokes, ink splatters, paint drips, distressed paper fibers, cracked pigment, weathered parchment texture, and layered mixed-media collage create a handcrafted museum-quality appearance. Strong minimalist composition with large bold vermilion circular brush mark, dynamic calligraphic energy, selective graphic symbols, distressed stamp-print aesthetics, and asymmetrical visual balance. Limited color palette dominated by warm ivory paper, carbon black, deep charcoal, muted sepia, and vivid vermilion red accents for dramatic impact. Soft matte finish with cinematic directional lighting, subtle atmospheric depth, realistic material textures, organic imperfections, elegant negative space, premium editorial poster aesthetic, handcrafted fine-art illustration, timeless Japanese-inspired contemporary design, non-digital appearance, gallery-quality mixed-media masterpiece. Vertical composition, --ar 9:16."
+
+Negative prompt:
+CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic cyberpunk, neon lighting, colorful gradients, watercolor wash, oil painting impasto, anime, manga, cartoon, comic style, vector art, flat illustration, photobash, low detail, oversaturated colors, excessive ornaments, busy background, modern typography, clean geometric shapes, metallic reflections, airbrushed textures, blurry edges, low resolution, watermark, logo, text, frame.
+```
+
+##### 来源结果
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsBrfWEAAcoeQ.jpg" width="100%" alt="新日式水墨画编辑肖像 - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsCfjW8AAjn16.jpg" width="100%" alt="新日式水墨画编辑肖像 - Image 2"></td>
+</tr>
+</table>
+
+##### 详情
+
+- **作者:** [zayan](https://x.com/HustleXR)
+- **来源:** [来源](https://x.com/HustleXR/status/2084159526719385833)
+- **发布时间:** 2026年8月3日
+- **语言:** en
+
+**[使用这个提示词 · ImagineVid](https://imaginevid.io/zh/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### 环境、建筑与世界构建 (3)
@@ -1746,7 +1785,7 @@ Using the supplied face reference, create a high-contrast black-and-white portra
 
 <a id="prompt-20"></a>
 
-#### No. 27: 金色时刻山间草甸
+#### No. 28: 金色时刻山间草甸
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1810,7 +1849,7 @@ Using the supplied face reference, create a high-contrast black-and-white portra
 
 <a id="prompt-35"></a>
 
-#### No. 28: 新增案例：Battle 🥊 4 Models 1 Models In Image Order
+#### No. 29: 新增案例：Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1854,7 +1893,7 @@ Battle 🥊 4 Models 1 Prompt Models In Image Order: GPT Image-2, Midjourney, Mu
 
 <a id="prompt-6"></a>
 
-#### No. 29: Gemini 2.5 与 3.1 编辑肖像基准
+#### No. 30: Gemini 2.5 与 3.1 编辑肖像基准
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1892,7 +1931,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 30: 新增案例：2x2 grid, 16:9, do this for 4 famous days
+#### No. 31: 新增案例：2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1976,6 +2015,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[提交提示词](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[为仓库点 Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>本 README 自动生成。最后更新： 2026-07-28T10:51:18.621Z</sub>
+<sub>本 README 自动生成。最后更新： 2026-08-03T13:15:41.652Z</sub>
 
 </div>

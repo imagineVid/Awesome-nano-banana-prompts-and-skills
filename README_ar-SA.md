@@ -96,9 +96,9 @@
 
 | المقياس | العدد |
 |--------|-------|
-| إجمالي التعليمات | **39** |
+| إجمالي التعليمات | **40** |
 | مميز | **9** |
-| آخر تحديث | **الثلاثاء، ٢٨ يوليو ٢٠٢٦ في ١٠:٥١:١٨ ص UTC** |
+| آخر تحديث | **الاثنين، ٣ أغسطس ٢٠٢٦ في ١:١٥:٤١ م UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### الشخصيات والسينما والأساليب البصرية (8)
+### الشخصيات والسينما والأساليب البصرية (9)
 
 تعليمات للشخصيات والصور الشخصية والأزياء واللقطات السينمائية واستكشاف الأساليب وفق توجيه بصري واضح.
 
@@ -1734,6 +1734,45 @@ Using the supplied face reference, create a high-contrast black-and-white portra
 
 ---
 
+<a id="prompt-40"></a>
+
+#### No. 27: بورتريه تحريري ياباني حديث بأسلوب السومي-إه
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### الوصف
+
+حالة موثقة بالمصدر حول «بورتريه تحريري ياباني حديث بأسلوب السومي-إه»، مع تعليمات قابلة لإعادة الاستخدام ووسائط نتيجة قابلة للتحقق.
+
+##### التعليمة الأصلية (بالإنجليزية)
+
+```
+Contemporary neo-Japanese mixed-media portrait illustration blending refined realism with expressive sumi-e aesthetics, urban editorial art, and premium street-culture design. Ultra-detailed painterly rendering with crisp facial realism contrasted against bold graphic ink elements. Hand-painted brush textures, dry-brush strokes, ink splatters, paint drips, distressed paper fibers, cracked pigment, weathered parchment texture, and layered mixed-media collage create a handcrafted museum-quality appearance. Strong minimalist composition with large bold vermilion circular brush mark, dynamic calligraphic energy, selective graphic symbols, distressed stamp-print aesthetics, and asymmetrical visual balance. Limited color palette dominated by warm ivory paper, carbon black, deep charcoal, muted sepia, and vivid vermilion red accents for dramatic impact. Soft matte finish with cinematic directional lighting, subtle atmospheric depth, realistic material textures, organic imperfections, elegant negative space, premium editorial poster aesthetic, handcrafted fine-art illustration, timeless Japanese-inspired contemporary design, non-digital appearance, gallery-quality mixed-media masterpiece. Vertical composition, --ar 9:16."
+
+Negative prompt:
+CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic cyberpunk, neon lighting, colorful gradients, watercolor wash, oil painting impasto, anime, manga, cartoon, comic style, vector art, flat illustration, photobash, low detail, oversaturated colors, excessive ornaments, busy background, modern typography, clean geometric shapes, metallic reflections, airbrushed textures, blurry edges, low resolution, watermark, logo, text, frame.
+```
+
+##### نتائج المصدر
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsBrfWEAAcoeQ.jpg" width="100%" alt="بورتريه تحريري ياباني حديث بأسلوب السومي-إه - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsCfjW8AAjn16.jpg" width="100%" alt="بورتريه تحريري ياباني حديث بأسلوب السومي-إه - Image 2"></td>
+</tr>
+</table>
+
+##### التفاصيل
+
+- **المؤلف:** [zayan](https://x.com/HustleXR)
+- **المصدر:** [المصدر](https://x.com/HustleXR/status/2084159526719385833)
+- **تاريخ النشر:** ٣ أغسطس ٢٠٢٦
+- **اللغات:** en
+
+**[استخدم هذه التعليمة · ImagineVid](https://imaginevid.io/ar/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### البيئات والعمارة وبناء العوالم (3)
@@ -1746,7 +1785,7 @@ Using the supplied face reference, create a high-contrast black-and-white portra
 
 <a id="prompt-20"></a>
 
-#### No. 27: مرج جبلي في الساعة الذهبية
+#### No. 28: مرج جبلي في الساعة الذهبية
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1810,7 +1849,7 @@ Using the supplied face reference, create a high-contrast black-and-white portra
 
 <a id="prompt-35"></a>
 
-#### No. 28: حالة جديدة: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 29: حالة جديدة: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1854,7 +1893,7 @@ Battle 🥊 4 Models 1 Prompt Models In Image Order: GPT Image-2, Midjourney, Mu
 
 <a id="prompt-6"></a>
 
-#### No. 29: مقارنة بورتريه تحريري بين Gemini 2.5 و3.1
+#### No. 30: مقارنة بورتريه تحريري بين Gemini 2.5 و3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1892,7 +1931,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 30: حالة جديدة: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 31: حالة جديدة: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1976,6 +2015,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[إرسال تعليمة](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[ضع نجمة للمستودع](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>تم توليد README هذا تلقائيا. آخر تحديث: 2026-07-28T10:51:18.683Z</sub>
+<sub>تم توليد README هذا تلقائيا. آخر تحديث: 2026-08-03T13:15:41.725Z</sub>
 
 </div>

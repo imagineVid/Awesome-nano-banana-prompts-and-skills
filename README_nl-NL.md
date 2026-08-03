@@ -96,9 +96,9 @@ Variabelen maken een prompt met verifieerbare bron herbruikbaar zonder de hele b
 
 | Metriek | Aantal |
 |--------|-------|
-| Totaal prompts | **39** |
+| Totaal prompts | **40** |
 | Uitgelicht | **9** |
-| Laatst bijgewerkt | **dinsdag 28 juli 2026 om 10:51:18 UTC** |
+| Laatst bijgewerkt | **maandag 3 augustus 2026 om 13:15:41 UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Personages, film en visuele stijlen (8)
+### Personages, film en visuele stijlen (9)
 
 Prompts voor personages, portretten, mode, filmische kaders en stijlexperimenten met duidelijke visuele regie.
 
@@ -1734,6 +1734,45 @@ Herbruikbare promptcase uit een openbare X-bron, met duidelijke visuele regie en
 
 ---
 
+<a id="prompt-40"></a>
+
+#### No. 27: Neo-Japans sumi-e-editorialportret
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Beschrijving
+
+Een brononderbouwde case rond “Neo-Japans sumi-e-editorialportret”, met herbruikbare instructies en controleerbare resultaatmedia.
+
+##### Oorspronkelijke prompt (Engels)
+
+```
+Contemporary neo-Japanese mixed-media portrait illustration blending refined realism with expressive sumi-e aesthetics, urban editorial art, and premium street-culture design. Ultra-detailed painterly rendering with crisp facial realism contrasted against bold graphic ink elements. Hand-painted brush textures, dry-brush strokes, ink splatters, paint drips, distressed paper fibers, cracked pigment, weathered parchment texture, and layered mixed-media collage create a handcrafted museum-quality appearance. Strong minimalist composition with large bold vermilion circular brush mark, dynamic calligraphic energy, selective graphic symbols, distressed stamp-print aesthetics, and asymmetrical visual balance. Limited color palette dominated by warm ivory paper, carbon black, deep charcoal, muted sepia, and vivid vermilion red accents for dramatic impact. Soft matte finish with cinematic directional lighting, subtle atmospheric depth, realistic material textures, organic imperfections, elegant negative space, premium editorial poster aesthetic, handcrafted fine-art illustration, timeless Japanese-inspired contemporary design, non-digital appearance, gallery-quality mixed-media masterpiece. Vertical composition, --ar 9:16."
+
+Negative prompt:
+CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic cyberpunk, neon lighting, colorful gradients, watercolor wash, oil painting impasto, anime, manga, cartoon, comic style, vector art, flat illustration, photobash, low detail, oversaturated colors, excessive ornaments, busy background, modern typography, clean geometric shapes, metallic reflections, airbrushed textures, blurry edges, low resolution, watermark, logo, text, frame.
+```
+
+##### Bronresultaten
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsBrfWEAAcoeQ.jpg" width="100%" alt="Neo-Japans sumi-e-editorialportret - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsCfjW8AAjn16.jpg" width="100%" alt="Neo-Japans sumi-e-editorialportret - Image 2"></td>
+</tr>
+</table>
+
+##### Details
+
+- **Auteur:** [zayan](https://x.com/HustleXR)
+- **Bron:** [Bron](https://x.com/HustleXR/status/2084159526719385833)
+- **Gepubliceerd:** 3 augustus 2026
+- **Talen:** en
+
+**[Gebruik deze prompt · ImagineVid](https://imaginevid.io/nl/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Omgevingen, architectuur en wereldbouw (3)
@@ -1746,7 +1785,7 @@ Prompts voor omgevingen, architectuur, landschappen, concept art en wereldbouw w
 
 <a id="prompt-20"></a>
 
-#### No. 27: Bergweide tijdens het gouden uur
+#### No. 28: Bergweide tijdens het gouden uur
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1810,7 +1849,7 @@ Bouwt een gelaagd landschap met slingerpad, wilde bloemen, een solitaire boom, v
 
 <a id="prompt-35"></a>
 
-#### No. 28: Nieuwe case: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 29: Nieuwe case: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1854,7 +1893,7 @@ Gecontroleerde tests voor prompttrouw, bewerkingsgedrag, consistentie, typografi
 
 <a id="prompt-6"></a>
 
-#### No. 29: Vergelijking van redactionele portretten: Gemini 2.5 en 3.1
+#### No. 30: Vergelijking van redactionele portretten: Gemini 2.5 en 3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1892,7 +1931,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 30: Nieuwe case: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 31: Nieuwe case: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1976,6 +2015,6 @@ Uitgegeven onder [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Prompt indienen](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Geef deze repo een Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Deze README is automatisch gegenereerd. Laatst bijgewerkt: 2026-07-28T10:51:18.697Z</sub>
+<sub>Deze README is automatisch gegenereerd. Laatst bijgewerkt: 2026-08-03T13:15:41.740Z</sub>
 
 </div>

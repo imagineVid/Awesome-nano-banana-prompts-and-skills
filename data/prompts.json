@@ -1911,5 +1911,69 @@
         }
       ]
     }
+  },
+  {
+    "id": 40,
+    "model": "nano-banana",
+    "title": {
+      "en": "Neo-Japanese sumi-e editorial portrait"
+    },
+    "description": {
+      "en": "A source-backed Nano Banana mixed-media portrait that combines realistic facial rendering with sumi-e brushwork, paper grain, vermilion balance, and explicit negative controls."
+    },
+    "content": {
+      "en": "Contemporary neo-Japanese mixed-media portrait illustration blending refined realism with expressive sumi-e aesthetics, urban editorial art, and premium street-culture design. Ultra-detailed painterly rendering with crisp facial realism contrasted against bold graphic ink elements. Hand-painted brush textures, dry-brush strokes, ink splatters, paint drips, distressed paper fibers, cracked pigment, weathered parchment texture, and layered mixed-media collage create a handcrafted museum-quality appearance. Strong minimalist composition with large bold vermilion circular brush mark, dynamic calligraphic energy, selective graphic symbols, distressed stamp-print aesthetics, and asymmetrical visual balance. Limited color palette dominated by warm ivory paper, carbon black, deep charcoal, muted sepia, and vivid vermilion red accents for dramatic impact. Soft matte finish with cinematic directional lighting, subtle atmospheric depth, realistic material textures, organic imperfections, elegant negative space, premium editorial poster aesthetic, handcrafted fine-art illustration, timeless Japanese-inspired contemporary design, non-digital appearance, gallery-quality mixed-media masterpiece. Vertical composition, --ar 9:16.\"\n\nNegative prompt:\nCGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic cyberpunk, neon lighting, colorful gradients, watercolor wash, oil painting impasto, anime, manga, cartoon, comic style, vector art, flat illustration, photobash, low detail, oversaturated colors, excessive ornaments, busy background, modern typography, clean geometric shapes, metallic reflections, airbrushed textures, blurry edges, low resolution, watermark, logo, text, frame."
+    },
+    "sourceLink": "https://x.com/HustleXR/status/2084159526719385833",
+    "sourcePublishedAt": "2026-08-03T06:08:47.000Z",
+    "sourceMedia": [
+      "https://pbs.twimg.com/media/HOxsBrfWEAAcoeQ.jpg",
+      "https://pbs.twimg.com/media/HOxsCfjW8AAjn16.jpg"
+    ],
+    "author": {
+      "name": "zayan",
+      "link": "https://x.com/HustleXR"
+    },
+    "language": "en",
+    "featured": false,
+    "sort": 40,
+    "needReferenceImages": false,
+    "sourceMeta": {
+      "source": "twitterapi.io",
+      "tweet_id": "2084159526719385833",
+      "prompt_source": "tweet_text_prompt",
+      "model_evidence": "nano-banana",
+      "collected_at": "2026-08-03",
+      "retweetCount": 3,
+      "replyCount": 23,
+      "likeCount": 35,
+      "quoteCount": 0,
+      "viewCount": 509,
+      "bookmarkCount": 11
+    },
+    "imageCategories": {
+      "workflows": [
+        {
+          "id": 64,
+          "title": {
+            "en": "Characters, Cinema & Visual Styles",
+            "zh": "角色、电影感与视觉风格",
+            "ja-JP": "キャラクター・映画表現・ビジュアルスタイル",
+            "ko-KR": "캐릭터, 시네마 및 비주얼 스타일",
+            "es-ES": "Personajes, cine y estilos visuales",
+            "de-DE": "Charaktere, Kino und visuelle Stile",
+            "fr-FR": "Personnages, cinéma et styles visuels",
+            "it-IT": "Personaggi, cinema e stili visivi",
+            "pt-PT": "Personagens, cinema e estilos visuais",
+            "tr-TR": "Karakterler, sinema ve görsel stiller",
+            "ar-SA": "الشخصيات والسينما والأساليب البصرية",
+            "ru-RU": "Персонажи, кино и визуальные стили",
+            "nl-NL": "Personages, film en visuele stijlen",
+            "pl-PL": "Postacie, kino i style wizualne"
+          },
+          "slug": "characters-cinema-visual-styles"
+        }
+      ]
+    }
   }
 ]

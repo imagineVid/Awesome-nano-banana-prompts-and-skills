@@ -96,9 +96,9 @@
 
 | 項目 | 数 |
 |--------|-------|
-| プロンプト総数 | **39** |
+| プロンプト総数 | **40** |
 | 注目 | **9** |
-| 最終更新 | **2026年7月28日火曜日 10:51:18 UTC** |
+| 最終更新 | **2026年8月3日月曜日 13:15:41 UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### キャラクター・映画表現・ビジュアルスタイル (8)
+### キャラクター・映画表現・ビジュアルスタイル (9)
 
 視覚演出と画面言語を軸に、キャラクター、肖像、ファッション、映画的な画面、スタイルを探るプロンプト。
 
@@ -1734,6 +1734,45 @@ X の公開ソースに基づく再利用可能なプロンプト例。構図、
 
 ---
 
+<a id="prompt-40"></a>
+
+#### No. 27: ネオ・ジャパニーズな水墨画風エディトリアルポートレート
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### 説明
+
+「ネオ・ジャパニーズな水墨画風エディトリアルポートレート」を検証可能な結果メディアと再利用できる指示で試す、出典付きのケースです。
+
+##### 原文プロンプト（英語）
+
+```
+Contemporary neo-Japanese mixed-media portrait illustration blending refined realism with expressive sumi-e aesthetics, urban editorial art, and premium street-culture design. Ultra-detailed painterly rendering with crisp facial realism contrasted against bold graphic ink elements. Hand-painted brush textures, dry-brush strokes, ink splatters, paint drips, distressed paper fibers, cracked pigment, weathered parchment texture, and layered mixed-media collage create a handcrafted museum-quality appearance. Strong minimalist composition with large bold vermilion circular brush mark, dynamic calligraphic energy, selective graphic symbols, distressed stamp-print aesthetics, and asymmetrical visual balance. Limited color palette dominated by warm ivory paper, carbon black, deep charcoal, muted sepia, and vivid vermilion red accents for dramatic impact. Soft matte finish with cinematic directional lighting, subtle atmospheric depth, realistic material textures, organic imperfections, elegant negative space, premium editorial poster aesthetic, handcrafted fine-art illustration, timeless Japanese-inspired contemporary design, non-digital appearance, gallery-quality mixed-media masterpiece. Vertical composition, --ar 9:16."
+
+Negative prompt:
+CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic cyberpunk, neon lighting, colorful gradients, watercolor wash, oil painting impasto, anime, manga, cartoon, comic style, vector art, flat illustration, photobash, low detail, oversaturated colors, excessive ornaments, busy background, modern typography, clean geometric shapes, metallic reflections, airbrushed textures, blurry edges, low resolution, watermark, logo, text, frame.
+```
+
+##### 出典画像
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsBrfWEAAcoeQ.jpg" width="100%" alt="ネオ・ジャパニーズな水墨画風エディトリアルポートレート - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsCfjW8AAjn16.jpg" width="100%" alt="ネオ・ジャパニーズな水墨画風エディトリアルポートレート - Image 2"></td>
+</tr>
+</table>
+
+##### 詳細
+
+- **作者:** [zayan](https://x.com/HustleXR)
+- **出典:** [出典](https://x.com/HustleXR/status/2084159526719385833)
+- **公開日:** 2026年8月3日
+- **言語:** en
+
+**[このプロンプトを使う · ImagineVid](https://imaginevid.io/ja/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### 環境・建築・世界観構築 (3)
@@ -1746,7 +1785,7 @@ X の公開ソースに基づく再利用可能なプロンプト例。構図、
 
 <a id="prompt-20"></a>
 
-#### No. 27: ゴールデンアワーの山岳草原
+#### No. 28: ゴールデンアワーの山岳草原
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1810,7 +1849,7 @@ X の公開ソースに基づく再利用可能なプロンプト例。構図、
 
 <a id="prompt-35"></a>
 
-#### No. 28: 新規ケース: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 29: 新規ケース: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1854,7 +1893,7 @@ Battle 🥊 4 Models 1 Prompt Models In Image Order: GPT Image-2, Midjourney, Mu
 
 <a id="prompt-6"></a>
 
-#### No. 29: Gemini 2.5 対 3.1 編集ポートレート比較
+#### No. 30: Gemini 2.5 対 3.1 編集ポートレート比較
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1892,7 +1931,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 30: 新規ケース: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 31: 新規ケース: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1976,6 +2015,6 @@ X の公開ソースに基づく再利用可能なプロンプト例。構図、
 **[プロンプトを投稿](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[このリポジトリに Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>この README は自動生成されています。最終更新： 2026-07-28T10:51:18.628Z</sub>
+<sub>この README は自動生成されています。最終更新： 2026-08-03T13:15:41.661Z</sub>
 
 </div>

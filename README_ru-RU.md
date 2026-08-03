@@ -96,9 +96,9 @@
 
 | Показатель | Количество |
 |--------|-------|
-| Всего промптов | **39** |
+| Всего промптов | **40** |
 | Избранное | **9** |
-| Обновлено | **вторник, 28 июля 2026 г. в 10:51:18 UTC** |
+| Обновлено | **понедельник, 3 августа 2026 г. в 13:15:41 UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Персонажи, кино и визуальные стили (8)
+### Персонажи, кино и визуальные стили (9)
 
 Промпты для персонажей, портретов, моды, кинокадров и поиска стиля с акцентом на визуальную режиссуру.
 
@@ -1734,6 +1734,45 @@ Using the supplied face reference, create a high-contrast black-and-white portra
 
 ---
 
+<a id="prompt-40"></a>
+
+#### No. 27: Неояпонский редакционный портрет в стиле суми-э
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Описание
+
+Кейс с подтверждённым источником о задаче «Неояпонский редакционный портрет в стиле суми-э», с повторно используемыми инструкциями и проверяемым результатом.
+
+##### Оригинальный промпт (на английском)
+
+```
+Contemporary neo-Japanese mixed-media portrait illustration blending refined realism with expressive sumi-e aesthetics, urban editorial art, and premium street-culture design. Ultra-detailed painterly rendering with crisp facial realism contrasted against bold graphic ink elements. Hand-painted brush textures, dry-brush strokes, ink splatters, paint drips, distressed paper fibers, cracked pigment, weathered parchment texture, and layered mixed-media collage create a handcrafted museum-quality appearance. Strong minimalist composition with large bold vermilion circular brush mark, dynamic calligraphic energy, selective graphic symbols, distressed stamp-print aesthetics, and asymmetrical visual balance. Limited color palette dominated by warm ivory paper, carbon black, deep charcoal, muted sepia, and vivid vermilion red accents for dramatic impact. Soft matte finish with cinematic directional lighting, subtle atmospheric depth, realistic material textures, organic imperfections, elegant negative space, premium editorial poster aesthetic, handcrafted fine-art illustration, timeless Japanese-inspired contemporary design, non-digital appearance, gallery-quality mixed-media masterpiece. Vertical composition, --ar 9:16."
+
+Negative prompt:
+CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic cyberpunk, neon lighting, colorful gradients, watercolor wash, oil painting impasto, anime, manga, cartoon, comic style, vector art, flat illustration, photobash, low detail, oversaturated colors, excessive ornaments, busy background, modern typography, clean geometric shapes, metallic reflections, airbrushed textures, blurry edges, low resolution, watermark, logo, text, frame.
+```
+
+##### Результаты из источника
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsBrfWEAAcoeQ.jpg" width="100%" alt="Неояпонский редакционный портрет в стиле суми-э - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsCfjW8AAjn16.jpg" width="100%" alt="Неояпонский редакционный портрет в стиле суми-э - Image 2"></td>
+</tr>
+</table>
+
+##### Детали
+
+- **Автор:** [zayan](https://x.com/HustleXR)
+- **Источник:** [Источник](https://x.com/HustleXR/status/2084159526719385833)
+- **Опубликовано:** 3 августа 2026 г.
+- **Языки:** en
+
+**[Использовать промпт · ImagineVid](https://imaginevid.io/ru/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Окружение, архитектура и миростроение (3)
@@ -1746,7 +1785,7 @@ Using the supplied face reference, create a high-contrast black-and-white portra
 
 <a id="prompt-20"></a>
 
-#### No. 27: Горный луг в золотой час
+#### No. 28: Горный луг в золотой час
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1810,7 +1849,7 @@ Using the supplied face reference, create a high-contrast black-and-white portra
 
 <a id="prompt-35"></a>
 
-#### No. 28: Новый пример: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 29: Новый пример: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1854,7 +1893,7 @@ Battle 🥊 4 Models 1 Prompt Models In Image Order: GPT Image-2, Midjourney, Mu
 
 <a id="prompt-6"></a>
 
-#### No. 29: Сравнение редакционного портрета Gemini 2.5 и 3.1
+#### No. 30: Сравнение редакционного портрета Gemini 2.5 и 3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1892,7 +1931,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 30: Новый пример: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 31: Новый пример: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1976,6 +2015,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[Отправить промпт](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Поставить Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Этот README создан автоматически. Последнее обновление: 2026-07-28T10:51:18.690Z</sub>
+<sub>Этот README создан автоматически. Последнее обновление: 2026-08-03T13:15:41.733Z</sub>
 
 </div>

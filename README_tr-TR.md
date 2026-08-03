@@ -96,9 +96,9 @@ Değişkenler, kaynaklı bir promptu tüm briefi baştan yazmadan güvenilir bi�
 
 | Metrik | Sayı |
 |--------|-------|
-| Toplam prompt | **39** |
+| Toplam prompt | **40** |
 | Öne çıkan | **9** |
-| Son güncelleme | **28 Temmuz 2026 Salı 10:51:18 UTC** |
+| Son güncelleme | **3 Ağustos 2026 Pazartesi 13:15:41 UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Karakterler, sinema ve görsel stiller (8)
+### Karakterler, sinema ve görsel stiller (9)
 
 Görsel yönetim ve görüntü diline odaklanan karakter, portre, moda, sinema karesi ve stil keşfi promptları.
 
@@ -1734,6 +1734,45 @@ X üzerindeki açık bir kaynağa dayanan, net görsel yönlendirme ve doğrulan
 
 ---
 
+<a id="prompt-40"></a>
+
+#### No. 27: Neo-Japon sumi-e tarzında editoryal portre
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Açıklama
+
+“Neo-Japon sumi-e tarzında editoryal portre” konusunu yeniden kullanılabilir talimatlar ve doğrulanabilir sonuç medyasıyla ele alan kaynaklı bir vaka.
+
+##### Özgün prompt (İngilizce)
+
+```
+Contemporary neo-Japanese mixed-media portrait illustration blending refined realism with expressive sumi-e aesthetics, urban editorial art, and premium street-culture design. Ultra-detailed painterly rendering with crisp facial realism contrasted against bold graphic ink elements. Hand-painted brush textures, dry-brush strokes, ink splatters, paint drips, distressed paper fibers, cracked pigment, weathered parchment texture, and layered mixed-media collage create a handcrafted museum-quality appearance. Strong minimalist composition with large bold vermilion circular brush mark, dynamic calligraphic energy, selective graphic symbols, distressed stamp-print aesthetics, and asymmetrical visual balance. Limited color palette dominated by warm ivory paper, carbon black, deep charcoal, muted sepia, and vivid vermilion red accents for dramatic impact. Soft matte finish with cinematic directional lighting, subtle atmospheric depth, realistic material textures, organic imperfections, elegant negative space, premium editorial poster aesthetic, handcrafted fine-art illustration, timeless Japanese-inspired contemporary design, non-digital appearance, gallery-quality mixed-media masterpiece. Vertical composition, --ar 9:16."
+
+Negative prompt:
+CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic cyberpunk, neon lighting, colorful gradients, watercolor wash, oil painting impasto, anime, manga, cartoon, comic style, vector art, flat illustration, photobash, low detail, oversaturated colors, excessive ornaments, busy background, modern typography, clean geometric shapes, metallic reflections, airbrushed textures, blurry edges, low resolution, watermark, logo, text, frame.
+```
+
+##### Kaynak sonuçları
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsBrfWEAAcoeQ.jpg" width="100%" alt="Neo-Japon sumi-e tarzında editoryal portre - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsCfjW8AAjn16.jpg" width="100%" alt="Neo-Japon sumi-e tarzında editoryal portre - Image 2"></td>
+</tr>
+</table>
+
+##### Detaylar
+
+- **Yazar:** [zayan](https://x.com/HustleXR)
+- **Kaynak:** [Kaynak](https://x.com/HustleXR/status/2084159526719385833)
+- **Yayınlandı:** 3 Ağustos 2026
+- **Diller:** en
+
+**[Bu promptu kullan · ImagineVid](https://imaginevid.io/tr/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Ortamlar, mimari ve dünya inşası (3)
@@ -1746,7 +1785,7 @@ Mekânın fikri taşıdığı çevre, mimari, manzara, konsept sanat ve dünya k
 
 <a id="prompt-20"></a>
 
-#### No. 27: Altın saatte dağ çayırı
+#### No. 28: Altın saatte dağ çayırı
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1810,7 +1849,7 @@ Kıvrılan patika, kır çiçekleri, tek ağaç, uzaktaki hayvanlar ve parlayan 
 
 <a id="prompt-35"></a>
 
-#### No. 28: Yeni örnek: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 29: Yeni örnek: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1854,7 +1893,7 @@ Prompt takibi, düzenleme davranışı, tutarlılık, tipografi ve görsel kalit
 
 <a id="prompt-6"></a>
 
-#### No. 29: Gemini 2.5 ve 3.1 editoryal portre karşılaştırması
+#### No. 30: Gemini 2.5 ve 3.1 editoryal portre karşılaştırması
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1892,7 +1931,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 30: Yeni örnek: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 31: Yeni örnek: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1976,6 +2015,6 @@ Tüm kurallar için [CONTRIBUTING.md](docs/CONTRIBUTING.md) dosyasına bakın.
 **[Prompt gönder](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Depoya Star ver](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Bu README otomatik oluşturuldu. Son güncelleme: 2026-07-28T10:51:18.676Z</sub>
+<sub>Bu README otomatik oluşturuldu. Son güncelleme: 2026-08-03T13:15:41.717Z</sub>
 
 </div>

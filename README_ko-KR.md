@@ -96,9 +96,9 @@
 
 | 항목 | 수량 |
 |--------|-------|
-| 총 프롬프트 | **39** |
+| 총 프롬프트 | **40** |
 | 추천 | **9** |
-| 마지막 업데이트 | **2026년 7월 28일 화요일 AM 10시 51분 18초 UTC** |
+| 마지막 업데이트 | **2026년 8월 3일 월요일 PM 1시 15분 41초 UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### 캐릭터, 시네마 및 비주얼 스타일 (8)
+### 캐릭터, 시네마 및 비주얼 스타일 (9)
 
 시각 연출과 이미지 언어를 중심으로 캐릭터, 인물, 패션, 영화 장면, 스타일을 탐색하는 프롬프트입니다.
 
@@ -1734,6 +1734,45 @@ X 공개 출처를 바탕으로 정리한 재사용 가능한 프롬프트 사�
 
 ---
 
+<a id="prompt-40"></a>
+
+#### No. 27: 네오 재패니즈 수묵화 에디토리얼 포트레이트
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### 설명
+
+검증 가능한 결과 미디어와 재사용 가능한 지침으로 '네오 재패니즈 수묵화 에디토리얼 포트레이트'을 테스트하는 출처 기반 사례입니다.
+
+##### 원문 프롬프트(영어)
+
+```
+Contemporary neo-Japanese mixed-media portrait illustration blending refined realism with expressive sumi-e aesthetics, urban editorial art, and premium street-culture design. Ultra-detailed painterly rendering with crisp facial realism contrasted against bold graphic ink elements. Hand-painted brush textures, dry-brush strokes, ink splatters, paint drips, distressed paper fibers, cracked pigment, weathered parchment texture, and layered mixed-media collage create a handcrafted museum-quality appearance. Strong minimalist composition with large bold vermilion circular brush mark, dynamic calligraphic energy, selective graphic symbols, distressed stamp-print aesthetics, and asymmetrical visual balance. Limited color palette dominated by warm ivory paper, carbon black, deep charcoal, muted sepia, and vivid vermilion red accents for dramatic impact. Soft matte finish with cinematic directional lighting, subtle atmospheric depth, realistic material textures, organic imperfections, elegant negative space, premium editorial poster aesthetic, handcrafted fine-art illustration, timeless Japanese-inspired contemporary design, non-digital appearance, gallery-quality mixed-media masterpiece. Vertical composition, --ar 9:16."
+
+Negative prompt:
+CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic cyberpunk, neon lighting, colorful gradients, watercolor wash, oil painting impasto, anime, manga, cartoon, comic style, vector art, flat illustration, photobash, low detail, oversaturated colors, excessive ornaments, busy background, modern typography, clean geometric shapes, metallic reflections, airbrushed textures, blurry edges, low resolution, watermark, logo, text, frame.
+```
+
+##### 출처 이미지
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsBrfWEAAcoeQ.jpg" width="100%" alt="네오 재패니즈 수묵화 에디토리얼 포트레이트 - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsCfjW8AAjn16.jpg" width="100%" alt="네오 재패니즈 수묵화 에디토리얼 포트레이트 - Image 2"></td>
+</tr>
+</table>
+
+##### 세부 정보
+
+- **작성자:** [zayan](https://x.com/HustleXR)
+- **출처:** [출처](https://x.com/HustleXR/status/2084159526719385833)
+- **게시일:** 2026년 8월 3일
+- **언어:** en
+
+**[이 프롬프트 사용 · ImagineVid](https://imaginevid.io/ko/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### 환경, 건축 및 세계관 구축 (3)
@@ -1746,7 +1785,7 @@ X 공개 출처를 바탕으로 정리한 재사용 가능한 프롬프트 사�
 
 <a id="prompt-20"></a>
 
-#### No. 27: 골든아워의 산악 초원
+#### No. 28: 골든아워의 산악 초원
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1810,7 +1849,7 @@ X 공개 출처를 바탕으로 정리한 재사용 가능한 프롬프트 사�
 
 <a id="prompt-35"></a>
 
-#### No. 28: 신규 사례: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 29: 신규 사례: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1854,7 +1893,7 @@ Battle 🥊 4 Models 1 Prompt Models In Image Order: GPT Image-2, Midjourney, Mu
 
 <a id="prompt-6"></a>
 
-#### No. 29: Gemini 2.5 대 3.1 에디토리얼 인물 벤치마크
+#### No. 30: Gemini 2.5 대 3.1 에디토리얼 인물 벤치마크
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1892,7 +1931,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 30: 신규 사례: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 31: 신규 사례: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1976,6 +2015,6 @@ GitHub Issues를 통한 고품질 프롬프트 제출을 환영합니다.
 **[프롬프트 제출](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[저장소에 Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>이 README는 자동 생성되었습니다. 마지막 업데이트: 2026-07-28T10:51:18.636Z</sub>
+<sub>이 README는 자동 생성되었습니다. 마지막 업데이트: 2026-08-03T13:15:41.670Z</sub>
 
 </div>

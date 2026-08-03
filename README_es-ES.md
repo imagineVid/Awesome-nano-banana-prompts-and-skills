@@ -96,9 +96,9 @@ Las variables permiten reutilizar un prompt con fuente verificada sin redactar t
 
 | Métrica | Cantidad |
 |--------|-------|
-| Prompts totales | **39** |
+| Prompts totales | **40** |
 | Destacado | **9** |
-| Última actualización | **martes, 28 de julio de 2026, 10:51:18 UTC** |
+| Última actualización | **lunes, 3 de agosto de 2026, 13:15:41 UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Personajes, cine y estilos visuales (8)
+### Personajes, cine y estilos visuales (9)
 
 Prompts de personajes, retrato, moda, fotogramas cinematográficos y exploración de estilos centrados en la dirección visual.
 
@@ -1734,6 +1734,45 @@ Caso reutilizable basado en una fuente pública de X, con dirección visual clar
 
 ---
 
+<a id="prompt-40"></a>
+
+#### No. 27: Retrato editorial neo-japonés en sumi-e
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Descripción
+
+Un caso respaldado por fuentes que explora «Retrato editorial neo-japonés en sumi-e», con instrucciones reutilizables y medios de resultado verificables.
+
+##### Prompt original (en inglés)
+
+```
+Contemporary neo-Japanese mixed-media portrait illustration blending refined realism with expressive sumi-e aesthetics, urban editorial art, and premium street-culture design. Ultra-detailed painterly rendering with crisp facial realism contrasted against bold graphic ink elements. Hand-painted brush textures, dry-brush strokes, ink splatters, paint drips, distressed paper fibers, cracked pigment, weathered parchment texture, and layered mixed-media collage create a handcrafted museum-quality appearance. Strong minimalist composition with large bold vermilion circular brush mark, dynamic calligraphic energy, selective graphic symbols, distressed stamp-print aesthetics, and asymmetrical visual balance. Limited color palette dominated by warm ivory paper, carbon black, deep charcoal, muted sepia, and vivid vermilion red accents for dramatic impact. Soft matte finish with cinematic directional lighting, subtle atmospheric depth, realistic material textures, organic imperfections, elegant negative space, premium editorial poster aesthetic, handcrafted fine-art illustration, timeless Japanese-inspired contemporary design, non-digital appearance, gallery-quality mixed-media masterpiece. Vertical composition, --ar 9:16."
+
+Negative prompt:
+CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic cyberpunk, neon lighting, colorful gradients, watercolor wash, oil painting impasto, anime, manga, cartoon, comic style, vector art, flat illustration, photobash, low detail, oversaturated colors, excessive ornaments, busy background, modern typography, clean geometric shapes, metallic reflections, airbrushed textures, blurry edges, low resolution, watermark, logo, text, frame.
+```
+
+##### Resultados de la fuente
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsBrfWEAAcoeQ.jpg" width="100%" alt="Retrato editorial neo-japonés en sumi-e - Image 1"></td>
+<td width="50%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOxsCfjW8AAjn16.jpg" width="100%" alt="Retrato editorial neo-japonés en sumi-e - Image 2"></td>
+</tr>
+</table>
+
+##### Detalles
+
+- **Autor:** [zayan](https://x.com/HustleXR)
+- **Fuente:** [Fuente](https://x.com/HustleXR/status/2084159526719385833)
+- **Publicado:** 3 de agosto de 2026
+- **Idiomas:** en
+
+**[Usar este prompt · ImagineVid](https://imaginevid.io/es/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Entornos, arquitectura y creación de mundos (3)
@@ -1746,7 +1785,7 @@ Prompts de entornos, arquitectura, paisajes, arte conceptual y creación de mund
 
 <a id="prompt-20"></a>
 
-#### No. 27: Pradera de montaña en la hora dorada
+#### No. 28: Pradera de montaña en la hora dorada
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1810,7 +1849,7 @@ Compone un paisaje con sendero sinuoso, flores silvestres, un árbol solitario, 
 
 <a id="prompt-35"></a>
 
-#### No. 28: Caso nuevo: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 29: Caso nuevo: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1854,7 +1893,7 @@ Pruebas controladas para evaluar el seguimiento del prompt, la edición, la cons
 
 <a id="prompt-6"></a>
 
-#### No. 29: Comparativa de retrato editorial: Gemini 2.5 frente a 3.1
+#### No. 30: Comparativa de retrato editorial: Gemini 2.5 frente a 3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1892,7 +1931,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 30: Caso nuevo: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 31: Caso nuevo: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1976,6 +2015,6 @@ Publicado bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Enviar un prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Dar star al repo](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Este README se genera automáticamente. Última actualización: 2026-07-28T10:51:18.642Z</sub>
+<sub>Este README se genera automáticamente. Última actualización: 2026-08-03T13:15:41.678Z</sub>
 
 </div>
