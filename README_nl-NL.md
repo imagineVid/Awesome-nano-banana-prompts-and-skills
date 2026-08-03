@@ -96,9 +96,9 @@ Variabelen maken een prompt met verifieerbare bron herbruikbaar zonder de hele b
 
 | Metriek | Aantal |
 |--------|-------|
-| Totaal prompts | **40** |
+| Totaal prompts | **41** |
 | Uitgelicht | **9** |
-| Laatst bijgewerkt | **maandag 3 augustus 2026 om 13:27:16 UTC** |
+| Laatst bijgewerkt | **maandag 3 augustus 2026 om 14:14:29 UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Personages, film en visuele stijlen (9)
+### Personages, film en visuele stijlen (10)
 
 Prompts voor personages, portretten, mode, filmische kaders en stijlexperimenten met duidelijke visuele regie.
 
@@ -1773,6 +1773,44 @@ CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic c
 
 ---
 
+<a id="prompt-41"></a>
+
+#### No. 28: Streetstyleportret met stippen
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Beschrijving
+
+Een brononderbouwd Nano Banana-modeportret dat de vorm van de kleding, de plaatsing van de handen, de schaal van accessoires en het natuurlijke daglicht in een volledig lichaamsbeeld consistent houdt.
+
+##### Oorspronkelijke prompt (Engels)
+
+```
+A photorealistic full-body portrait of a young East Asian woman in her early 20s with long straight jet-black hair cascading over one shoulder, fair porcelain skin, soft facial features, and a calm neutral expression looking directly at the camera. She stands confidently outdoors against a tall gray brick wall. She wears a tight black halter-neck crop top with small white polka dots, a deep plunging V-neckline, and a long matching polka-dot fabric scarf draped from the neck and hanging loosely down her side. A short tight black mini skirt sits high on her hips. She has white crew socks and black ballet flats with white polka dots. In her left hand she holds a clear plastic cup filled with iced coffee and a black straw. Her right hand is raised, gently touching the ends of her hair near her shoulder. A small black drawstring pouch rests on the wooden floorboards beside her feet. Use soft natural daylight, realistic skin texture, sharp details, shallow depth of field, and high-resolution fashion photography.
+```
+
+##### Bronresultaten
+
+<table>
+<tr>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmYvaYAAysql.jpg" width="100%" alt="Streetstyleportret met stippen - Image 1"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmY_agAE15N0.jpg" width="100%" alt="Streetstyleportret met stippen - Image 2"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmX9aQAA-UO5.jpg" width="100%" alt="Streetstyleportret met stippen - Image 3"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmYRaMAI1inR.jpg" width="100%" alt="Streetstyleportret met stippen - Image 4"></td>
+</tr>
+</table>
+
+##### Details
+
+- **Auteur:** [Feyber | AI Creator](https://x.com/woleswoosh)
+- **Bron:** [Bron](https://x.com/woleswoosh/status/2084247918882791849)
+- **Gepubliceerd:** 3 augustus 2026
+- **Talen:** en
+
+**[Gebruik deze prompt · ImagineVid](https://imaginevid.io/nl/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Omgevingen, architectuur en wereldbouw (3)
@@ -1785,7 +1823,7 @@ Prompts voor omgevingen, architectuur, landschappen, concept art en wereldbouw w
 
 <a id="prompt-20"></a>
 
-#### No. 28: Bergweide tijdens het gouden uur
+#### No. 29: Bergweide tijdens het gouden uur
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1849,7 +1887,7 @@ Bouwt een gelaagd landschap met slingerpad, wilde bloemen, een solitaire boom, v
 
 <a id="prompt-35"></a>
 
-#### No. 29: Nieuwe case: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 30: Nieuwe case: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1893,7 +1931,7 @@ Gecontroleerde tests voor prompttrouw, bewerkingsgedrag, consistentie, typografi
 
 <a id="prompt-6"></a>
 
-#### No. 30: Vergelijking van redactionele portretten: Gemini 2.5 en 3.1
+#### No. 31: Vergelijking van redactionele portretten: Gemini 2.5 en 3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1931,7 +1969,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 31: Nieuwe case: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 32: Nieuwe case: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1991,11 +2029,11 @@ Uitgegeven onder [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 ## Dankbetuigingen
 
 <details>
-<summary>Makers uit de community (22)</summary>
+<summary>Makers uit de community (23)</summary>
 
-[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Gadgetify](https://x.com/Gdgtify)<br>
-[Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Muhammad Jamil](https://x.com/JamilAI55)<br>
-[Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Feyber | AI Creator](https://x.com/woleswoosh)<br>
+[Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm)<br>
+[Muhammad Jamil](https://x.com/JamilAI55) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -2015,6 +2053,6 @@ Uitgegeven onder [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Prompt indienen](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Geef deze repo een Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Deze README is automatisch gegenereerd. Laatst bijgewerkt: 2026-08-03T13:27:16.037Z</sub>
+<sub>Deze README is automatisch gegenereerd. Laatst bijgewerkt: 2026-08-03T14:14:29.901Z</sub>
 
 </div>

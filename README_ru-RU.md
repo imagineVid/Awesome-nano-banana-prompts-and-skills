@@ -96,9 +96,9 @@
 
 | Показатель | Количество |
 |--------|-------|
-| Всего промптов | **40** |
+| Всего промптов | **41** |
 | Избранное | **9** |
-| Обновлено | **понедельник, 3 августа 2026 г. в 13:27:16 UTC** |
+| Обновлено | **понедельник, 3 августа 2026 г. в 14:14:29 UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Персонажи, кино и визуальные стили (9)
+### Персонажи, кино и визуальные стили (10)
 
 Промпты для персонажей, портретов, моды, кинокадров и поиска стиля с акцентом на визуальную режиссуру.
 
@@ -1773,6 +1773,44 @@ CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic c
 
 ---
 
+<a id="prompt-41"></a>
+
+#### No. 28: Уличный портрет в горошек
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Описание
+
+Модный портрет для Nano Banana, созданный на основе источника и сохраняющий согласованность формы одежды, положения рук, масштаба аксессуаров и естественного дневного света в полнофигурном кадре.
+
+##### Оригинальный промпт (на английском)
+
+```
+A photorealistic full-body portrait of a young East Asian woman in her early 20s with long straight jet-black hair cascading over one shoulder, fair porcelain skin, soft facial features, and a calm neutral expression looking directly at the camera. She stands confidently outdoors against a tall gray brick wall. She wears a tight black halter-neck crop top with small white polka dots, a deep plunging V-neckline, and a long matching polka-dot fabric scarf draped from the neck and hanging loosely down her side. A short tight black mini skirt sits high on her hips. She has white crew socks and black ballet flats with white polka dots. In her left hand she holds a clear plastic cup filled with iced coffee and a black straw. Her right hand is raised, gently touching the ends of her hair near her shoulder. A small black drawstring pouch rests on the wooden floorboards beside her feet. Use soft natural daylight, realistic skin texture, sharp details, shallow depth of field, and high-resolution fashion photography.
+```
+
+##### Результаты из источника
+
+<table>
+<tr>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmYvaYAAysql.jpg" width="100%" alt="Уличный портрет в горошек - Image 1"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmY_agAE15N0.jpg" width="100%" alt="Уличный портрет в горошек - Image 2"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmX9aQAA-UO5.jpg" width="100%" alt="Уличный портрет в горошек - Image 3"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmYRaMAI1inR.jpg" width="100%" alt="Уличный портрет в горошек - Image 4"></td>
+</tr>
+</table>
+
+##### Детали
+
+- **Автор:** [Feyber | AI Creator](https://x.com/woleswoosh)
+- **Источник:** [Источник](https://x.com/woleswoosh/status/2084247918882791849)
+- **Опубликовано:** 3 августа 2026 г.
+- **Языки:** en
+
+**[Использовать промпт · ImagineVid](https://imaginevid.io/ru/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Окружение, архитектура и миростроение (3)
@@ -1785,7 +1823,7 @@ CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic c
 
 <a id="prompt-20"></a>
 
-#### No. 28: Горный луг в золотой час
+#### No. 29: Горный луг в золотой час
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1849,7 +1887,7 @@ CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic c
 
 <a id="prompt-35"></a>
 
-#### No. 29: Новый пример: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 30: Новый пример: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1893,7 +1931,7 @@ Battle 🥊 4 Models 1 Prompt Models In Image Order: GPT Image-2, Midjourney, Mu
 
 <a id="prompt-6"></a>
 
-#### No. 30: Сравнение редакционного портрета Gemini 2.5 и 3.1
+#### No. 31: Сравнение редакционного портрета Gemini 2.5 и 3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1931,7 +1969,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 31: Новый пример: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 32: Новый пример: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1991,11 +2029,11 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 ## Благодарности
 
 <details>
-<summary>Авторы сообщества (22)</summary>
+<summary>Авторы сообщества (23)</summary>
 
-[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Gadgetify](https://x.com/Gdgtify)<br>
-[Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Muhammad Jamil](https://x.com/JamilAI55)<br>
-[Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Feyber | AI Creator](https://x.com/woleswoosh)<br>
+[Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm)<br>
+[Muhammad Jamil](https://x.com/JamilAI55) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -2015,6 +2053,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[Отправить промпт](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Поставить Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Этот README создан автоматически. Последнее обновление: 2026-08-03T13:27:16.013Z</sub>
+<sub>Этот README создан автоматически. Последнее обновление: 2026-08-03T14:14:29.894Z</sub>
 
 </div>

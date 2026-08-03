@@ -1975,5 +1975,71 @@
         }
       ]
     }
+  },
+  {
+    "id": 41,
+    "model": "nano-banana",
+    "title": {
+      "en": "Polka-dot street-style portrait"
+    },
+    "description": {
+      "en": "A source-backed Nano Banana fashion portrait that keeps wardrobe geometry, hand placement, accessory scale, and natural daylight coherent in a full-body frame."
+    },
+    "content": {
+      "en": "A photorealistic full-body portrait of a young East Asian woman in her early 20s with long straight jet-black hair cascading over one shoulder, fair porcelain skin, soft facial features, and a calm neutral expression looking directly at the camera. She stands confidently outdoors against a tall gray brick wall. She wears a tight black halter-neck crop top with small white polka dots, a deep plunging V-neckline, and a long matching polka-dot fabric scarf draped from the neck and hanging loosely down her side. A short tight black mini skirt sits high on her hips. She has white crew socks and black ballet flats with white polka dots. In her left hand she holds a clear plastic cup filled with iced coffee and a black straw. Her right hand is raised, gently touching the ends of her hair near her shoulder. A small black drawstring pouch rests on the wooden floorboards beside her feet. Use soft natural daylight, realistic skin texture, sharp details, shallow depth of field, and high-resolution fashion photography."
+    },
+    "sourceLink": "https://x.com/woleswoosh/status/2084247918882791849",
+    "sourcePublishedAt": "2026-08-03T12:00:01.000Z",
+    "sourceMedia": [
+      "https://pbs.twimg.com/media/HOuHmYvaYAAysql.jpg",
+      "https://pbs.twimg.com/media/HOuHmY_agAE15N0.jpg",
+      "https://pbs.twimg.com/media/HOuHmX9aQAA-UO5.jpg",
+      "https://pbs.twimg.com/media/HOuHmYRaMAI1inR.jpg"
+    ],
+    "author": {
+      "name": "Feyber | AI Creator",
+      "link": "https://x.com/woleswoosh"
+    },
+    "language": "en",
+    "featured": false,
+    "sort": 41,
+    "needReferenceImages": false,
+    "sourceMeta": {
+      "source": "twitterapi.io",
+      "tweet_id": "2084247918882791849",
+      "prompt_source": "tweet_text_prompt",
+      "model_evidence": "nano-banana",
+      "collected_at": "2026-08-03",
+      "retweetCount": 1,
+      "replyCount": 0,
+      "likeCount": 2,
+      "quoteCount": 0,
+      "viewCount": 656,
+      "bookmarkCount": 1
+    },
+    "imageCategories": {
+      "workflows": [
+        {
+          "id": 64,
+          "title": {
+            "en": "Characters, Cinema & Visual Styles",
+            "zh": "角色、电影感与视觉风格",
+            "ja-JP": "キャラクター・映画表現・ビジュアルスタイル",
+            "ko-KR": "캐릭터, 시네마 및 비주얼 스타일",
+            "es-ES": "Personajes, cine y estilos visuales",
+            "de-DE": "Charaktere, Kino und visuelle Stile",
+            "fr-FR": "Personnages, cinéma et styles visuels",
+            "it-IT": "Personaggi, cinema e stili visivi",
+            "pt-PT": "Personagens, cinema e estilos visuais",
+            "tr-TR": "Karakterler, sinema ve görsel stiller",
+            "ar-SA": "الشخصيات والسينما والأساليب البصرية",
+            "ru-RU": "Персонажи, кино и визуальные стили",
+            "nl-NL": "Personages, film en visuele stijlen",
+            "pl-PL": "Postacie, kino i style wizualne"
+          },
+          "slug": "characters-cinema-visual-styles"
+        }
+      ]
+    }
   }
 ]

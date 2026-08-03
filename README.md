@@ -98,9 +98,9 @@ Variables make a source-backed prompt reusable without pretending that every bri
 
 | Metric | Count |
 |--------|-------|
-| Total Prompts | **40** |
+| Total Prompts | **41** |
 | Featured | **9** |
-| Last Updated | **Monday, August 3, 2026 at 1:27:15 PM UTC** |
+| Last Updated | **Monday, August 3, 2026 at 2:14:29 PM UTC** |
 
 </div>
 
@@ -1427,7 +1427,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Characters, Cinema & Visual Styles (9)
+### Characters, Cinema & Visual Styles (10)
 
 Character, portrait, fashion, cinematic-frame, and style-exploration prompts centered on visual direction and image language.
 
@@ -1775,6 +1775,44 @@ CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic c
 
 ---
 
+<a id="prompt-41"></a>
+
+#### No. 28: Polka-dot street-style portrait
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Description
+
+A source-backed Nano Banana fashion portrait that keeps wardrobe geometry, hand placement, accessory scale, and natural daylight coherent in a full-body frame.
+
+##### Prompt
+
+```
+A photorealistic full-body portrait of a young East Asian woman in her early 20s with long straight jet-black hair cascading over one shoulder, fair porcelain skin, soft facial features, and a calm neutral expression looking directly at the camera. She stands confidently outdoors against a tall gray brick wall. She wears a tight black halter-neck crop top with small white polka dots, a deep plunging V-neckline, and a long matching polka-dot fabric scarf draped from the neck and hanging loosely down her side. A short tight black mini skirt sits high on her hips. She has white crew socks and black ballet flats with white polka dots. In her left hand she holds a clear plastic cup filled with iced coffee and a black straw. Her right hand is raised, gently touching the ends of her hair near her shoulder. A small black drawstring pouch rests on the wooden floorboards beside her feet. Use soft natural daylight, realistic skin texture, sharp details, shallow depth of field, and high-resolution fashion photography.
+```
+
+##### Source Results
+
+<table>
+<tr>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmYvaYAAysql.jpg" width="100%" alt="Polka-dot street-style portrait - Image 1"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmY_agAE15N0.jpg" width="100%" alt="Polka-dot street-style portrait - Image 2"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmX9aQAA-UO5.jpg" width="100%" alt="Polka-dot street-style portrait - Image 3"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmYRaMAI1inR.jpg" width="100%" alt="Polka-dot street-style portrait - Image 4"></td>
+</tr>
+</table>
+
+##### Source Details
+
+- **Author:** [Feyber | AI Creator](https://x.com/woleswoosh)
+- **Source:** [Source](https://x.com/woleswoosh/status/2084247918882791849)
+- **Published on X:** August 3, 2026
+- **Prompt language:** en
+
+**[Use this prompt on ImagineVid](https://imaginevid.io/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Environments, Architecture & Worldbuilding (3)
@@ -1787,7 +1825,7 @@ Environment, architecture, landscape, concept-art, and worldbuilding prompts whe
 
 <a id="prompt-20"></a>
 
-#### No. 28: Golden-Hour Mountain Meadow
+#### No. 29: Golden-Hour Mountain Meadow
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1851,7 +1889,7 @@ A structured landscape brief for a winding path, wildflower meadow, solitary tre
 
 <a id="prompt-35"></a>
 
-#### No. 29: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 30: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1895,7 +1933,7 @@ Controlled tests and comparisons used to evaluate prompt following, editing beha
 
 <a id="prompt-6"></a>
 
-#### No. 30: Gemini 2.5 vs 3.1 Editorial Portrait Benchmark
+#### No. 31: Gemini 2.5 vs 3.1 Editorial Portrait Benchmark
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1933,7 +1971,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 31: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 32: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1993,11 +2031,11 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 ## Acknowledgements
 
 <details>
-<summary>Community creators we thank (22)</summary>
+<summary>Community creators we thank (23)</summary>
 
-[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Gadgetify](https://x.com/Gdgtify)<br>
-[Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Muhammad Jamil](https://x.com/JamilAI55)<br>
-[Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Feyber | AI Creator](https://x.com/woleswoosh)<br>
+[Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm)<br>
+[Muhammad Jamil](https://x.com/JamilAI55) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -2017,6 +2055,6 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Submit a Prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Star this repo](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>This README is automatically generated. Last updated: 2026-08-03T13:27:15.778Z</sub>
+<sub>This README is automatically generated. Last updated: 2026-08-03T14:14:29.791Z</sub>
 
 </div>

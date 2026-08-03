@@ -96,9 +96,9 @@ Las variables permiten reutilizar un prompt con fuente verificada sin redactar t
 
 | Métrica | Cantidad |
 |--------|-------|
-| Prompts totales | **40** |
+| Prompts totales | **41** |
 | Destacado | **9** |
-| Última actualización | **lunes, 3 de agosto de 2026, 13:27:15 UTC** |
+| Última actualización | **lunes, 3 de agosto de 2026, 14:14:29 UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Personajes, cine y estilos visuales (9)
+### Personajes, cine y estilos visuales (10)
 
 Prompts de personajes, retrato, moda, fotogramas cinematográficos y exploración de estilos centrados en la dirección visual.
 
@@ -1773,6 +1773,44 @@ CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic c
 
 ---
 
+<a id="prompt-41"></a>
+
+#### No. 28: Retrato urbano con lunares
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Descripción
+
+Un retrato de moda de Nano Banana basado en una fuente que mantiene coherentes la geometría del vestuario, la posición de las manos, la escala de los accesorios y la luz natural.
+
+##### Prompt original (en inglés)
+
+```
+A photorealistic full-body portrait of a young East Asian woman in her early 20s with long straight jet-black hair cascading over one shoulder, fair porcelain skin, soft facial features, and a calm neutral expression looking directly at the camera. She stands confidently outdoors against a tall gray brick wall. She wears a tight black halter-neck crop top with small white polka dots, a deep plunging V-neckline, and a long matching polka-dot fabric scarf draped from the neck and hanging loosely down her side. A short tight black mini skirt sits high on her hips. She has white crew socks and black ballet flats with white polka dots. In her left hand she holds a clear plastic cup filled with iced coffee and a black straw. Her right hand is raised, gently touching the ends of her hair near her shoulder. A small black drawstring pouch rests on the wooden floorboards beside her feet. Use soft natural daylight, realistic skin texture, sharp details, shallow depth of field, and high-resolution fashion photography.
+```
+
+##### Resultados de la fuente
+
+<table>
+<tr>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmYvaYAAysql.jpg" width="100%" alt="Retrato urbano con lunares - Image 1"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmY_agAE15N0.jpg" width="100%" alt="Retrato urbano con lunares - Image 2"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmX9aQAA-UO5.jpg" width="100%" alt="Retrato urbano con lunares - Image 3"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmYRaMAI1inR.jpg" width="100%" alt="Retrato urbano con lunares - Image 4"></td>
+</tr>
+</table>
+
+##### Detalles
+
+- **Autor:** [Feyber | AI Creator](https://x.com/woleswoosh)
+- **Fuente:** [Fuente](https://x.com/woleswoosh/status/2084247918882791849)
+- **Publicado:** 3 de agosto de 2026
+- **Idiomas:** en
+
+**[Usar este prompt · ImagineVid](https://imaginevid.io/es/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Entornos, arquitectura y creación de mundos (3)
@@ -1785,7 +1823,7 @@ Prompts de entornos, arquitectura, paisajes, arte conceptual y creación de mund
 
 <a id="prompt-20"></a>
 
-#### No. 28: Pradera de montaña en la hora dorada
+#### No. 29: Pradera de montaña en la hora dorada
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1849,7 +1887,7 @@ Compone un paisaje con sendero sinuoso, flores silvestres, un árbol solitario, 
 
 <a id="prompt-35"></a>
 
-#### No. 29: Caso nuevo: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 30: Caso nuevo: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1893,7 +1931,7 @@ Pruebas controladas para evaluar el seguimiento del prompt, la edición, la cons
 
 <a id="prompt-6"></a>
 
-#### No. 30: Comparativa de retrato editorial: Gemini 2.5 frente a 3.1
+#### No. 31: Comparativa de retrato editorial: Gemini 2.5 frente a 3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1931,7 +1969,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 31: Caso nuevo: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 32: Caso nuevo: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1991,11 +2029,11 @@ Publicado bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 ## Agradecimientos
 
 <details>
-<summary>Autores de la comunidad (22)</summary>
+<summary>Autores de la comunidad (23)</summary>
 
-[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Gadgetify](https://x.com/Gdgtify)<br>
-[Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Muhammad Jamil](https://x.com/JamilAI55)<br>
-[Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Feyber | AI Creator](https://x.com/woleswoosh)<br>
+[Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm)<br>
+[Muhammad Jamil](https://x.com/JamilAI55) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -2015,6 +2053,6 @@ Publicado bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Enviar un prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Dar star al repo](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Este README se genera automáticamente. Última actualización: 2026-08-03T13:27:15.888Z</sub>
+<sub>Este README se genera automáticamente. Última actualización: 2026-08-03T14:14:29.834Z</sub>
 
 </div>

@@ -96,9 +96,9 @@
 
 | 項目 | 数 |
 |--------|-------|
-| プロンプト総数 | **40** |
+| プロンプト総数 | **41** |
 | 注目 | **9** |
-| 最終更新 | **2026年8月3日月曜日 13:27:15 UTC** |
+| 最終更新 | **2026年8月3日月曜日 14:14:29 UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### キャラクター・映画表現・ビジュアルスタイル (9)
+### キャラクター・映画表現・ビジュアルスタイル (10)
 
 視覚演出と画面言語を軸に、キャラクター、肖像、ファッション、映画的な画面、スタイルを探るプロンプト。
 
@@ -1773,6 +1773,44 @@ CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic c
 
 ---
 
+<a id="prompt-41"></a>
+
+#### No. 28: 水玉ストリートスタイルのポートレート
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### 説明
+
+衣服の形、手の位置、アクセサリーの大きさ、自然光の整合性を全身構図で保つ、出典付きNano Bananaファッションポートレート。
+
+##### 原文プロンプト（英語）
+
+```
+A photorealistic full-body portrait of a young East Asian woman in her early 20s with long straight jet-black hair cascading over one shoulder, fair porcelain skin, soft facial features, and a calm neutral expression looking directly at the camera. She stands confidently outdoors against a tall gray brick wall. She wears a tight black halter-neck crop top with small white polka dots, a deep plunging V-neckline, and a long matching polka-dot fabric scarf draped from the neck and hanging loosely down her side. A short tight black mini skirt sits high on her hips. She has white crew socks and black ballet flats with white polka dots. In her left hand she holds a clear plastic cup filled with iced coffee and a black straw. Her right hand is raised, gently touching the ends of her hair near her shoulder. A small black drawstring pouch rests on the wooden floorboards beside her feet. Use soft natural daylight, realistic skin texture, sharp details, shallow depth of field, and high-resolution fashion photography.
+```
+
+##### 出典画像
+
+<table>
+<tr>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmYvaYAAysql.jpg" width="100%" alt="水玉ストリートスタイルのポートレート - Image 1"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmY_agAE15N0.jpg" width="100%" alt="水玉ストリートスタイルのポートレート - Image 2"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmX9aQAA-UO5.jpg" width="100%" alt="水玉ストリートスタイルのポートレート - Image 3"></td>
+<td width="25%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOuHmYRaMAI1inR.jpg" width="100%" alt="水玉ストリートスタイルのポートレート - Image 4"></td>
+</tr>
+</table>
+
+##### 詳細
+
+- **作者:** [Feyber | AI Creator](https://x.com/woleswoosh)
+- **出典:** [出典](https://x.com/woleswoosh/status/2084247918882791849)
+- **公開日:** 2026年8月3日
+- **言語:** en
+
+**[このプロンプトを使う · ImagineVid](https://imaginevid.io/ja/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### 環境・建築・世界観構築 (3)
@@ -1785,7 +1823,7 @@ CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic c
 
 <a id="prompt-20"></a>
 
-#### No. 28: ゴールデンアワーの山岳草原
+#### No. 29: ゴールデンアワーの山岳草原
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1849,7 +1887,7 @@ CGI, 3D render, glossy finish, plastic skin, hyper-smooth surfaces, futuristic c
 
 <a id="prompt-35"></a>
 
-#### No. 29: 新規ケース: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 30: 新規ケース: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1893,7 +1931,7 @@ Battle 🥊 4 Models 1 Prompt Models In Image Order: GPT Image-2, Midjourney, Mu
 
 <a id="prompt-6"></a>
 
-#### No. 30: Gemini 2.5 対 3.1 編集ポートレート比較
+#### No. 31: Gemini 2.5 対 3.1 編集ポートレート比較
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1931,7 +1969,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 31: 新規ケース: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 32: 新規ケース: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1991,11 +2029,11 @@ X の公開ソースに基づく再利用可能なプロンプト例。構図、
 ## 謝辞
 
 <details>
-<summary>コミュニティ作者への謝辞 (22)</summary>
+<summary>コミュニティ作者への謝辞 (23)</summary>
 
-[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Gadgetify](https://x.com/Gdgtify)<br>
-[Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm) · [Muhammad Jamil](https://x.com/JamilAI55)<br>
-[Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Feyber | AI Creator](https://x.com/woleswoosh)<br>
+[Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm)<br>
+[Muhammad Jamil](https://x.com/JamilAI55) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -2015,6 +2053,6 @@ X の公開ソースに基づく再利用可能なプロンプト例。構図、
 **[プロンプトを投稿](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[このリポジトリに Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>この README は自動生成されています。最終更新： 2026-08-03T13:27:15.841Z</sub>
+<sub>この README は自動生成されています。最終更新： 2026-08-03T14:14:29.817Z</sub>
 
 </div>
