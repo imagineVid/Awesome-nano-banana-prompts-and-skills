@@ -96,9 +96,9 @@
 
 | Показатель | Количество |
 |--------|-------|
-| Всего промптов | **41** |
+| Всего промптов | **42** |
 | Избранное | **9** |
-| Обновлено | **понедельник, 3 августа 2026 г. в 14:14:29 UTC** |
+| Обновлено | **понедельник, 3 августа 2026 г. в 15:26:05 UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Персонажи, кино и визуальные стили (10)
+### Персонажи, кино и визуальные стили (11)
 
 Промпты для персонажей, портретов, моды, кинокадров и поиска стиля с акцентом на визуальную режиссуру.
 
@@ -1811,6 +1811,41 @@ A photorealistic full-body portrait of a young East Asian woman in her early 20s
 
 ---
 
+<a id="prompt-42"></a>
+
+#### No. 29: Защищённая текстовая зона для читаемого редакционного заголовка
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Описание
+
+Документированный рабочий процесс верстки Nano Banana, который защищает место для заголовка, отделяет объект от типографики и сохраняет читаемость каждого слова.
+
+##### Оригинальный промпт (на английском)
+
+```
+Create a clean editorial poster with a fictional headline and a single adult character placed completely outside the reserved text zone. Reserve the upper third as a quiet, uncluttered area for a centered headline reading "NIGHT MARKET" and a smaller subheading reading "A study in light and texture"; treat that area as a protected box that no person, prop, shadow, or decorative element may enter. Place the character on the lower-right side with a clear gap from the text box, preserving the full lettering and generous negative space. Use a restrained contemporary magazine layout, warm natural light, realistic material texture, crisp typography, and a subtle paper grain. Inspect every line at full size and keep all words exact and legible. Do not let the character overlap the headline, hide letters, alter the wording, add extra copy, or change the composition on a reroll.
+```
+
+##### Результаты из источника
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOwMMqKasAAcPFn.jpg" width="100%" alt="Защищённая текстовая зона для читаемого редакционного заголовка - Image 1"></td>
+</tr>
+</table>
+
+##### Детали
+
+- **Автор:** [Tim Start](https://x.com/timstartai)
+- **Источник:** [Источник](https://x.com/timstartai/status/2084054142671266137)
+- **Опубликовано:** 2 августа 2026 г.
+- **Языки:** en
+
+**[Использовать промпт · ImagineVid](https://imaginevid.io/ru/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Окружение, архитектура и миростроение (3)
@@ -1823,7 +1858,7 @@ A photorealistic full-body portrait of a young East Asian woman in her early 20s
 
 <a id="prompt-20"></a>
 
-#### No. 29: Горный луг в золотой час
+#### No. 30: Горный луг в золотой час
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1887,7 +1922,7 @@ A photorealistic full-body portrait of a young East Asian woman in her early 20s
 
 <a id="prompt-35"></a>
 
-#### No. 30: Новый пример: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 31: Новый пример: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1931,7 +1966,7 @@ Battle 🥊 4 Models 1 Prompt Models In Image Order: GPT Image-2, Midjourney, Mu
 
 <a id="prompt-6"></a>
 
-#### No. 31: Сравнение редакционного портрета Gemini 2.5 и 3.1
+#### No. 32: Сравнение редакционного портрета Gemini 2.5 и 3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1969,7 +2004,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 32: Новый пример: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 33: Новый пример: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -2029,11 +2064,11 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 ## Благодарности
 
 <details>
-<summary>Авторы сообщества (23)</summary>
+<summary>Авторы сообщества (24)</summary>
 
 [⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Feyber | AI Creator](https://x.com/woleswoosh)<br>
 [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm)<br>
-[Muhammad Jamil](https://x.com/JamilAI55) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[Muhammad Jamil](https://x.com/JamilAI55) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [Tim Start](https://x.com/timstartai) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -2053,6 +2088,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[Отправить промпт](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Поставить Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Этот README создан автоматически. Последнее обновление: 2026-08-03T14:14:29.894Z</sub>
+<sub>Этот README создан автоматически. Последнее обновление: 2026-08-03T15:26:05.986Z</sub>
 
 </div>

@@ -96,9 +96,9 @@
 
 | المقياس | العدد |
 |--------|-------|
-| إجمالي التعليمات | **41** |
+| إجمالي التعليمات | **42** |
 | مميز | **9** |
-| آخر تحديث | **الاثنين، ٣ أغسطس ٢٠٢٦ في ٢:١٤:٢٩ م UTC** |
+| آخر تحديث | **الاثنين، ٣ أغسطس ٢٠٢٦ في ٣:٢٦:٠٥ م UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### الشخصيات والسينما والأساليب البصرية (10)
+### الشخصيات والسينما والأساليب البصرية (11)
 
 تعليمات للشخصيات والصور الشخصية والأزياء واللقطات السينمائية واستكشاف الأساليب وفق توجيه بصري واضح.
 
@@ -1811,6 +1811,41 @@ A photorealistic full-body portrait of a young East Asian woman in her early 20s
 
 ---
 
+<a id="prompt-42"></a>
+
+#### No. 29: منطقة نص محمية لعنوان تحريري واضح بلا حجب
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### الوصف
+
+سير عمل موثق لـ Nano Banana يحمي مساحة العنوان، ويفصل العنصر عن الطباعة، ويحافظ على وضوح كل كلمة.
+
+##### التعليمة الأصلية (بالإنجليزية)
+
+```
+Create a clean editorial poster with a fictional headline and a single adult character placed completely outside the reserved text zone. Reserve the upper third as a quiet, uncluttered area for a centered headline reading "NIGHT MARKET" and a smaller subheading reading "A study in light and texture"; treat that area as a protected box that no person, prop, shadow, or decorative element may enter. Place the character on the lower-right side with a clear gap from the text box, preserving the full lettering and generous negative space. Use a restrained contemporary magazine layout, warm natural light, realistic material texture, crisp typography, and a subtle paper grain. Inspect every line at full size and keep all words exact and legible. Do not let the character overlap the headline, hide letters, alter the wording, add extra copy, or change the composition on a reroll.
+```
+
+##### نتائج المصدر
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOwMMqKasAAcPFn.jpg" width="100%" alt="منطقة نص محمية لعنوان تحريري واضح بلا حجب - Image 1"></td>
+</tr>
+</table>
+
+##### التفاصيل
+
+- **المؤلف:** [Tim Start](https://x.com/timstartai)
+- **المصدر:** [المصدر](https://x.com/timstartai/status/2084054142671266137)
+- **تاريخ النشر:** ٢ أغسطس ٢٠٢٦
+- **اللغات:** en
+
+**[استخدم هذه التعليمة · ImagineVid](https://imaginevid.io/ar/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### البيئات والعمارة وبناء العوالم (3)
@@ -1823,7 +1858,7 @@ A photorealistic full-body portrait of a young East Asian woman in her early 20s
 
 <a id="prompt-20"></a>
 
-#### No. 29: مرج جبلي في الساعة الذهبية
+#### No. 30: مرج جبلي في الساعة الذهبية
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1887,7 +1922,7 @@ A photorealistic full-body portrait of a young East Asian woman in her early 20s
 
 <a id="prompt-35"></a>
 
-#### No. 30: حالة جديدة: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 31: حالة جديدة: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1931,7 +1966,7 @@ Battle 🥊 4 Models 1 Prompt Models In Image Order: GPT Image-2, Midjourney, Mu
 
 <a id="prompt-6"></a>
 
-#### No. 31: مقارنة بورتريه تحريري بين Gemini 2.5 و3.1
+#### No. 32: مقارنة بورتريه تحريري بين Gemini 2.5 و3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1969,7 +2004,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 32: حالة جديدة: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 33: حالة جديدة: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -2029,11 +2064,11 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 ## شكر وتقدير
 
 <details>
-<summary>مبدعو المجتمع الذين نشكرهم (23)</summary>
+<summary>مبدعو المجتمع الذين نشكرهم (24)</summary>
 
 [⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Feyber | AI Creator](https://x.com/woleswoosh)<br>
 [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm)<br>
-[Muhammad Jamil](https://x.com/JamilAI55) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[Muhammad Jamil](https://x.com/JamilAI55) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [Tim Start](https://x.com/timstartai) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -2053,6 +2088,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[إرسال تعليمة](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[ضع نجمة للمستودع](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>تم توليد README هذا تلقائيا. آخر تحديث: 2026-08-03T14:14:29.886Z</sub>
+<sub>تم توليد README هذا تلقائيا. آخر تحديث: 2026-08-03T15:26:05.977Z</sub>
 
 </div>

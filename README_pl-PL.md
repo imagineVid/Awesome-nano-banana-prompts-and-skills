@@ -96,9 +96,9 @@ Zmienne pozwalają używać promptu z potwierdzonym źródłem bez pisania całe
 
 | Metryka | Liczba |
 |--------|-------|
-| Łącznie promptów | **41** |
+| Łącznie promptów | **42** |
 | Polecane | **9** |
-| Ostatnia aktualizacja | **poniedziałek, 3 sierpnia 2026 14:14:29 UTC** |
+| Ostatnia aktualizacja | **poniedziałek, 3 sierpnia 2026 15:26:06 UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Postacie, kino i style wizualne (10)
+### Postacie, kino i style wizualne (11)
 
 Prompty do postaci, portretów, mody, kadrów filmowych i poszukiwania stylu opartego na świadomej reżyserii wizualnej.
 
@@ -1811,6 +1811,41 @@ A photorealistic full-body portrait of a young East Asian woman in her early 20s
 
 ---
 
+<a id="prompt-42"></a>
+
+#### No. 29: Chroniona strefa tekstu dla czytelnego nagłówka redakcyjnego
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Opis
+
+Oparty na źródle workflow składu Nano Banana, który chroni miejsce na nagłówek, oddziela postać od typografii i zachowuje czytelność każdego słowa.
+
+##### Oryginalny prompt (po angielsku)
+
+```
+Create a clean editorial poster with a fictional headline and a single adult character placed completely outside the reserved text zone. Reserve the upper third as a quiet, uncluttered area for a centered headline reading "NIGHT MARKET" and a smaller subheading reading "A study in light and texture"; treat that area as a protected box that no person, prop, shadow, or decorative element may enter. Place the character on the lower-right side with a clear gap from the text box, preserving the full lettering and generous negative space. Use a restrained contemporary magazine layout, warm natural light, realistic material texture, crisp typography, and a subtle paper grain. Inspect every line at full size and keep all words exact and legible. Do not let the character overlap the headline, hide letters, alter the wording, add extra copy, or change the composition on a reroll.
+```
+
+##### Wyniki źródłowe
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOwMMqKasAAcPFn.jpg" width="100%" alt="Chroniona strefa tekstu dla czytelnego nagłówka redakcyjnego - Image 1"></td>
+</tr>
+</table>
+
+##### Szczegóły
+
+- **Autor:** [Tim Start](https://x.com/timstartai)
+- **Źródło:** [Źródło](https://x.com/timstartai/status/2084054142671266137)
+- **Opublikowano:** 2 sierpnia 2026
+- **Języki:** en
+
+**[Użyj tego promptu · ImagineVid](https://imaginevid.io/pl/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Otoczenie, architektura i budowanie światów (3)
@@ -1823,7 +1858,7 @@ Prompty do otoczenia, architektury, krajobrazu, concept artu i budowania świat�
 
 <a id="prompt-20"></a>
 
-#### No. 29: Górska łąka o złotej godzinie
+#### No. 30: Górska łąka o złotej godzinie
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1887,7 +1922,7 @@ Buduje warstwowy krajobraz z krętą ścieżką, polnymi kwiatami, samotnym drze
 
 <a id="prompt-35"></a>
 
-#### No. 30: Nowy przypadek: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 31: Nowy przypadek: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1931,7 +1966,7 @@ Kontrolowane testy zgodności z promptem, edycji, spójności, typografii i jako
 
 <a id="prompt-6"></a>
 
-#### No. 31: Porównanie portretu redakcyjnego Gemini 2.5 i 3.1
+#### No. 32: Porównanie portretu redakcyjnego Gemini 2.5 i 3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1969,7 +2004,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 32: Nowy przypadek: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 33: Nowy przypadek: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -2029,11 +2064,11 @@ Udostępniono na licencji [CC BY 4.0](https://creativecommons.org/licenses/by/4.
 ## Podziękowania
 
 <details>
-<summary>Twórcy społeczności (23)</summary>
+<summary>Twórcy społeczności (24)</summary>
 
 [⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Feyber | AI Creator](https://x.com/woleswoosh)<br>
 [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm)<br>
-[Muhammad Jamil](https://x.com/JamilAI55) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[Muhammad Jamil](https://x.com/JamilAI55) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [Tim Start](https://x.com/timstartai) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -2053,6 +2088,6 @@ Udostępniono na licencji [CC BY 4.0](https://creativecommons.org/licenses/by/4.
 **[Zgłoś prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Daj Star repozytorium](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Ten README został wygenerowany automatycznie. Ostatnia aktualizacja: 2026-08-03T14:14:29.910Z</sub>
+<sub>Ten README został wygenerowany automatycznie. Ostatnia aktualizacja: 2026-08-03T15:26:06.003Z</sub>
 
 </div>

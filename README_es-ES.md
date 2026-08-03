@@ -96,9 +96,9 @@ Las variables permiten reutilizar un prompt con fuente verificada sin redactar t
 
 | Métrica | Cantidad |
 |--------|-------|
-| Prompts totales | **41** |
+| Prompts totales | **42** |
 | Destacado | **9** |
-| Última actualización | **lunes, 3 de agosto de 2026, 14:14:29 UTC** |
+| Última actualización | **lunes, 3 de agosto de 2026, 15:26:05 UTC** |
 
 </div>
 
@@ -1425,7 +1425,7 @@ An AMZ Collection fashion design spec sheet and product layout presented as a ta
 
 <a id="workflow-characters-cinema-visual-styles"></a>
 
-### Personajes, cine y estilos visuales (10)
+### Personajes, cine y estilos visuales (11)
 
 Prompts de personajes, retrato, moda, fotogramas cinematográficos y exploración de estilos centrados en la dirección visual.
 
@@ -1811,6 +1811,41 @@ A photorealistic full-body portrait of a young East Asian woman in her early 20s
 
 ---
 
+<a id="prompt-42"></a>
+
+#### No. 29: Zona de texto protegida para un titular editorial legible
+
+![Language-EN](https://img.shields.io/badge/Language-EN-blue)
+
+##### Descripción
+
+Un flujo de trabajo de maquetación para Nano Banana, basado en una fuente, que protege el titular, separa al sujeto de la tipografía y conserva cada palabra legible.
+
+##### Prompt original (en inglés)
+
+```
+Create a clean editorial poster with a fictional headline and a single adult character placed completely outside the reserved text zone. Reserve the upper third as a quiet, uncluttered area for a centered headline reading "NIGHT MARKET" and a smaller subheading reading "A study in light and texture"; treat that area as a protected box that no person, prop, shadow, or decorative element may enter. Place the character on the lower-right side with a clear gap from the text box, preserving the full lettering and generous negative space. Use a restrained contemporary magazine layout, warm natural light, realistic material texture, crisp typography, and a subtle paper grain. Inspect every line at full size and keep all words exact and legible. Do not let the character overlap the headline, hide letters, alter the wording, add extra copy, or change the composition on a reroll.
+```
+
+##### Resultados de la fuente
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center"><img src="https://pbs.twimg.com/media/HOwMMqKasAAcPFn.jpg" width="100%" alt="Zona de texto protegida para un titular editorial legible - Image 1"></td>
+</tr>
+</table>
+
+##### Detalles
+
+- **Autor:** [Tim Start](https://x.com/timstartai)
+- **Fuente:** [Fuente](https://x.com/timstartai/status/2084054142671266137)
+- **Publicado:** 2 de agosto de 2026
+- **Idiomas:** en
+
+**[Usar este prompt · ImagineVid](https://imaginevid.io/es/nano-banana)**
+
+---
+
 <a id="workflow-environments-architecture-worldbuilding"></a>
 
 ### Entornos, arquitectura y creación de mundos (3)
@@ -1823,7 +1858,7 @@ Prompts de entornos, arquitectura, paisajes, arte conceptual y creación de mund
 
 <a id="prompt-20"></a>
 
-#### No. 29: Pradera de montaña en la hora dorada
+#### No. 30: Pradera de montaña en la hora dorada
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1887,7 +1922,7 @@ Compone un paisaje con sendero sinuoso, flores silvestres, un árbol solitario, 
 
 <a id="prompt-35"></a>
 
-#### No. 30: Caso nuevo: Battle 🥊 4 Models 1 Models In Image Order
+#### No. 31: Caso nuevo: Battle 🥊 4 Models 1 Models In Image Order
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1931,7 +1966,7 @@ Pruebas controladas para evaluar el seguimiento del prompt, la edición, la cons
 
 <a id="prompt-6"></a>
 
-#### No. 31: Comparativa de retrato editorial: Gemini 2.5 frente a 3.1
+#### No. 32: Comparativa de retrato editorial: Gemini 2.5 frente a 3.1
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -1969,7 +2004,7 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 
 <a id="prompt-36"></a>
 
-#### No. 32: Caso nuevo: 2x2 grid, 16:9, do this for 4 famous days
+#### No. 33: Caso nuevo: 2x2 grid, 16:9, do this for 4 famous days
 
 ![Language-EN](https://img.shields.io/badge/Language-EN-blue)
 
@@ -2029,11 +2064,11 @@ Publicado bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 ## Agradecimientos
 
 <details>
-<summary>Autores de la comunidad (23)</summary>
+<summary>Autores de la comunidad (24)</summary>
 
 [⁠ luciaAI](https://x.com/luciaverseai) · [@MrDavids1](https://x.com/MrDavids1) · [Ahmad Faraz](https://x.com/iamahmedfaraz66) · [Aijaz](https://x.com/iamsofiaijaz) · [AmirMušić](https://x.com/AmirMushich) · [dreamy digital arts](https://x.com/dreamydigiarts) · [Duet | AI](https://x.com/Sheldon056) · [Feyber | AI Creator](https://x.com/woleswoosh)<br>
 [Gadgetify](https://x.com/Gdgtify) · [Google Gemini](https://x.com/GeminiApp) · [Gowtham](https://x.com/GowthamCinemas) · [H A J R A](https://x.com/codewithhajra) · [Jahan Zaib](https://x.com/jzaib4269) · [LANDCÄSTER](https://x.com/LANDCASTER_92) · [Minahil](https://x.com/Minahil42298354) · [Mo](https://x.com/Kerroudjm)<br>
-[Muhammad Jamil](https://x.com/JamilAI55) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
+[Muhammad Jamil](https://x.com/JamilAI55) · [Nailai7981](https://x.com/VIBEQUIRKLABS) · [NUSRAT](https://x.com/nxnusratul) · [Smiling Khan](https://x.com/AIwithkhan) · [Tim Start](https://x.com/timstartai) · [WAH](https://x.com/Waheeb33) · [zayan](https://x.com/HustleXR) · [四季橘/Shikikitsu@AIイラストとTRPG(希望)](https://x.com/getkomusen)
 
 </details>
 
@@ -2053,6 +2088,6 @@ Publicado bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Enviar un prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Dar star al repo](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Este README se genera automáticamente. Última actualización: 2026-08-03T14:14:29.834Z</sub>
+<sub>Este README se genera automáticamente. Última actualización: 2026-08-03T15:26:05.931Z</sub>
 
 </div>
