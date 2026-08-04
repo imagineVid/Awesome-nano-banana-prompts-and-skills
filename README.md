@@ -100,7 +100,7 @@ Variables make a source-backed prompt reusable without pretending that every bri
 |--------|-------|
 | Total Prompts | **42** |
 | Featured | **9** |
-| Last Updated | **Tuesday, August 4, 2026 at 5:29:14 PM UTC** |
+| Last Updated | **Tuesday, August 4, 2026 at 9:02:23 PM UTC** |
 
 </div>
 
@@ -2090,6 +2090,6 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Submit a Prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Star this repo](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>This README is automatically generated. Last updated: 2026-08-04T17:29:14.518Z</sub>
+<sub>This README is automatically generated. Last updated: 2026-08-04T21:02:23.503Z</sub>
 
 </div>
