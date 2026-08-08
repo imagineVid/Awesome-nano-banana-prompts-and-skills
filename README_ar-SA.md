@@ -98,7 +98,7 @@
 |--------|-------|
 | إجمالي التعليمات | **42** |
 | مميز | **9** |
-| آخر تحديث | **السبت، ٨ أغسطس ٢٠٢٦ في ١٢:٥٤:٥٧ ص UTC** |
+| آخر تحديث | **السبت، ٨ أغسطس ٢٠٢٦ في ٤:٤٦:٤٥ ص UTC** |
 
 </div>
 
@@ -2088,6 +2088,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[إرسال تعليمة](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[ضع نجمة للمستودع](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>تم توليد README هذا تلقائيا. آخر تحديث: 2026-08-08T00:54:57.304Z</sub>
+<sub>تم توليد README هذا تلقائيا. آخر تحديث: 2026-08-08T04:46:45.483Z</sub>
 
 </div>
