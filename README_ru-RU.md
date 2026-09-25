@@ -98,7 +98,7 @@
 |--------|-------|
 | Всего промптов | **42** |
 | Избранное | **9** |
-| Обновлено | **пятница, 25 сентября 2026 г. в 02:32:58 UTC** |
+| Обновлено | **пятница, 25 сентября 2026 г. в 09:12:25 UTC** |
 
 </div>
 
@@ -2088,6 +2088,6 @@ Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean
 **[Отправить промпт](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Поставить Star](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Этот README создан автоматически. Последнее обновление: 2026-09-25T02:32:58.872Z</sub>
+<sub>Этот README создан автоматически. Последнее обновление: 2026-09-25T09:12:25.082Z</sub>
 
 </div>
