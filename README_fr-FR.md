@@ -98,7 +98,7 @@ Les variables rendent un prompt sourcé réutilisable sans réécrire tout le br
 |--------|-------|
 | Total des prompts | **42** |
 | En vedette | **9** |
-| Dernière mise à jour | **mercredi 11 novembre 2026 à 03:47:36 UTC** |
+| Dernière mise à jour | **mercredi 11 novembre 2026 à 11:34:37 UTC** |
 
 </div>
 
@@ -2088,6 +2088,6 @@ Sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 **[Soumettre un prompt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills/issues/new?template=submit-prompt.yml)** •
 **[Mettre une star au dépôt](https://github.com/imaginevid-ai/Awesome-nano-banana-prompts-and-skills)**
 
-<sub>Ce README est généré automatiquement. Dernière mise à jour : 2026-11-11T03:47:36.571Z</sub>
+<sub>Ce README est généré automatiquement. Dernière mise à jour : 2026-11-11T11:34:37.237Z</sub>
 
 </div>
